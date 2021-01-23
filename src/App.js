@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from './logo.svg'
-import './App.css'
 import Navbar from './components/Navbar'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Home from './home/Home'
@@ -11,6 +10,8 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Switch>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/' component={Home} />
         <Route exact path='/' component={Home} />
       </Switch>
     </BrowserRouter>
