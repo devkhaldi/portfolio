@@ -19,7 +19,7 @@ const Navbar = () => {
           About
         </Link>
         <div className='getintouch'>
-          <Link className='btn btn-primary' exact to='/getinTouch'>
+          <Link className='btn ' exact to='/getinTouch'>
             Get in Touch
           </Link>
         </div>

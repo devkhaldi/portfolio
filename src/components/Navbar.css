@@ -1,0 +1,35 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5rem;
+  width: 100%;
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  padding: 2rem 5rem;
+}
+nav .nav-items {
+  display: flex;
+  margin-left: auto;
+}
+nav .nav-items .nav-item {
+  display: block;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0.8rem 1.1rem;
+}
+nav .nav-items .nav-item:hover {
+  background: #dddddd;
+}
+nav .nav-items .getintouch .btn {
+  background: var(--primary-color);
+  color: white;
+  border: none !important;
+  margin-top: 0.5rem;
+}
+nav .side-nav-items {
+  display: none;
+}
