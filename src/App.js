@@ -6,7 +6,7 @@ import Home from './home/Home'
 import Portfolio from './portfolio/Portfolio'
 import About from './about/About'
 import GetInTouch from './getInTouch/GetInTouch'
-import './styles/Navbar.css'
+import './App.css'
 
 function App() {
   return (
