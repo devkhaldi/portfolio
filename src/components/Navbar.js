@@ -5,9 +5,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <nav>
-      <div className='logo-container'>
-        <h2>EL KHALDI</h2>
-      </div>
+      <div className='logo-container'>EL KHALDI</div>
       <div className='nav-items'>
         <Link className='nav-item' exact to='/'>
           Home
@@ -19,7 +17,7 @@ const Navbar = () => {
           About
         </Link>
         <div className='getintouch'>
-          <Link className='btn ' exact to='/getinTouch'>
+          <Link className='btn' exact to='/getinTouch'>
             Get in Touch
           </Link>
         </div>

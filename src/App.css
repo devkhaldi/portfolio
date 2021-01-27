@@ -3,8 +3,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  --primary-color: #008ccf;
-  --primary-color: #006190;
+  --primary-color: #008ecd;
+  --secondary-color: #006190;
 }
 
 body {
