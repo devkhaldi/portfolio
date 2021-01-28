@@ -5,6 +5,7 @@
   box-sizing: border-box;
   --primary-color: #259ebd;
   --secondary-color: #208ca7;
+  --shadow: 0 0 1rem rgba(150, 150, 150, 0.1);
 }
 
 body {
