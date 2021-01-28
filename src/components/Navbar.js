@@ -5,7 +5,11 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <nav>
-      <div className='logo-container'>KHALDI</div>
+      <div className='logo-container'>
+        <Link exact to='/'>
+          Khaldi
+        </Link>
+      </div>
       <div className='nav-items'>
         <NavLink className='nav-item' exact to='/'>
           Home
@@ -16,12 +20,10 @@ const Navbar = () => {
         <NavLink className='nav-item' exact to='/about'>
           About
         </NavLink>
-        <NavLink className='nav-item' exact to='/about'>
-          Articles
-        </NavLink>
-        <div className='getintouch'>
-          <Link className='btn' exact to='/getinTouch'>
-            Get in Touch
+
+        <div className='contact'>
+          <Link className='btn' exact to='/contact'>
+            Contact
           </Link>
         </div>
       </div>
@@ -35,9 +37,9 @@ const Navbar = () => {
         <NavLink className='nav-item' exact to='/about'>
           About
         </NavLink>
-        <div className='getintouch'>
+        <div className='contact'>
           <Link className='nav-item' exact to='/getinTouch'>
-            Get in Touch
+            Contact
           </Link>
         </div>
       </div>

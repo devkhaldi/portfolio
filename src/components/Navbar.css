@@ -11,6 +11,12 @@ nav {
   font-weight: 500;
   padding: 1rem 3rem;
 }
+nav .logo-container a {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  text-decoration: none;
+}
 nav .nav-items {
   display: flex;
   margin-left: auto;
@@ -20,12 +26,12 @@ nav .nav-items .nav-item {
   color: var(--primary-color);
   text-decoration: none;
   font-size: 1.2rem;
-  padding: 0.6rem 1rem;
+  padding: 0.7rem 1rem;
 }
 nav .nav-items .nav-item::after {
   content: '';
   display: block;
-  height: 1px;
+  height: 2px;
   margin-top: 0.2rem;
   transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -33,17 +39,17 @@ nav .nav-items .active::after,
 nav .nav-items .nav-item:hover::after {
   content: '';
   display: block;
-  height: 1px;
+
   background: var(--primary-color);
 }
-nav .nav-items .getintouch .btn {
+nav .nav-items .contact .btn {
   background: var(--primary-color);
   color: white;
   font-size: 1.2rem;
   border-radius: 0;
-  margin-top: 0.3rem;
+  margin-top: 0.5rem;
   margin-left: 0.5rem;
-  padding: 0.3rem 1rem;
+  padding: 0.25rem 1rem;
   font-weight: 500;
 }
 nav .side-nav-items {
