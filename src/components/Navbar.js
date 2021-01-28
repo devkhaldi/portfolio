@@ -1,21 +1,24 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import './Navbar.css'
 
 const Navbar = () => {
   return (
     <nav>
-      <div className='logo-container'>EL KHALDI</div>
+      <div className='logo-container'>KHALDI</div>
       <div className='nav-items'>
-        <Link className='nav-item' exact to='/'>
+        <NavLink className='nav-item' exact to='/'>
           Home
-        </Link>
-        <Link className='nav-item' exact to='/portfolio'>
+        </NavLink>
+        <NavLink className='nav-item' exact to='/portfolio'>
           Portfolio
-        </Link>
-        <Link className='nav-item' exact to='/about'>
+        </NavLink>
+        <NavLink className='nav-item' exact to='/about'>
           About
-        </Link>
+        </NavLink>
+        <NavLink className='nav-item' exact to='/about'>
+          Articles
+        </NavLink>
         <div className='getintouch'>
           <Link className='btn' exact to='/getinTouch'>
             Get in Touch
@@ -23,15 +26,15 @@ const Navbar = () => {
         </div>
       </div>
       <div className='side-nav-items'>
-        <Link className='nav-item' exact to='/'>
+        <NavLink className='nav-item' exact to='/'>
           Home
-        </Link>
-        <Link className='nav-item' exact to='/portfolio'>
+        </NavLink>
+        <NavLink className='nav-item' exact to='/portfolio'>
           Portfolio
-        </Link>
-        <Link className='nav-item' exact to='/about'>
+        </NavLink>
+        <NavLink className='nav-item' exact to='/about'>
           About
-        </Link>
+        </NavLink>
         <div className='getintouch'>
           <Link className='nav-item' exact to='/getinTouch'>
             Get in Touch
