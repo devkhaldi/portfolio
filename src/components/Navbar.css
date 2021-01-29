@@ -14,6 +14,13 @@ nav {
   z-index: 10;
   background: white;
 }
+nav svg {
+  display: none;
+  height: 2.2rem;
+  width: 2.2rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
 nav .logo-container a {
   font-weight: 500;
   font-size: 2rem;
@@ -78,6 +85,7 @@ nav .nav-items .contact .btn:hover,
   width: 17rem;
   background: #ffffff;
   height: calc(100% - 4rem);
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .side-nav-items .nav-item {
   width: 100%;
@@ -98,4 +106,24 @@ nav .nav-items .contact .btn:hover,
 }
 .side-nav-items .nav-item:hover {
   background: #fafafa;
+}
+
+/*Navbar for small devices*/
+@media (max-width: 767px) {
+  nav .nav-items {
+    display: none;
+  }
+  nav .logo-container {
+    margin: 0 auto;
+  }
+  nav svg {
+    display: block;
+  }
+  .side-nav-items {
+    display: block;
+    left: -17rem;
+  }
+  .open {
+    left: 0 !important;
+  }
 }
