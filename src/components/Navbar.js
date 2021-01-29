@@ -4,29 +4,31 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <nav>
-      <div className='logo-container'>
-        <Link exact to='/'>
-          Khaldi
-        </Link>
-      </div>
-      <div className='nav-items'>
-        <NavLink className='nav-item' exact to='/'>
-          Home
-        </NavLink>
-        <NavLink className='nav-item' exact to='/portfolio'>
-          Portfolio
-        </NavLink>
-        <NavLink className='nav-item' exact to='/about'>
-          About
-        </NavLink>
-
-        <div className='contact'>
-          <Link className='btn' exact to='/contact'>
-            Contact
+    <React.Fragment>
+      <nav>
+        <div className='logo-container'>
+          <Link exact to='/'>
+            Khaldi
           </Link>
         </div>
-      </div>
+        <div className='nav-items'>
+          <NavLink className='nav-item' exact to='/'>
+            Home
+          </NavLink>
+          <NavLink className='nav-item' exact to='/portfolio'>
+            Portfolio
+          </NavLink>
+          <NavLink className='nav-item' exact to='/about'>
+            About
+          </NavLink>
+
+          <div className='contact'>
+            <Link className='btn' exact to='/contact'>
+              Contact
+            </Link>
+          </div>
+        </div>
+      </nav>
       <div className='side-nav-items'>
         <NavLink className='nav-item' exact to='/'>
           Home
@@ -38,12 +40,12 @@ const Navbar = () => {
           About
         </NavLink>
         <div className='contact'>
-          <Link className='nav-item' exact to='/getinTouch'>
+          <Link className='btn' exact to='/getinTouch'>
             Contact
           </Link>
         </div>
       </div>
-    </nav>
+    </React.Fragment>
   )
 }
 

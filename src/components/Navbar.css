@@ -11,16 +11,16 @@ nav {
   font-weight: 500;
   padding: 1rem 3rem;
   border-top: solid 4px var(--primary-color);
+  z-index: 10;
+  background: white;
 }
 nav .logo-container a {
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--primary-color);
   text-decoration: none;
 }
-nav .logo-container a:hover {
-  color: var(--third-color);
-}
+
 nav .nav-items {
   display: flex;
   margin-left: auto;
@@ -31,9 +31,7 @@ nav .nav-items .nav-item {
   text-decoration: none;
   font-size: 1.2rem;
   padding: 0.7rem 1rem;
-}
-nav .nav-items .nav-item:hover {
-  color: var(--third-color) !important;
+  height: 100%;
 }
 nav .nav-items .nav-item::after {
   content: '';
@@ -52,10 +50,11 @@ nav .nav-items .active:hover::after,
 nav .nav-items .nav-item:hover::after {
   content: '';
   display: block;
-  background: var(--third-color);
+  background: var(--primary-color);
 }
 
-nav .nav-items .contact .btn {
+nav .nav-items .contact .btn,
+.side-nav-items .btn {
   background: var(--primary-color);
   color: white;
   font-size: 1.2rem;
@@ -66,9 +65,37 @@ nav .nav-items .contact .btn {
   font-weight: 500;
   transition: all 0.5s;
 }
-nav .nav-items .contact .btn:hover {
-  background: var(--third-color);
+nav .nav-items .contact .btn:hover,
+.side-nav-items .btn:hover {
+  background: var(--primary-color-2);
 }
-nav .side-nav-items {
+/*Side nav*/
+.side-nav-items {
   display: none;
+  position: fixed;
+  top: 4rem;
+  left: 0;
+  width: 17rem;
+  background: #ffffff;
+  height: calc(100% - 4rem);
+}
+.side-nav-items .nav-item {
+  width: 100%;
+  padding: 1.2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.side-nav-items .active {
+  background: #fafafa;
+  border-right: solid 2px var(--primary-color);
+}
+.side-nav-items .contact {
+  width: 100%;
+  padding: 0 1.2rem;
+}
+.side-nav-items .nav-item:hover {
+  background: #fafafa;
 }
