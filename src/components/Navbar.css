@@ -81,7 +81,6 @@ nav .nav-items .contact .btn:hover,
   display: none;
   position: fixed;
   top: 4rem;
-  left: 0;
   width: 17rem;
   background: #ffffff;
   height: calc(100% - 4rem);

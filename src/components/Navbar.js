@@ -5,7 +5,8 @@ import './Navbar.css'
 import { useState } from 'react'
 
 const Navbar = () => {
-  const [open, setopen] = useState(false)
+  const [open, setopen] = useState(true)
+  console.log(open)
   return (
     <React.Fragment>
       <nav>
