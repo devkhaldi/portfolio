@@ -3,11 +3,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  --primary-color: #259ebd;
-  --secondary-color: #208ca7;
+  --primary-color: #39baff;
+  --primary-color-2: #2fa0df;
+  --secondary-color: #d73c97;
+  --third-color: #6964d7;
   --shadow: 0 0 1rem rgba(150, 150, 150, 0.1);
 }
-
 body {
   font-family: 'Lato', sans-serif;
 }
