@@ -27,7 +27,6 @@ nav .logo-container a {
   color: var(--primary-color);
   text-decoration: none;
 }
-
 nav .nav-items {
   display: flex;
   margin-left: auto;
@@ -59,7 +58,6 @@ nav .nav-items .nav-item:hover::after {
   display: block;
   background: var(--primary-color);
 }
-
 nav .nav-items .contact .btn,
 .side-nav-items .btn {
   background: var(--primary-color);
