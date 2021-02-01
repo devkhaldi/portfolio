@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Project from './Project'
+import { MdKeyboardArrowRight } from 'react-icons/md'
 import './Projects.css'
 
 const Projects = () => {
@@ -23,6 +24,7 @@ const Projects = () => {
       <div className='btn-container'>
         <Link exact to='/contact' className='btn'>
           Get In Touch
+          <MdKeyboardArrowRight />
         </Link>
       </div>
     </section>
