@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Project.css'
 
 const Project = ({ miniImage, title, description, mainImage }) => {

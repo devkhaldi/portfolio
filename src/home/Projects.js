@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Project from './Project'
 import './Projects.css'
 
@@ -18,6 +19,11 @@ const Projects = () => {
             description={project.description}
           />
         ))}
+      </div>
+      <div className='btn-container'>
+        <Link exact to='/contact' className='btn'>
+          Get In Touch
+        </Link>
       </div>
     </section>
   )
