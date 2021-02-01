@@ -14,3 +14,9 @@
 .project .project-preview img {
   width: 100%;
 }
+
+@media (max-width: 1000px) {
+  .project .project-preview {
+    display: none;
+  }
+}
