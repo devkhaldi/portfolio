@@ -8,7 +8,7 @@ nav {
   box-shadow: var(--shadow);
   display: flex;
   align-items: center;
-  font-weight: 500;
+  font-weight: 300;
   padding: 1rem 3rem;
   border-top: solid 4px var(--primary-color);
   z-index: 10;
@@ -22,7 +22,7 @@ nav svg {
   cursor: pointer;
 }
 nav .logo-container a {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 2rem;
   color: var(--primary-color);
   text-decoration: none;
@@ -64,10 +64,10 @@ nav .nav-items .contact .btn,
   color: white;
   font-size: 1.2rem;
   border-radius: 3rem;
-  margin-top: 0.5rem;
-  margin-left: 0.5rem;
+  margin-top: 0.4rem;
+  margin-left: 0.75rem;
   padding: 0.25rem 1.5rem;
-  font-weight: 500;
+  font-weight: 300;
   transition: all 0.5s;
 }
 nav .nav-items .contact .btn:hover,
@@ -76,6 +76,7 @@ nav .nav-items .contact .btn:hover,
 }
 /*Side nav*/
 .side-nav-items {
+  z-index: 10;
   display: none;
   position: fixed;
   top: 4rem;
