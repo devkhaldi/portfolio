@@ -30,6 +30,7 @@ nav .logo-container a {
 nav .nav-items {
   display: flex;
   margin-left: auto;
+  font-family: 'Raleway', sans-serif;
 }
 nav .nav-items .nav-item {
   display: block;
