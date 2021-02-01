@@ -1,0 +1,16 @@
+.project {
+  display: flex;
+  padding: 1rem;
+}
+
+.project .project-info img {
+  width: 100%;
+}
+.project .project-info h3 {
+  color: var(--primary-color-2);
+  margin: 1rem 0;
+}
+
+.project .project-preview img {
+  width: 100%;
+}

@@ -3,7 +3,7 @@
 }
 .projects .header {
   text-align: center;
-  margin: 3rem 0;
+  margin: 1rem 0;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -16,6 +16,6 @@
   content: '';
   display: block;
   height: 4px;
-  margin-top: 0.8rem;
+  margin-top: 0.4rem;
   background: var(--primary-color-2);
 }
