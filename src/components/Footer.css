@@ -1,0 +1,10 @@
+footer {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  background: #fafafa;
+  border-top: solid 2px var(--primary-color-2);
+}
+footer .container {
+  display: flex;
+}
