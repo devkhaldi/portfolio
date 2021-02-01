@@ -9,13 +9,13 @@
   padding: 4rem 0;
 }
 .hero .hero-text h1 {
-  font-weight: 200;
+  font-weight: 400;
   font-size: 3rem;
-  margin-bottom: 1.8rem;
+  margin-bottom: 1rem;
 }
 .hero .hero-text p {
   color: #555555;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 300;
   width: 60%;
   margin: 0 auto;
