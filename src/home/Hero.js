@@ -14,19 +14,34 @@ const Hero = () => {
       <div className='hero-cards container'>
         <div className='cards'>
           <div className='card mx-md-3'>
-            <img src='https://ianlunn.co.uk/static/0fe210187ee16bce95bb97c7ab3db41b/98c70/feature__web.webp' alt='' />
-            <h3>UI,UX design implementation</h3>
-            <p>Responsive websites built for an optimal user experience that achieves your business goals.</p>
+            <div className='img-container'>
+              <img src='https://ianlunn.co.uk/static/0fe210187ee16bce95bb97c7ab3db41b/98c70/feature__web.webp' alt='' />
+            </div>
+            <div className='text-container'>
+              <h3>UI,UX design implementation</h3>
+              <p>Responsive websites built for an optimal user experience that achieves your business goals.</p>
+            </div>
           </div>
           <div className='card mx-md-3'>
-            <img src='https://ianlunn.co.uk/static/54f14637ec376524313424344767614c/98c70/feature__tools.webp' alt='' />
-            <h3>React apps developement</h3>
-            <p>Make your website fast, easy to find, and reach the widest audience possible.</p>
+            <div className='img-container'>
+              <img
+                src='https://ianlunn.co.uk/static/54f14637ec376524313424344767614c/98c70/feature__tools.webp'
+                alt=''
+              />
+            </div>
+            <div className='text-container'>
+              <h3>React apps developement</h3>
+              <p>Make your website fast, easy to find, and reach the widest audience possible.</p>
+            </div>
           </div>
           <div className='card mx-md-3'>
-            <img src='https://ianlunn.co.uk/static/fcaac44c20804fb66461aed9d410badd/98c70/feature__wp.webp' alt='' />
-            <h3>APIs Building using Express</h3>
-            <p>Manage your website using the web's most popular content management system.</p>
+            <div className='img-container'>
+              <img src='https://ianlunn.co.uk/static/fcaac44c20804fb66461aed9d410badd/98c70/feature__wp.webp' alt='' />
+            </div>
+            <div className='text-container'>
+              <h3>APIs Building using Express</h3>
+              <p>Manage your website using the web's most popular content management system.</p>
+            </div>
           </div>
         </div>
       </div>

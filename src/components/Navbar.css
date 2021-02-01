@@ -10,7 +10,7 @@ nav {
   align-items: center;
   font-weight: 300;
   padding: 1rem 3rem;
-  border-top: solid 4px var(--primary-color);
+  border-top: solid 4px var(--primary-color-2);
   z-index: 10;
   background: white;
 }
@@ -18,13 +18,13 @@ nav svg {
   display: none;
   height: 2.2rem;
   width: 2.2rem;
-  color: var(--primary-color);
+  color: var(--primary-color-2);
   cursor: pointer;
 }
 nav .logo-container a {
   font-weight: 700;
   font-size: 2rem;
-  color: var(--primary-color);
+  color: var(--primary-color-2);
   text-decoration: none;
 }
 nav .nav-items {
@@ -33,7 +33,7 @@ nav .nav-items {
 }
 nav .nav-items .nav-item {
   display: block;
-  color: var(--primary-color) !important;
+  color: var(--primary-color-2) !important;
   text-decoration: none;
   font-size: 1.2rem;
   padding: 0.7rem 1rem;
@@ -50,20 +50,21 @@ nav .nav-items .nav-item::after {
 nav .nav-items .active::after {
   content: '';
   display: block;
-  background: var(--primary-color);
+  background: var(--primary-color-2);
 }
 nav .nav-items .active:hover::after,
 nav .nav-items .nav-item:hover::after {
   content: '';
   display: block;
-  background: var(--primary-color);
+  background: var(--primary-color-2);
 }
 nav .nav-items .contact .btn,
 .side-nav-items .btn {
-  background: var(--primary-color);
+  background: var(--primary-color-2);
   color: white;
   font-size: 1.2rem;
-  border-radius: 3rem;
+  /* border-radius: 3rem; */
+  border-radius: 0 !important;
   margin-top: 0.4rem;
   margin-left: 0.75rem;
   padding: 0.25rem 1.5rem;
@@ -92,11 +93,11 @@ nav .nav-items .contact .btn:hover,
   flex-direction: column;
   font-size: 1.2rem;
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--primary-color-2);
 }
 .side-nav-items .active {
   background: #fafafa;
-  border-right: solid 2px var(--primary-color);
+  border-right: solid 2px var(--primary-color-2);
 }
 .side-nav-items .contact {
   width: 100%;
