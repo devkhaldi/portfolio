@@ -5,13 +5,15 @@
   margin: 0;
   box-sizing: border-box;
   --primary-color: #39baff;
-  --primary-color-2: #2fa0df;
+  /* --primary-color-2: #2fa0df; */
+  --primary-color-2: #8a5bc7;
   --secondary-color: #d73c97;
   --third-color: #6964d7;
   --shadow: 0 0 4px rgba(150, 150, 150, 0.3);
 }
 body {
   font-family: 'Poppins', sans-serif;
+  background: #fefefe;
 }
 .btn,
 input {

@@ -7,4 +7,21 @@ footer {
 }
 footer .container {
   display: flex;
+  justify-content: space-between;
+}
+footer .about {
+  display: flex;
+  flex: 2;
+  padding: 0 2rem;
+}
+footer .about img {
+  width: 7rem;
+}
+
+footer .social-links {
+  flex: 1;
+}
+
+footer .portfolio-links {
+  flex: 1;
 }
