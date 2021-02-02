@@ -19,40 +19,42 @@ const Footer = () => {
             Internet Technology. I create successful websites that are fast, easy to use, and built with best practices.
           </div>
         </div>
-        <div className='social-links'>
-          <div className='social-link'>
-            <a href='#'>
-              <FaGithub />
-              <span>GITHUB</span>
-            </a>
-            <span>Follow for open-source projects such as Hover.css, Sequence.js, and jQuery Parallax</span>
+        <div className='links'>
+          <div className='social-links'>
+            <div className='social-link'>
+              <a href='#'>
+                <FaGithub />
+                <span>GITHUB</span>
+              </a>
+              <span>Follow for open-source projects such as Hover.css, Sequence.js, and jQuery Parallax</span>
+            </div>
+            <div className='social-link'>
+              <a href='#'>
+                <FaLinkedinIn />
+                <span>LINKEDIN</span>
+              </a>
+              <span>Let's connect on LinkedIn</span>
+            </div>
           </div>
-          <div className='social-link'>
-            <a href='#'>
-              <FaLinkedinIn />
-              <span>LINKEDIN</span>
-            </a>
-            <span>Let's connect on LinkedIn</span>
-          </div>
-        </div>
-        <div className='portfolio-links'>
-          <div className='portfolio-link'>
-            <Link exact to='/about'>
-              ABOUT
-            </Link>
-            <span>Learn about Ian's skills and workflow</span>
-          </div>
-          <div className='portfolio-link'>
-            <Link exact to='/portfolio'>
-              PORTFOLIO
-            </Link>
-            <span>View Ian's previous work</span>
-          </div>
-          <div className='portfolio-link'>
-            <Link exact to='/portfolio'>
-              CONTACT
-            </Link>
-            <span>Send a generale message</span>
+          <div className='portfolio-links'>
+            <div className='portfolio-link'>
+              <Link exact to='/about'>
+                ABOUT
+              </Link>
+              <span>Learn about Ian's skills and workflow</span>
+            </div>
+            <div className='portfolio-link'>
+              <Link exact to='/portfolio'>
+                PORTFOLIO
+              </Link>
+              <span>View Ian's previous work</span>
+            </div>
+            <div className='portfolio-link'>
+              <Link exact to='/portfolio'>
+                CONTACT
+              </Link>
+              <span>Send a generale message</span>
+            </div>
           </div>
         </div>
       </div>

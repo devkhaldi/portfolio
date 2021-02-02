@@ -1,27 +1,40 @@
 footer {
   padding: 3rem;
+  padding-bottom: 1rem;
   display: flex;
   flex-direction: column;
   background: #fafafa;
-  border-top: solid 2px var(--primary-color-2);
+  /* border-top: solid 1px var(--primary-color-2); */
 }
 footer .footer-content {
   display: flex;
   justify-content: space-between;
 }
+
 footer .about {
   display: flex;
   flex: 2;
   padding: 0 1rem;
 }
+
 footer .about img {
   width: 7rem;
   margin-right: 1rem;
+  border-radius: 0.75rem;
 }
+
+/* Footer Links */
+
+footer .links {
+  display: flex;
+  flex: 2;
+  padding: 0 1rem;
+}
+
+/* Social Links */
 
 footer .social-links {
   flex: 1;
-  padding: 0 1rem;
 }
 footer .social-links .social-link {
   display: flex;
@@ -43,9 +56,11 @@ footer .social-links .social-link > span {
   color: #666666;
 }
 
+/* Portfolio Links */
+
 footer .portfolio-links {
-  flex: 1;
   padding: 0 1rem;
+  flex: 1;
 }
 footer .portfolio-links .portfolio-link {
   margin-bottom: 0.8rem;
@@ -60,4 +75,22 @@ footer .portfolio-links .portfolio-link a {
 }
 footer .portfolio-links .portfolio-link span {
   color: #666666;
+}
+
+/* Copyright section */
+
+footer .copyright-section {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+/* Footer For small devices */
+
+@media (max-width: 900px) {
+  footer .footer-content {
+    flex-direction: column;
+  }
+  footer .footer-content .links {
+    margin-top: 2rem;
+  }
 }
