@@ -29,7 +29,7 @@ footer .social-links .social-link {
   margin-bottom: 1rem;
 }
 footer .social-links .social-link a {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-decoration: none;
   color: var(--primary-color-2);
   font-weight: 500;
@@ -39,7 +39,25 @@ footer .social-links .social-link svg {
   transform: translate(0, -0.1rem);
   margin-right: 0.3rem;
 }
+footer .social-links .social-link > span {
+  color: #666666;
+}
 
 footer .portfolio-links {
   flex: 1;
+  padding: 0 1rem;
+}
+footer .portfolio-links .portfolio-link {
+  margin-bottom: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+footer .portfolio-links .portfolio-link a {
+  color: var(--primary-color-2);
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+footer .portfolio-links .portfolio-link span {
+  color: #666666;
 }
