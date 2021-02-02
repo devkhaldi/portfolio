@@ -7,6 +7,7 @@ import Portfolio from './portfolio/Portfolio'
 import About from './about/About'
 import GetInTouch from './getInTouch/GetInTouch'
 import './App.css'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path='/about' component={About} />
         <Route exact path='/contact' component={Home} />
       </Switch>
+      <Footer />
     </BrowserRouter>
   )
 }
