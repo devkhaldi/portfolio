@@ -1,0 +1,23 @@
+.portfolio-hero {
+  margin-top: 4rem;
+  width: 100%;
+}
+.portfolio-hero .hero-text {
+  text-align: center;
+  padding: 4rem 0;
+}
+.portfolio-hero h1 {
+  color: var(--primary-color-2);
+  font-weight: 400;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: 'Raleway', sans-serif;
+}
+.portfolio-hero p {
+  color: #555555;
+  font-size: 1.5rem;
+  font-weight: 300;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 2rem;
+}
