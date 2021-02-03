@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Project from './Project'
+import Project from '../components/Project'
 import { MdKeyboardArrowRight } from 'react-icons/md'
 import './Projects.css'
 
