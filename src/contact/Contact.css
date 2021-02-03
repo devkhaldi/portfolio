@@ -1,0 +1,16 @@
+.contact-page {
+  margin-top: 4rem;
+  display: flex;
+  padding: 1rem 2rem;
+  column-gap: 1rem;
+}
+
+.contact-page .contact-content {
+  flex: 2;
+}
+.contact-page .contact-about {
+  flex: 1;
+}
+.contact-page .contact-about img {
+  width: 8rem;
+}
