@@ -81,7 +81,7 @@
   border-radius: 50%;
 }
 .contact-page .contact-about .contact-info span {
-  font-size: 1rem;
+  align-self: center;
 }
 
 .contact-page .contact-about .about-links {
@@ -92,4 +92,11 @@
 .contact-page .contact-about .about-links span {
   color: var(--primary-color-2);
   text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+  .contact-page {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
 }
