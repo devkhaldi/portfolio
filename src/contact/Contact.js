@@ -35,9 +35,17 @@ const Contact = () => {
       </div>
       <div className='contact-about'>
         <h2>About El khaldi</h2>
-        <img src='https://ianlunn.co.uk/static/091e12342fbe6aaa7cd88318022139b7/9f4ce/avatar-small%402x.webp' alt='' />I
-        am a Front-end Developer with 12 years commercial experience, author of CSS3 Foundations, and graduate of
-        Internet Technology. I create successful websites that are fast, easy to use, and built with best practices.
+        <div className='contact-info'>
+          <img
+            src='https://ianlunn.co.uk/static/091e12342fbe6aaa7cd88318022139b7/9f4ce/avatar-small%402x.webp'
+            alt=''
+          />
+          <span>
+            I am a Front-end Developer with 12 years commercial experience, author of CSS3 Foundations, and graduate of
+            Internet Technology. I create successful websites that are fast, easy to use, and built with best practices.
+          </span>
+        </div>
+
         <div className='about-links'>
           Email : <span>pro.elhaldi@gmail.com</span> <br />
           Tel : <span>+212 6 59 43 22 70</span>
