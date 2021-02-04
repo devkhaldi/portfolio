@@ -10,6 +10,7 @@
 }
 .contact-page h2 {
   margin-bottom: 1rem;
+  font-weight: 300;
   color: var(--primary-color-2);
 }
 
