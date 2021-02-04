@@ -15,20 +15,21 @@ const Contact = () => {
           <form>
             <div className='input-container'>
               <label htmlFor='yourName'>Your Name</label>
-              <input id='yourName' type='text' className='form-control' />
+              <input id='yourName' type='text' className='form-control' placeholder='eg, El Khaldi Abderrahim' />
             </div>
             <div className='input-container'>
-              <label htmlFor=''>Email</label>
-              <input id='email' type='text' className='form-control' />
+              <label htmlFor='email'>Email</label>
+              <input id='email' type='text' className='form-control' placeholder='pro.elkhaldi@gmail.com' />
             </div>
             <div className='input-container'>
               <label htmlFor=''>Your Website</label>
-              <input id='yourWebsite' type='text' className='form-control' />
+              <input id='yourWebsite' type='text' className='form-control' placeholder='eg, https://elkhaldi.com' />
             </div>
             <div className='input-container'>
               <label htmlFor='generalMessage'>General Message</label>
-              <textarea id='generalMessage' cols='30' rows='10' className='form-control'></textarea>
+              <textarea id='generalMessage' cols='30' rows='5' className='form-control'></textarea>
             </div>
+            <button className='btn'>Send Message</button>
           </form>
         </div>
       </div>
