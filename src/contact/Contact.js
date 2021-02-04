@@ -5,27 +5,27 @@ const Contact = () => {
   return (
     <section className='contact-page'>
       <div className='contact-content'>
-        <h1>Get in touch</h1>
+        <h2>Get in touch</h2>
         <p>
           Send a general message or details of a project you'd like me to be a part of and I'll get back to you as soon
           as possible.
         </p>
         <div className='form-container'>
-          <h2>About you</h2>
+          <h4>About you</h4>
           <form>
-            <div>
+            <div className='input-container'>
+              <label htmlFor='yourName'>Your Name</label>
               <input id='yourName' type='text' className='form-control' />
-              <label htmlFor=''>Your Name</label>
             </div>
-            <div>
-              <input id='email' type='text' className='form-control' />
+            <div className='input-container'>
               <label htmlFor=''>Email</label>
+              <input id='email' type='text' className='form-control' />
             </div>
-            <div>
-              <input id='yourWebsite' type='text' className='form-control' />
+            <div className='input-container'>
               <label htmlFor=''>Your Website</label>
+              <input id='yourWebsite' type='text' className='form-control' />
             </div>
-            <div>
+            <div className='input-container'>
               <label htmlFor='generalMessage'>General Message</label>
               <textarea id='generalMessage' cols='30' rows='10' className='form-control'></textarea>
             </div>

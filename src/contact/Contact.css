@@ -1,13 +1,47 @@
 .contact-page {
   margin-top: 4rem;
   display: flex;
-  padding: 1rem 2rem;
+  padding: 3rem 2rem;
   column-gap: 1rem;
 }
 
 .contact-page .contact-content {
   flex: 2;
 }
+.contact-page h2 {
+  margin-bottom: 1rem;
+  color: var(--primary-color-2);
+}
+
+.contact-page p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.contact-page .contact-content .form-container {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background: #fafafa;
+}
+
+.contact-page h4 {
+  color: var(--primary-color-2);
+  width: 6.5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.contact-page h4::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background: var(--primary-color-2);
+  margin-top: 0.5rem;
+}
+
+.contact-page .contact-content .form-container .input-container {
+  margin: 1rem 0;
+}
+
 .contact-page .contact-about {
   flex: 1;
 }
