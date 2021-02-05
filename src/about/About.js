@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './About.css'
 
 const About = () => {
   return (
@@ -29,24 +30,36 @@ const About = () => {
         </p>
         <div className='skills-cards'>
           <div className='skill-card'>
-            <img src='' alt='' />
-            <h3></h3>
-            <p></p>
+            <img src='https://miro.medium.com/max/792/1*lJ32Bl-lHWmNMUSiSq17gQ.png' alt='' />
+            <h3>Lorem, ipsum dolor</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit numquam quos quo praesentium architecto,
+              explicabo quae iste tempore sed vel!
+            </p>
           </div>
           <div className='skill-card'>
-            <img src='' alt='' />
-            <h3></h3>
-            <p></p>
+            <img src='https://miro.medium.com/max/792/1*lJ32Bl-lHWmNMUSiSq17gQ.png' alt='' />
+            <h3>Lorem, ipsum dolor</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit numquam quos quo praesentium architecto,
+              explicabo quae iste tempore sed vel!
+            </p>
           </div>
           <div className='skill-card'>
-            <img src='' alt='' />
-            <h3></h3>
-            <p></p>
+            <img src='https://miro.medium.com/max/792/1*lJ32Bl-lHWmNMUSiSq17gQ.png' alt='' />
+            <h3>Lorem, ipsum dolor</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit numquam quos quo praesentium architecto,
+              explicabo quae iste tempore sed vel!
+            </p>
           </div>
           <div className='skill-card'>
-            <img src='' alt='' />
-            <h3></h3>
-            <p></p>
+            <img src='https://miro.medium.com/max/792/1*lJ32Bl-lHWmNMUSiSq17gQ.png' alt='' />
+            <h3>Lorem, ipsum dolor</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit numquam quos quo praesentium architecto,
+              explicabo quae iste tempore sed vel!
+            </p>
           </div>
         </div>
       </div>
