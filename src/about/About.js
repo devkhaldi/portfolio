@@ -69,8 +69,8 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className='getInTouch'>
-        <Link exact to='/contact'>
+      <div className='getintouch'>
+        <Link className='btn' exact to='/contact'>
           Get in touch
         </Link>
       </div>
