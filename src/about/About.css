@@ -32,6 +32,18 @@
 }
 .about .skill-card {
   background: #fafafa;
+  box-shadow: 0 1px 2px #ddd;
+  cursor: pointer;
+}
+.about .skill-card .skill-text {
+  padding: 0.75rem;
+}
+.about .skill-card .skill-text h3 {
+  color: var(--primary-color-2);
+  font-size: 1.3rem;
+}
+.about .skill-card .skill-text p {
+  font-size: 1rem;
 }
 .about .skills img {
   width: 100%;
