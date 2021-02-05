@@ -30,35 +30,43 @@ const About = () => {
       <div className='skills'>
         <div className='skill-card'>
           <img src='https://miro.medium.com/max/792/1*lJ32Bl-lHWmNMUSiSq17gQ.png' alt='' />
-          <h3>Lorem, ipsum dolor</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit numquam quos quo praesentium architecto,
-            explicabo quae iste tempore sed vel!
-          </p>
+          <div className='skill-text'>
+            <h3>Lorem, ipsum dolor</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit numquam quos quo praesentium architecto,
+              explicabo quae iste tempore sed vel!
+            </p>
+          </div>
         </div>
         <div className='skill-card'>
           <img src='https://miro.medium.com/max/792/1*lJ32Bl-lHWmNMUSiSq17gQ.png' alt='' />
-          <h3>Lorem, ipsum dolor</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit numquam quos quo praesentium architecto,
-            explicabo quae iste tempore sed vel!
-          </p>
+          <div className='skill-text'>
+            <h3>Lorem, ipsum dolor</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit numquam quos quo praesentium architecto,
+              explicabo quae iste tempore sed vel!
+            </p>
+          </div>
         </div>
         <div className='skill-card'>
           <img src='https://miro.medium.com/max/792/1*lJ32Bl-lHWmNMUSiSq17gQ.png' alt='' />
-          <h3>Lorem, ipsum dolor</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit numquam quos quo praesentium architecto,
-            explicabo quae iste tempore sed vel!
-          </p>
+          <div className='skill-text'>
+            <h3>Lorem, ipsum dolor</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit numquam quos quo praesentium architecto,
+              explicabo quae iste tempore sed vel!
+            </p>
+          </div>
         </div>
         <div className='skill-card'>
           <img src='https://miro.medium.com/max/792/1*lJ32Bl-lHWmNMUSiSq17gQ.png' alt='' />
-          <h3>Lorem, ipsum dolor</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit numquam quos quo praesentium architecto,
-            explicabo quae iste tempore sed vel!
-          </p>
+          <div className='skill-text'>
+            <h3>Lorem, ipsum dolor</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit numquam quos quo praesentium architecto,
+              explicabo quae iste tempore sed vel!
+            </p>
+          </div>
         </div>
       </div>
       <div className='getInTouch'>

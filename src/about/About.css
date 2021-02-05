@@ -28,6 +28,13 @@
 
 .about .skills {
   display: flex;
+  column-gap: 1rem;
+}
+.about .skill-card {
+  background: #fafafa;
+}
+.about .skills img {
+  width: 100%;
 }
 
 /* Get in touch */
