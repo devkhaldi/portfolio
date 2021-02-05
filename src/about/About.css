@@ -66,3 +66,12 @@
   padding: 0.5rem 1.5rem;
   font-weight: 300;
 }
+
+/* About style for small devices  */
+
+@media (max-width: 900px) {
+  .about .img-text {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+}
