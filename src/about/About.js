@@ -50,7 +50,6 @@ const About = () => {
             </div>
           </div>
         </div>
-
         <div className='second-row'>
           <div className='skill-card'>
             <img src='https://miro.medium.com/max/792/1*lJ32Bl-lHWmNMUSiSq17gQ.png' alt='' />
