@@ -25,8 +25,13 @@
   border-radius: 1.5rem;
 }
 /* Skills */
-
 .about .skills {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 1rem;
+}
+.about .first-row,
+.about .second-row {
   display: flex;
   column-gap: 1rem;
 }
@@ -70,8 +75,26 @@
 /* About style for small devices  */
 
 @media (max-width: 900px) {
+  .about {
+    padding: 1rem 4rem;
+  }
   .about .img-text {
     flex-direction: column;
     row-gap: 2rem;
+  }
+  .about .skills {
+    flex-wrap: wrap;
+    row-gap: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .about {
+    padding: 1rem 2rem;
+  }
+  .about .first-row,
+  .about .second-row {
+    flex-direction: column;
+    row-gap: 1rem;
   }
 }
