@@ -12,13 +12,7 @@ const Projects = () => {
       </div>
       <div className='projects-container'>
         {projects.map(project => (
-          <Project
-            key={project.id}
-            title={project.title}
-            miniImage={project.miniImage}
-            mainImage={project.mainImage}
-            description={project.description}
-          />
+          <Project key={project.id} project={project} />
         ))}
       </div>
       <div className='btn-container'>
