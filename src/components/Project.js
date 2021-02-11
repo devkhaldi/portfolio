@@ -7,7 +7,7 @@ const Project = ({ project }) => {
   return (
     <React.Fragment>
       <div className='project'>
-        <ProjectModal />
+        <ProjectModal project={project} />
         <div className='project-info col-lg-4 mx-md-2'>
           <img
             src={project.miniImage}
