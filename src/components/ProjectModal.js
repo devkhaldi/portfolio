@@ -1,7 +1,7 @@
 import React from 'react'
 import Modal from './Modal'
 
-const ProjectModal = () => {
+const ProjectModal = ({ project }) => {
   return (
     <Modal title='Project'>
       <h1>Project</h1>
