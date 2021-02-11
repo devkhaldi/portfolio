@@ -42,19 +42,22 @@ nav .nav-items .nav-item {
 nav .nav-items .nav-item::after {
   content: '';
   display: block;
-  height: 2px;
-  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  width: 0;
+  height: 3px;
+  transition: all 0.5s cubic-bezier(0.6, -0.28, 0.735, 1);
   position: relative;
-  top: 1rem;
+  top: 0.9rem;
 }
 nav .nav-items .active::after {
   content: '';
   display: block;
+  width: 100%;
   background: var(--primary-color-2);
 }
 nav .nav-items .active:hover::after,
 nav .nav-items .nav-item:hover::after {
   content: '';
+  width: 100%;
   display: block;
   background: var(--primary-color-2);
 }
