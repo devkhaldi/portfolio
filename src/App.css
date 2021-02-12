@@ -33,6 +33,10 @@ input {
   box-shadow: none !important;
 }
 
+.btn {
+  border-radius: 0;
+  box-shadow: 0 5px 10px rgba(100, 100, 100, 0.2) !important;
+}
 /*Custom scroll bar */
 /* width */
 ::-webkit-scrollbar {
