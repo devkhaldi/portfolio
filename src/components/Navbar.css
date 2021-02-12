@@ -4,8 +4,8 @@ nav {
   left: 0;
   height: 4.1rem;
   width: 100%;
-  background: #fafafa;
-  box-shadow: 0 5px 5px rgba(100, 100, 100, 0.05);
+  background: #f8f8f8;
+  box-shadow: 0 0px 1px rgba(100, 100, 100, 0.05);
   display: flex;
   align-items: center;
   font-weight: 300;
