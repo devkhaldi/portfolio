@@ -3,9 +3,18 @@
   padding: 1rem;
 }
 
+.project .project-info .img-container {
+  overflow: hidden !important;
+}
 .project .project-info img {
   width: 100%;
+  cursor: pointer;
+  transition: 0.5s ease;
 }
+.project .project-info .img-container:hover img {
+  transform: scale(1.1);
+}
+
 .project .project-info h3 {
   color: var(--primary-color-2);
   margin: 1rem 0;

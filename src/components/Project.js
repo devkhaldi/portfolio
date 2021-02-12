@@ -7,13 +7,15 @@ const Project = ({ project, putProjectInModal }) => {
     <React.Fragment>
       <div className='project'>
         <div className='project-info col-lg-4 mx-md-2'>
-          <img
-            onClick={() => putProjectInModal(project)}
-            src={project.miniImage}
-            alt={`${project.title} + ${project.miniImage}`}
-            data-toggle='modal'
-            data-target='#modal-default'
-          />
+          <div className='img-container'>
+            <img
+              onClick={() => putProjectInModal(project)}
+              src={project.miniImage}
+              alt={`${project.title} + ${project.miniImage}`}
+              data-toggle='modal'
+              data-target='#modal-default'
+            />
+          </div>
           <h3 data-toggle='modal' data-target='#modal-default'>
             {project.title}
           </h3>
