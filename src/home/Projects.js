@@ -6,11 +6,8 @@ import { MdKeyboardArrowRight } from 'react-icons/md'
 import './Projects.css'
 
 const Projects = () => {
-  const [selectedProject, setselectedProject] = useState(projects[1])
-  console.log(selectedProject)
-
+  const [selectedProject, setselectedProject] = useState(projects[0])
   const putProjectInModal = project => setselectedProject(project)
-
   return (
     <React.Fragment>
       <ProjectModal project={selectedProject} />

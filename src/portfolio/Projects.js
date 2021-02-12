@@ -1,26 +1,32 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { MdKeyboardArrowRight } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 import Project from '../components/Project'
+import ProjectModal from '../components/ProjectModal'
 
 const Projects = () => {
+  const [selectedProject, setselectedProject] = useState(projects[0])
+  const putProjectInModal = project => setselectedProject(project)
   return (
-    <section className='projects'>
-      <div className='header'>
-        <h1>Previews Work</h1>
-      </div>
-      <div className='projects-container'>
-        {projects.map(project => (
-          <Project key={project.id} project={project} />
-        ))}
-      </div>
-      <div className='btn-container'>
-        <Link exact to='/contact' className='btn'>
-          Get In Touch
-          <MdKeyboardArrowRight />
-        </Link>
-      </div>
-    </section>
+    <React.Fragment>
+      <ProjectModal project={selectedProject} />
+      <section className='projects'>
+        <div className='header'>
+          <h1>Previews Work</h1>
+        </div>
+        <div className='projects-container'>
+          {projects.map(project => (
+            <Project key={project.id} project={project} putProjectInModal={putProjectInModal} />
+          ))}
+        </div>
+        <div className='btn-container'>
+          <Link exact to='/contact' className='btn'>
+            Get In Touch
+            <MdKeyboardArrowRight />
+          </Link>
+        </div>
+      </section>
+    </React.Fragment>
   )
 }
 
