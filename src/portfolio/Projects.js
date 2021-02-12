@@ -11,9 +11,6 @@ const Projects = () => {
     <React.Fragment>
       <ProjectModal project={selectedProject} />
       <section className='projects'>
-        <div className='header'>
-          <h1>Previews Work</h1>
-        </div>
         <div className='projects-container'>
           {projects.map(project => (
             <Project key={project.id} project={project} putProjectInModal={putProjectInModal} />
