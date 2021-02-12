@@ -33,7 +33,7 @@
   border: none;
   border-top: solid 3px var(--primary-color-2);
   border-radius: 0 !important;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 10px rgba(100, 100, 100, 0.05);
   padding: 2rem;
   text-align: center;
   display: flex;
@@ -45,8 +45,6 @@
   transition: all 0.3s;
 }
 .hero .hero-cards .card:hover {
-  /* background: #fafafa; */
-  border-radius: 1rem !important;
 }
 .hero .hero-cards .card img {
   height: 10rem;
