@@ -6,10 +6,10 @@ import { useState } from 'react'
 
 const Navbar = () => {
   const [open, setopen] = useState(true)
-  console.log(open)
+
   return (
     <React.Fragment>
-      <nav>
+      <nav className=''>
         <AiOutlineMenu onClick={() => setopen(!open)} />
         <div className='logo-container'>
           <Link exact to='/'>

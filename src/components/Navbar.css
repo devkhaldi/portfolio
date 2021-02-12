@@ -2,16 +2,22 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  height: 4rem;
+  height: 4.1rem;
   width: 100%;
   background: #fafafa;
-  box-shadow: var(--shadow);
+  box-shadow: 0 5px 5px rgba(100, 100, 100, 0.05);
   display: flex;
   align-items: center;
   font-weight: 300;
   padding: 1rem 3rem;
   border-top: solid 4px var(--primary-color-2);
   z-index: 10;
+  transition: all 0.4s;
+}
+
+.nav-on-scroll {
+  height: 3.5rem !important;
+  box-shadow: 0 10px 10px rgba(100, 100, 100, 0.1);
 }
 nav svg {
   display: none;
@@ -44,9 +50,12 @@ nav .nav-items .nav-item::after {
   display: block;
   width: 0;
   height: 3px;
-  transition: all 0.5s cubic-bezier(0.6, -0.28, 0.735, 1);
+  transition: all 0.3s cubic-bezier(0.6, -0.28, 0.735, 1);
   position: relative;
-  top: 0.9rem;
+  top: 1rem;
+}
+.nav-on-scroll .nav-items .nav-item::after {
+  top: 0.7rem !important;
 }
 nav .nav-items .active::after {
   content: '';

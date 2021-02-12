@@ -7,11 +7,14 @@
   padding: 4rem 0;
 }
 .portfolio-hero h1 {
-  color: var(--primary-color-2);
-  font-weight: 400;
+  background: -webkit-linear-gradient(var(--color-3), var(--color-9));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-weight: 300;
   font-size: 3rem;
   margin-bottom: 1rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .portfolio-hero p {
   color: #555555;
