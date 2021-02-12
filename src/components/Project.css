@@ -19,6 +19,10 @@
   color: var(--primary-color-2);
   margin: 1rem 0;
 }
+.project .project-info h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 .project .project-preview img {
   width: 100%;
