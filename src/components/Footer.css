@@ -18,9 +18,11 @@ footer .about {
 }
 
 footer .about img {
-  width: 7rem;
+  width: 8rem;
+  height: 8rem;
   margin-right: 1rem;
-  border-radius: 0.75rem;
+  border-radius: 0;
+  box-shadow: 0 10px 20px rgba(100, 100, 100, 0.4);
 }
 
 /* Footer Links */
