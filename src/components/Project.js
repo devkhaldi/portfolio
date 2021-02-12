@@ -1,15 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Project.css'
-import ProjectModal from './ProjectModal'
 
-const Project = ({ project }) => {
+const Project = ({ project, putProjectInModal }) => {
   return (
     <React.Fragment>
       <div className='project'>
-        <ProjectModal project={project} />
         <div className='project-info col-lg-4 mx-md-2'>
           <img
+            onClick={() => putProjectInModal(project)}
             src={project.miniImage}
             alt={`${project.title} + ${project.miniImage}`}
             data-toggle='modal'
