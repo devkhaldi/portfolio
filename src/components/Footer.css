@@ -3,7 +3,7 @@ footer {
   padding-bottom: 1rem;
   display: flex;
   flex-direction: column;
-  background: #fafafa;
+  background: #f8f8f8;
   /* border-top: solid 1px var(--primary-color-2); */
 }
 footer .footer-content {
