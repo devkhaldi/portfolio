@@ -22,7 +22,8 @@
 .about .intro img {
   height: 14rem;
   width: 14rem;
-  border-radius: 1.5rem;
+  border-radius: 0;
+  box-shadow: 0 10px 20px rgba(100, 100, 100, 0.4);
 }
 /* Skills */
 .about .skills {
