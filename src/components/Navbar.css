@@ -4,7 +4,7 @@ nav {
   left: 0;
   height: 4.1rem;
   width: 100%;
-  background: #f8f8f8;
+  background: #fafafa;
   box-shadow: 0 0px 1px rgba(100, 100, 100, 0.05);
   display: flex;
   align-items: center;
@@ -49,13 +49,13 @@ nav .nav-items .nav-item::after {
   content: '';
   display: block;
   width: 0;
-  height: 3px;
+  height: 2px;
   transition: all 0.2s cubic-bezier(0.6, -0.28, 0.735, 1);
   position: relative;
-  top: 1rem;
+  top: 0.3rem;
 }
 .nav-on-scroll .nav-items .nav-item::after {
-  top: 0.7rem !important;
+  top: 0.75rem !important;
 }
 nav .nav-items .active::after {
   content: '';
