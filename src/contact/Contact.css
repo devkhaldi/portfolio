@@ -40,6 +40,19 @@
 .contact-page .contact-content .input-container {
   margin: 1rem 0;
 }
+.contact-page .contact-content .input-container::after {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 2px;
+  background: var(--primary-color-2);
+  position: relative;
+  bottom: 2px;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.input-container:focus-within::after {
+  width: 100% !important;
+}
 
 .contact-page .contact-content input,
 .contact-page .contact-content textarea {
@@ -48,6 +61,7 @@
   padding: 1.6rem 1rem;
   font-size: 1.2rem;
   box-shadow: 0 1px 1px #dddddd !important;
+  position: relative;
 }
 
 .contact-page .contact-content input::placeholder {
@@ -55,6 +69,7 @@
   font-weight: 300;
   font-size: 1rem;
 }
+
 .contact-page .contact-content button {
   margin: 2rem 0;
   padding: 0.7rem 1rem;
