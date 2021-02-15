@@ -16,7 +16,7 @@ nav {
 }
 .nav-on-scroll {
   height: 3.5rem !important;
-  box-shadow: 0 5px 10px rgba(100, 100, 100, 0.05);
+  box-shadow: 0 5px 10px rgba(100, 100, 100, 0.1);
 }
 nav svg {
   display: none;

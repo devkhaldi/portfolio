@@ -1,6 +1,7 @@
 .hero {
   margin-top: 4rem;
   width: 100%;
+  background: url('/public/img/Hexagon-dotted-connect-line-background.jpg');
 }
 /*Hero Text */
 .hero .hero-text {
