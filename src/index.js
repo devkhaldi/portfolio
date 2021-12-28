@@ -7,7 +7,7 @@ import App from "./App"
 window.onscroll = () => {
   const scrollTop = document.querySelector("html").scrollTop
   const navbar = document.querySelector("nav")
-  if (scrollTop != 0) navbar.className = "nav-on-scroll"
+  if (scrollTop !== 0) navbar.className = "nav-on-scroll"
   else navbar.className = ""
 }
 
