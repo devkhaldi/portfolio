@@ -15,17 +15,17 @@
   --color-7: #90e0ef;
   --color-8: #ade8f4;
   --color-9: #caf0f8;
-  --primary-color: #39baff;
-  /* --primary-color-2: #2fa0df; */
+  /* --primary-color: #39baff;
+  --primary-color-2: #11a3a1; */
   /* --primary-color-2: #8a5bc7; */
-  --primary-color-2: #0096c7;
+  --primary-color-2: #0047a3;
   --secondary-color: #d73c97;
   --third-color: #6964d7;
-  --shadow: 0 0 4px rgba(150, 150, 150, 0.3);
+  --shadow: 0 0 100px rgba(150, 150, 150, 0.5);
 }
 body {
   font-family: 'Poppins', sans-serif;
-  background: #fefefe;
+  background: #fff;
 }
 .btn,
 input {
@@ -37,10 +37,15 @@ input {
   border-radius: 0;
   box-shadow: 0 5px 10px rgba(100, 100, 100, 0.2) !important;
 }
+
+::selection {
+  background: var(--primary-color-2);
+  color: white;
+}
 /*Custom scroll bar */
 /* width */
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 2px;
 }
 
 /* Track */
@@ -50,7 +55,7 @@ input {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--primary-color-2);
+  background: #aaa;
 }
 
 /* Handle on hover */

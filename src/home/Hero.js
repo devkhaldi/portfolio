@@ -5,12 +5,11 @@ const Hero = () => {
   return (
     <section className='hero'>
       <div className='hero-text'>
-        <h1>Successful Web-apps Development</h1>
+        <h1>Successful Web applications Development</h1>
         <p>
           Hi. I’m Ian, a freelance Front-end Developer with 12 years commercial experience creating successful websites.
         </p>
       </div>
-
       <div className='hero-cards container'>
         <div className='cards'>
           <div className='card mx-md-3'>

@@ -1,7 +1,7 @@
-import React from 'react'
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
-import './Footer.css'
+import React from "react"
+import { FaLinkedinIn, FaGithub } from "react-icons/fa"
+import { Link } from "react-router-dom"
+import "./Footer.css"
 
 const Footer = () => {
   return (
@@ -15,8 +15,10 @@ const Footer = () => {
             />
           </div>
           <div className='about-content'>
-            I am a Front-end Developer with 12 years commercial experience, author of CSS3 Foundations, and graduate of
-            Internet Technology. I create successful websites that are fast, easy to use, and built with best practices.
+            I am a Front-end Developer with 12 years commercial experience,
+            author of CSS3 Foundations, and graduate of Internet Technology. I
+            create successful websites that are fast, easy to use, and built
+            with best practices.
           </div>
         </div>
         <div className='links'>
@@ -26,7 +28,10 @@ const Footer = () => {
                 <FaGithub />
                 <span>GITHUB</span>
               </a>
-              <span>Follow for open-source projects such as Hover.css, Sequence.js, and jQuery Parallax</span>
+              <span>
+                Follow for open-source projects such as Hover.css, Sequence.js,
+                and jQuery Parallax
+              </span>
             </div>
             <div className='social-link'>
               <a href='#'>
@@ -58,7 +63,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='copyright-section'>Copyright © 2021 Ian Lunn Design Limited</div>
+      <div className='copyright-section'>
+        Copyright © 2021 Ian Lunn Design Limited
+      </div>
     </footer>
   )
 }

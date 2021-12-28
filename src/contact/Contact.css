@@ -47,7 +47,7 @@
   background: var(--primary-color-2);
   position: relative;
   bottom: 2px;
-  transition: all 0.5s cubic-bezier(0.6, 1, 0.735, 0.045);
+  transition: all 0.5s;
 }
 .input-container:focus-within::after {
   width: 100% !important;
