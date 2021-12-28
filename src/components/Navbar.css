@@ -9,11 +9,11 @@ nav {
   align-items: center;
   font-weight: 300;
   padding: 1rem 3rem;
-  border-top: solid 4px var(--primary-color-2);
+  border-top: solid 4px var(--primary-color);
   z-index: 10;
   transition: all 0.2s;
   z-index: 10;
-  background: rgba(255, 255, 255, 0.75);
+  background: var(--navbar-bg);
 }
 
 .nav-on-scroll {
@@ -25,13 +25,13 @@ nav svg {
   display: none;
   height: 2.2rem;
   width: 2.2rem;
-  color: var(--primary-color-2);
+  color: var(--primary-color);
   cursor: pointer;
 }
 nav .logo-container a {
   font-weight: 700;
   font-size: 2rem;
-  color: var(--primary-color-2);
+  color: var(--primary-color);
   text-decoration: none;
 }
 nav .nav-items {
@@ -41,7 +41,7 @@ nav .nav-items {
 }
 nav .nav-items .nav-item {
   display: block;
-  color: var(--primary-color-2) !important;
+  color: var(--primary-color) !important;
   text-decoration: none;
   font-size: 1.2rem;
   padding: 0.7rem 1rem;
@@ -64,18 +64,18 @@ nav .nav-items .active::after {
   content: "";
   display: block;
   width: 100%;
-  background: var(--primary-color-2);
+  background: var(--primary-color);
 }
 nav .nav-items .active:hover::after,
 nav .nav-items .nav-item:hover::after {
   content: "";
   width: 100%;
   display: block;
-  background: var(--primary-color-2);
+  background: var(--primary-color);
 }
 nav .nav-items .contact .btn,
 .side-nav-items .btn {
-  background: var(--primary-color-2);
+  background: var(--primary-color);
   color: white;
   font-size: 1.2rem;
   /* border-radius: 3rem; */
@@ -88,7 +88,7 @@ nav .nav-items .contact .btn,
 }
 nav .nav-items .contact .btn:hover,
 .side-nav-items .btn:hover {
-  background: var(--primary-color-2);
+  background: var(--primary-color);
 }
 /*Side nav*/
 .side-nav-items {
@@ -97,7 +97,7 @@ nav .nav-items .contact .btn:hover,
   position: fixed;
   top: 4rem;
   width: 17rem;
-  background: #ffffff;
+  background: var(--side-navbar-bg);
   height: calc(100% - 4rem);
   transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -108,18 +108,18 @@ nav .nav-items .contact .btn:hover,
   flex-direction: column;
   font-size: 1.2rem;
   text-decoration: none;
-  color: var(--primary-color-2);
+  color: var(--primary-color);
 }
 .side-nav-items .active {
-  background: #fafafa;
-  border-right: solid 2px var(--primary-color-2);
+  background: var(--side-navbar-bg-active);
+  border-right: solid 2px var(--primary-color);
 }
 .side-nav-items .contact {
   width: 100%;
   padding: 0 1.2rem;
 }
 .side-nav-items .nav-item:hover {
-  background: #fafafa;
+  background: var(--side-navbar-bg-active);
 }
 
 /*Navbar for small devices*/

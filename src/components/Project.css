@@ -18,7 +18,7 @@
 }
 
 .project .project-info h3 {
-  color: var(--primary-color-2);
+  color: var(--primary-color);
   margin: 1rem 0;
 }
 .project .project-info h3:hover {

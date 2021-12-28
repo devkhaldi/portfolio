@@ -1,10 +1,11 @@
 footer {
+  color: var(--text-1);
   padding: 3rem;
   padding-bottom: 1rem;
   display: flex;
   flex-direction: column;
-  background: #f8f8f8;
-  /* border-top: solid 1px var(--primary-color-2); */
+  background: var(--bg-1);
+  /* border-top: solid 1px var(--primary-color); */
 }
 footer .footer-content {
   display: flex;
@@ -46,16 +47,13 @@ footer .social-links .social-link {
 footer .social-links .social-link a {
   font-size: 1.1rem;
   text-decoration: none;
-  color: var(--primary-color-2);
+  color: var(--primary-color);
   font-weight: 500;
 }
 
 footer .social-links .social-link svg {
   transform: translate(0, -0.1rem);
   margin-right: 0.3rem;
-}
-footer .social-links .social-link > span {
-  color: #666666;
 }
 
 /* Portfolio Links */
@@ -70,13 +68,10 @@ footer .portfolio-links .portfolio-link {
   flex-direction: column;
 }
 footer .portfolio-links .portfolio-link a {
-  color: var(--primary-color-2);
+  color: var(--primary-color);
   font-size: 1.1rem;
   font-weight: 500;
   text-decoration: none;
-}
-footer .portfolio-links .portfolio-link span {
-  color: #666666;
 }
 
 /* Copyright section */

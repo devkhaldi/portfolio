@@ -3,6 +3,7 @@
   display: flex;
   padding: 3rem 2rem;
   column-gap: 2rem;
+  color: var(--text-1);
 }
 /*Contact content*/
 .contact-page .contact-content {
@@ -11,7 +12,7 @@
 .contact-page h2 {
   margin-bottom: 1rem;
   font-weight: 300;
-  color: var(--primary-color-2);
+  color: var(--primary-color);
 }
 .contact-page p {
   font-size: 1.2rem;
@@ -20,31 +21,31 @@
 .contact-page .contact-content .form-container {
   padding: 2rem;
   border-radius: 0.5rem;
-  background: #fafafa;
+  background: var(--bg-1);
 }
 
 .contact-page h4 {
-  color: var(--primary-color-2);
+  color: var(--primary-color);
   width: 6.5rem;
   font-size: 1.2rem;
   font-weight: 400;
 }
 .contact-page h4::after {
-  content: '';
+  content: "";
   display: block;
   height: 1px;
-  background: var(--primary-color-2);
+  background: var(--primary-color);
   margin-top: 0.5rem;
 }
 .contact-page .contact-content .input-container {
   margin: 1rem 0;
 }
 .contact-page .contact-content .input-container::after {
-  content: '';
+  content: "";
   display: block;
   width: 0%;
   height: 2px;
-  background: var(--primary-color-2);
+  background: var(--primary-color);
   position: relative;
   bottom: 2px;
   transition: all 0.5s;
@@ -55,6 +56,7 @@
 
 .contact-page .contact-content input,
 .contact-page .contact-content textarea {
+  color: var(--text-1);
   border: none;
   border-radius: 0;
   padding: 1.6rem 1rem;
@@ -63,8 +65,12 @@
   position: relative;
 }
 
+.contact-page .contact-content input,
+.contact-page .contact-content textarea {
+  background: var(--form-input-bg);
+}
 .contact-page .contact-content input::placeholder {
-  color: #888888;
+  color: var(--form-input-placeholder);
   font-weight: 300;
   font-size: 0.9rem;
 }
@@ -75,7 +81,7 @@
   border-radius: 0;
   font-size: 1rem;
   color: white;
-  background: var(--primary-color-2);
+  background: var(--primary-color);
 }
 
 /* Contact about */
@@ -104,7 +110,7 @@
   line-height: 2rem;
 }
 .contact-page .contact-about .about-links span {
-  color: var(--primary-color-2);
+  color: var(--primary-color);
   text-decoration: underline;
 }
 

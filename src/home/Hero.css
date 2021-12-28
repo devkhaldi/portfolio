@@ -9,14 +9,14 @@
   padding: 4rem 0;
 }
 .hero .hero-text h1 {
-  color: var(--primary-color-2);
+  color: var(--primary-color);
   font-weight: 100;
   font-size: 3rem;
   margin-bottom: 1rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .hero .hero-text p {
-  color: #555555;
+  color: var(--text-1);
   font-size: 1.5rem;
   font-weight: 300;
   width: 60%;
@@ -31,8 +31,9 @@
   padding: 1rem;
 }
 .hero .hero-cards .card {
+  background: var(--white);
   border: none;
-  /* border-top: solid 3px var(--primary-color-2); */
+  /* border-top: solid 3px var(--primary-color); */
   border-radius: 0 !important;
   box-shadow: 0 1px 1px rgba(100, 100, 100, 0.1);
   padding: 2rem;
@@ -53,10 +54,10 @@
   font-size: 1.3rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  color: var(--primary-color-2);
+  color: var(--primary-color);
 }
 .hero .hero-cards .card p {
-  color: #555555;
+  color: var(--text-1);
 }
 /* Style hero for small devices */
 @media (max-width: 767px) {

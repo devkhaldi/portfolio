@@ -1,5 +1,6 @@
 .projects {
   padding: 2rem;
+  color: var(--text-1);
 }
 .projects .header {
   text-align: center;
@@ -9,21 +10,22 @@
   justify-content: center;
 }
 .projects .header h1 {
-  color: var(--primary-color-2);
-  font-family: 'Poppins', sans-serif;
+  color: var(--primary-color);
+  font-family: "Poppins", sans-serif;
   /* width: 16.8rem; */
   font-weight: 400;
   margin: 1rem 0;
 }
+
 .projects .btn-container {
   display: flex;
   width: 100%;
   padding: 1rem;
 }
 .projects .btn-container .btn {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: auto;
-  background: var(--primary-color-2);
+  background: var(--primary-color);
   color: white;
   font-size: 1.5rem;
   /* border-radius: 3rem; */
@@ -31,9 +33,9 @@
   padding: 0.5rem 1rem;
   transition: all 0.5s;
 }
-.projects .btn-container .btn:hover {
+/* .projects .btn-container .btn:hover {
   background: var(--third-color);
-}
+} */
 .projects .btn-container svg {
   font-size: 2rem;
   margin-left: 0.3rem;
