@@ -1,27 +1,36 @@
 .hero {
-  margin-top: 4rem;
+  margin-top: 3.5rem;
   width: 100%;
   position: relative;
 }
 /*Hero Text */
 .hero .hero-text {
-  text-align: center;
-  padding: 4rem 0;
+  padding: 2rem 0;
+  display: flex;
+}
+.hero .hero-text .text-content {
+  padding: 4rem;
 }
 .hero .hero-text h1 {
-  color: var(--primary-color);
-  font-weight: 100;
+  color: var(--black);
+  font-weight: 600;
   font-size: 3rem;
   margin-bottom: 1rem;
-  font-family: "Raleway", sans-serif;
+  font-family: SF ui, "Raleway", sans-serif;
+}
+.hero .hero-text h1 span {
+  color: var(--primary-color);
 }
 .hero .hero-text p {
   color: var(--text-1);
   font-size: 1.5rem;
   font-weight: 300;
-  width: 60%;
-  margin: 0 auto;
   line-height: 2rem;
+}
+.hero .hero-illustration .text-content {
+}
+.hero .hero-illustration img {
+  max-width: 40vw;
 }
 /* Hero Cards */
 .hero-cards .cards {
@@ -61,6 +70,10 @@
 }
 /* Style hero for small devices */
 @media (max-width: 767px) {
+  .hero .hero-text {
+    display: flex;
+    flex-direction: column;
+  }
   .hero .hero-text {
     text-align: center;
     padding: 2rem 0;

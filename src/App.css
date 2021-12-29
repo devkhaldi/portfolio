@@ -3,29 +3,24 @@
 
 /* import matter font */
 @font-face {
-  font-family: Matter;
-  src: url(./fonts/matter/Matter-Light.ttf);
+  font-family: SF ui;
+  src: url(./Fonts/sf-ui-display-light.otf);
   font-weight: 200;
 }
 @font-face {
-  font-family: Matter;
-  src: url(./fonts/matter/Matter-Regular.ttf);
+  font-family: SF ui;
+  src: url(./Fonts/sf-ui-display-medium.otf);
   font-weight: 400;
 }
 @font-face {
-  font-family: Matter;
-  src: url(./fonts/matter/Matter-Medium.ttf);
+  font-family: SF ui;
+  src: url(./Fonts/sf-ui-display-semibold.otf);
   font-weight: 500;
 }
 @font-face {
-  font-family: Matter;
-  src: url(./fonts/matter/Matter-SemiBold.ttf);
+  font-family: SF ui;
+  src: url(./Fonts/sf-ui-display-bold.otf);
   font-weight: 600;
-}
-@font-face {
-  font-family: Matter;
-  src: url(./fonts/matter/Matter-Bold.ttf);
-  font-weight: 700;
 }
 
 * {
@@ -46,12 +41,13 @@
 }
 
 .light-mode {
-  --primary-color: #0047a3;
+  --primary-color: #6964d7;
   --secondary-color: #d73c97;
   --third-color: #6964d7;
   --bg-1: #f3f5f5;
-  --bg-2: #f2f1f0;
+  --bg-2: #f8f8f8;
   --white: #fff;
+  --black: #000;
   --text-1: #555;
   --navbar-bg: rgba(255, 255, 255, 0.75);
   --side-navbar-bg: #fff;
@@ -62,13 +58,14 @@
 }
 
 .dark-mode {
-  --primary-color: #008cbf;
+  --primary-color: #14b8a6;
   --secondary-color: #d73c97;
   --third-color: #6964d7;
-  --bg-1: #111;
+  --bg-1: #1e293b;
   --bg-2: #222;
   --white: #000;
-  --text-1: #ddd;
+  --black: #fff;
+  --text-1: #9ca3af;
   --navbar-bg: rgba(0, 0, 0, 0.7);
   --side-navbar-bg: #333;
   --side-navbar-bg-active: #444;
@@ -78,7 +75,7 @@
 }
 
 body {
-  font-family: Matter, "Poppins", sans-serif;
+  font-family: SF ui, "Poppins", sans-serif;
   background: var(--bg-2);
 }
 .btn,
