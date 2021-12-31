@@ -1,6 +1,7 @@
 import React from "react"
 import "./Hero.css"
 import illustration from "../img/undraw_programming.svg"
+import { Link } from "react-router-dom"
 
 const Hero = () => {
   return (
@@ -12,6 +13,14 @@ const Hero = () => {
             Hi. I’m Ian, a freelance Front-end Developer with 12 years
             commercial experience creating successful websites.
           </p>
+          <div className='hero-buttons'>
+            <Link className='btn' exact to='/portfolio'>
+              View projects
+            </Link>
+            <Link className='btn' exact to='/contact'>
+              Contact
+            </Link>
+          </div>
         </div>
         <div className='hero-illustration'>
           <img src={illustration} alt='illustration' />

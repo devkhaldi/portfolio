@@ -58,12 +58,14 @@
 }
 
 .dark-mode {
-  --primary-color: #14b8a6;
+  --primary-color: #6964d7;
   --secondary-color: #d73c97;
   --third-color: #6964d7;
-  --bg-1: #1e293b;
+  /* --bg-1: #1e293b;
+  --bg-2: #222; */
+  --bg-1: #000;
   --bg-2: #222;
-  --white: #000;
+  --white: #252525;
   --black: #fff;
   --text-1: #9ca3af;
   --navbar-bg: rgba(0, 0, 0, 0.7);

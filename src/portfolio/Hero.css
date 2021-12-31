@@ -1,23 +1,50 @@
 .portfolio-hero {
-  margin-top: 4rem;
+  margin-top: 3.5rem;
   width: 100%;
+  position: relative;
 }
+
+/*Hero Text */
 .portfolio-hero .hero-text {
-  text-align: center;
-  padding: 4rem 0;
+  padding: 2rem 0;
+  display: flex;
 }
-.portfolio-hero h1 {
-  color: var(--primary-color);
-  font-weight: 400;
+.portfolio-hero .hero-text .text-content {
+  padding-top: 3rem;
+  padding-left: 6rem;
+}
+.portfolio-hero .hero-text h1 {
+  color: var(--black);
+  font-weight: 600;
   font-size: 3rem;
   margin-bottom: 1rem;
-  font-family: "Raleway", sans-serif;
+  font-family: SF ui, "Raleway", sans-serif;
 }
-.portfolio-hero p {
+.portfolio-hero .hero-text h1 span {
+  color: var(--primary-color);
+}
+.portfolio-hero .hero-text p {
   color: var(--text-1);
   font-size: 1.5rem;
   font-weight: 300;
-  width: 60%;
-  margin: 0 auto;
   line-height: 2rem;
+}
+.portfolio-hero .hero-buttons {
+  margin-top: 2rem;
+}
+.portfolio-hero .hero-buttons .btn {
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--primary-color);
+}
+.portfolio-hero .hero-buttons .btn:nth-child(1) {
+  background-color: var(--primary-color);
+  color: white;
+}
+.portfolio-hero .hero-buttons .btn:nth-child(2) {
+  margin-left: 0.2rem;
+  color: var(--primary-color);
+}
+
+.portfolio-hero .hero-illustration img {
+  max-width: 40vw;
 }
