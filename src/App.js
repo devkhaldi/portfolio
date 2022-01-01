@@ -1,13 +1,13 @@
-import React from 'react'
-import logo from './logo.svg'
-import Navbar from './components/Navbar'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import Home from './home/Home'
-import Portfolio from './portfolio/Portfolio'
-import About from './about/About'
-import Contact from './contact/Contact'
-import Footer from './components/Footer'
-import './App.css'
+import React from "react"
+import logo from "./logo.svg"
+import Navbar from "./components/Navbar"
+import { BrowserRouter, Route, Switch } from "react-router-dom"
+import Home from "./home/Home"
+import Portfolio from "./portfolio/Portfolio"
+import About from "./about/About"
+import Contact from "./contact/Contact"
+import Footer from "./components/Footer"
+import "./App.css"
 
 function App() {
   return (

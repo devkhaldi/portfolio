@@ -8,7 +8,10 @@ const Hero = () => {
     <section className='hero'>
       <div className='hero-text'>
         <div className='text-content'>
-          <h1>Successful Web applications Development</h1>
+          <h1>
+            Hi i'm <span>Abde</span>. I'm a frontend devloper, i create amazing
+            SPAs using React
+          </h1>
           <p>
             Hi. I’m Ian, a freelance Front-end Developer with 12 years
             commercial experience creating successful websites.

@@ -1,6 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './Project.css'
+import React from "react"
+import { Link } from "react-router-dom"
+import "./Project.css"
 
 const Project = ({ project, putProjectInModal }) => {
   return (
@@ -16,10 +16,16 @@ const Project = ({ project, putProjectInModal }) => {
               data-target='#modal-default'
             />
           </div>
-          <h3 onClick={() => putProjectInModal(project)} data-toggle='modal' data-target='#modal-default'>
+          <h3
+            onClick={() => putProjectInModal(project)}
+            data-toggle='modal'
+            data-target='#modal-default'>
             {project.title}
           </h3>
           <p>{project.description}</p>
+          <a target='_blank' href='https://www.google.com' className='btn'>
+            Explore
+          </a>
         </div>
         <div className='project-preview col-lg-8 mx-md-2'>
           <img
