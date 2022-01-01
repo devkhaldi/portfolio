@@ -8,8 +8,12 @@ import About from "./about/About"
 import Contact from "./contact/Contact"
 import Footer from "./components/Footer"
 import "./App.css"
+import { AOS } from "aos"
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+  }, [])
   return (
     <BrowserRouter>
       <Navbar />

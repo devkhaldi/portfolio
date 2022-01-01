@@ -46,6 +46,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
+
           <div className='card mx-md-3'>
             <div className='img-container'>
               <img
