@@ -17,15 +17,18 @@ const Hero = () => {
             commercial experience creating successful websites.
           </p>
           <div className='hero-buttons'>
-            <Link className='btn' exact to='/portfolio'>
+            <Link className='btn' exact to='/portfolio' data-aos='fade-right'>
               View projects
             </Link>
-            <Link className='btn' exact to='/contact'>
+            <Link className='btn' exact to='/contact' data-aos='fade-left'>
               Contact
             </Link>
           </div>
         </div>
-        <div className='hero-illustration'>
+        <div
+          className='hero-illustration'
+          data-aos='fade-down-left'
+          data-aos-duration='3000'>
           <img src={illustration} alt='illustration' />
         </div>
       </div>

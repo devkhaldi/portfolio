@@ -79,6 +79,7 @@
 body {
   font-family: SF ui, "Poppins", sans-serif;
   background: var(--bg-2);
+  overflow-x: hidden;
 }
 .btn,
 input {
