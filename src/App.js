@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import logo from "./logo.svg"
 import Navbar from "./components/Navbar"
 import { BrowserRouter, Route, Switch } from "react-router-dom"
@@ -8,12 +8,11 @@ import About from "./about/About"
 import Contact from "./contact/Contact"
 import Footer from "./components/Footer"
 import "./App.css"
-import { AOS } from "aos"
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 function App() {
-  useEffect(() => {
-    AOS.init({ duration: 2000 })
-  }, [])
+  Aos.init({ duration: 1000 })
   return (
     <BrowserRouter>
       <Navbar />
