@@ -18,7 +18,11 @@ const Project = ({ project, putProjectInModal }) => {
           </div>
           <h3 onClick={() => putProjectInModal(project)}>{project.title}</h3>
           <p>{project.description}</p>
-          <a target='_blank' href='https://www.google.com' className='btn'>
+          <a
+            target='_blank'
+            href='https://www.google.com'
+            className='btn'
+            rel='noopener noreferrer'>
             Explore
           </a>
         </div>

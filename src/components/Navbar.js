@@ -10,6 +10,13 @@ const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false)
   const [open, setopen] = useState(true)
 
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode)
+    const body = document.querySelector("body")
+    if (darkMode) body.className = "light-mode"
+    else body.className = "dark-mode"
+  }
+
   return (
     <React.Fragment>
       <nav className=''>
@@ -34,7 +41,7 @@ const Navbar = () => {
               Contact
             </Link>
           </div>
-          <button className='toggle-dark-mode'>
+          <button onClick={() => toggleDarkMode()} className='toggle-dark-mode'>
             {darkMode ? (
               <BsSun style={{ height: "1.7rem", width: "1.7rem" }} />
             ) : (
