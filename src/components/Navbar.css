@@ -21,7 +21,7 @@ nav {
   height: 3.2rem !important;
   box-shadow: 0 1px 1px rgba(100, 100, 100, 0.03);
 }
-nav svg {
+nav .menu-icon {
   display: none;
   height: 2.2rem;
   width: 2.2rem;
@@ -87,6 +87,23 @@ nav .nav-items .contact .btn,
   font-weight: 300;
   transition: all 0.5s;
 }
+
+nav .toggle-dark-mode {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-top: 0.4rem;
+  background: #eee;
+  margin-left: 1rem;
+  color: var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  box-shadow: none;
+}
+
 /*Side nav*/
 .side-nav-items {
   z-index: 10;

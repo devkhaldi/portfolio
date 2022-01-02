@@ -3,14 +3,17 @@ import { Link, NavLink } from "react-router-dom"
 import { AiOutlineMenu } from "react-icons/ai"
 import "./Navbar.css"
 import { useState } from "react"
+import { BsMoon, BsSun } from "react-icons/bs"
+import { useEffect } from "react"
 
 const Navbar = () => {
+  const [darkMode, setDarkMode] = useState(false)
   const [open, setopen] = useState(true)
 
   return (
     <React.Fragment>
       <nav className=''>
-        <AiOutlineMenu onClick={() => setopen(!open)} />
+        <AiOutlineMenu className='menu-icon' onClick={() => setopen(!open)} />
         <div className='logo-container'>
           <Link exact to='/'>
             Khaldi
@@ -31,6 +34,13 @@ const Navbar = () => {
               Contact
             </Link>
           </div>
+          <button className='toggle-dark-mode'>
+            {darkMode ? (
+              <BsSun style={{ height: "1.7rem", width: "1.7rem" }} />
+            ) : (
+              <BsMoon style={{ height: "1.7rem", width: "1.7rem" }} />
+            )}
+          </button>
         </div>
       </nav>
       <div className={open ? "side-nav-items" : "side-nav-items open"}>
