@@ -12,16 +12,11 @@ const Project = ({ project, putProjectInModal }) => {
               onClick={() => putProjectInModal(project)}
               src={project.miniImage}
               alt={`${project.title} + ${project.miniImage}`}
-              data-toggle='modal'
-              data-target='#modal-default'
+              // data-toggle='modal'
+              // data-target='#modal-default'
             />
           </div>
-          <h3
-            onClick={() => putProjectInModal(project)}
-            data-toggle='modal'
-            data-target='#modal-default'>
-            {project.title}
-          </h3>
+          <h3 onClick={() => putProjectInModal(project)}>{project.title}</h3>
           <p>{project.description}</p>
           <a target='_blank' href='https://www.google.com' className='btn'>
             Explore
@@ -32,8 +27,8 @@ const Project = ({ project, putProjectInModal }) => {
             onClick={() => putProjectInModal(project)}
             src={project.mainImage}
             alt={`${project.title} + ${project.mainImage}`}
-            data-toggle='modal'
-            data-target='#modal-default'
+            // data-toggle='modal'
+            // data-target='#modal-default'
           />
         </div>
       </div>
