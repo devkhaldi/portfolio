@@ -92,7 +92,6 @@ nav .toggle-dark-mode {
   height: 2.5rem;
   width: 2.5rem;
   margin-top: 0.4rem;
-  background: #eee;
   margin-left: 1rem;
   color: var(--primary-color);
   border-radius: 50%;
@@ -102,6 +101,7 @@ nav .toggle-dark-mode {
   cursor: pointer;
   border: none;
   box-shadow: none;
+  background: inherit;
 }
 
 /*Side nav*/

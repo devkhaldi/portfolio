@@ -7,14 +7,21 @@ import { BsMoon, BsSun } from "react-icons/bs"
 import { useEffect } from "react"
 
 const Navbar = () => {
-  const [darkMode, setDarkMode] = useState(false)
+  const body = document.querySelector("body")
   const [open, setopen] = useState(true)
+  // Get system theme
+  const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)")
+  const [darkMode, setDarkMode] = useState(darkThemeMq.matches)
+  useEffect(() => {
+    // Set system theme
+    if (darkThemeMq.matches === true) body.className = "dark-mode"
+  }, [])
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode)
-    const body = document.querySelector("body")
     if (darkMode) body.className = "light-mode"
     else body.className = "dark-mode"
+    console.log(darkMode)
   }
 
   return (
