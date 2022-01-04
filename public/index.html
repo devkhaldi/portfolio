@@ -33,6 +33,12 @@
     <title>Freelance web developer</title>
   </head>
   <body class="light-mode">
+    <form name="contact" netlify netlify-honeypat="bot-field" action="/" hidden>
+      <input name="yourName" type="text" />
+      <input name="email" type="email" className="form-control" />
+      <input name="yourWebsite" type="text" />
+      <textarea name="generalMessage"></textarea>
+    </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <div id="modal"></div>
