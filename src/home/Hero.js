@@ -9,12 +9,12 @@ const Hero = () => {
       <div className='hero-text'>
         <div className='text-content'>
           <h1>
-            Hi i'm <span>Abde</span>. I'm a frontend devloper, i create amazing
-            SPAs using React
+            Hi i'm <span>Abde</span>. I'm a React devloper,
           </h1>
           <p>
-            Hi. I’m Ian, a freelance Front-end Developer with 12 years
-            commercial experience creating successful websites.
+            My full name is Abderrahim El Khaldi, I create amazing modern and
+            responsive websites using React I have an IT diploma from EST Fez
+            Morocco
           </p>
           <div className='hero-buttons'>
             <Link className='btn' exact to='/portfolio' data-aos='fade-right'>

@@ -1,5 +1,6 @@
 .portfolio-hero {
   margin-top: 3.5rem;
+  padding: 0 2rem;
   width: 100%;
   position: relative;
 }
@@ -46,5 +47,5 @@
 }
 
 .portfolio-hero .hero-illustration img {
-  max-width: 40vw;
+  max-width: 35vw;
 }

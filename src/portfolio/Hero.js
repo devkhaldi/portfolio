@@ -8,10 +8,13 @@ const Hero = () => {
     <section className='portfolio-hero'>
       <div className='hero-text'>
         <div className='text-content'>
-          <h1>Front-end Development Portfolio</h1>
+          <h1>
+            Hi i'm <span>Abde</span>. I'm a React devloper,
+          </h1>
           <p>
-            Succeed online with a website that is fast, easy to use, and built
-            with best practices and a passion for design.
+            My full name is Abderrahim El Khaldi, I create amazing modern and
+            responsive websites using React I have an IT diploma from EST Fez
+            Morocco
           </p>
           <div className='hero-buttons'>
             <Link className='btn' exact to='/portfolio'>
