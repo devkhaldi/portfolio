@@ -1,5 +1,6 @@
 .hero {
   margin-top: 3.5rem;
+  padding: 0 2rem;
   width: 100%;
   position: relative;
 }
@@ -10,8 +11,8 @@
   display: flex;
 }
 .hero .hero-text .text-content {
-  padding-top: 4rem;
-  padding-left: 6rem;
+  padding-top: 2rem;
+  padding-left: 4rem;
 }
 .hero .hero-text h1 {
   color: var(--black);
@@ -46,7 +47,8 @@
 }
 
 .hero .hero-illustration img {
-  max-width: 40vw;
+  margin-top: 1rem;
+  max-width: 35vw;
 }
 /* Hero Cards */
 .hero-cards .cards {
