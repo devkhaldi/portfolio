@@ -28,7 +28,7 @@ const Hero = () => {
         <div
           className='hero-illustration'
           data-aos='fade-down-left'
-          data-aos-duration='3000'>
+          data-aos-duration='500'>
           <img src={illustration} alt='illustration' />
         </div>
       </div>

@@ -42,7 +42,7 @@
   color: white;
 }
 .hero .hero-buttons .btn:nth-child(2) {
-  margin-left: 0.2rem;
+  margin-left: 0.5rem;
   color: var(--primary-color);
 }
 
