@@ -4,7 +4,6 @@ import { AiOutlineMenu } from "react-icons/ai"
 import "./Navbar.css"
 import { useState } from "react"
 import { BsMoon, BsSun } from "react-icons/bs"
-import { useEffect } from "react"
 
 const Navbar = () => {
   const [open, setopen] = useState(true)

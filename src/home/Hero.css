@@ -84,6 +84,8 @@
 .hero .hero-cards .card p {
   color: var(--text-1);
 }
+.hero .hero-cards .header {
+}
 /* Style hero for small devices */
 @media (max-width: 767px) {
   .hero .hero-text {

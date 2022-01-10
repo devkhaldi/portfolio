@@ -33,6 +33,9 @@ const Hero = () => {
         </div>
       </div>
       <div className='hero-cards container'>
+        <div className='header'>
+          <h1>What i can do ?</h1>
+        </div>
         <div className='cards'>
           <div className='card mx-md-3'>
             <div className='img-container'>
@@ -43,10 +46,7 @@ const Hero = () => {
             </div>
             <div className='text-container'>
               <h3>UI,UX design implementation</h3>
-              <p>
-                Responsive websites built for an optimal user experience that
-                achieves your business goals.
-              </p>
+              <p>Convert UI and UX designs </p>
             </div>
           </div>
 
@@ -59,10 +59,10 @@ const Hero = () => {
             </div>
             <div className='text-container'>
               <h3>React apps developement</h3>
-              <p>
+              {/* <p>
                 Make your website fast, easy to find, and reach the widest
                 audience possible.
-              </p>
+              </p> */}
             </div>
           </div>
           <div className='card mx-md-3'>
@@ -74,10 +74,10 @@ const Hero = () => {
             </div>
             <div className='text-container'>
               <h3>APIs Building using Express</h3>
-              <p>
+              {/* <p>
                 Manage your website using the web's most popular content
                 management system.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
