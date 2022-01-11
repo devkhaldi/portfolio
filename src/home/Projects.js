@@ -48,7 +48,7 @@ const projects = [
     miniImage: modernui,
     mainImage: modernui,
     description:
-      "I was the designer and front-end developer for the initial Pet Plate website in 2015 and worked closely with the company as it grew over a period of 5 years, eventually becoming Lead Front-end Developer. By early 2020, Pet Plate had successfully raised a total investment fund of $13 million dollars.",
+      "I created a prototype for a website desing, i used Bootstrap and React for this project ",
   },
   {
     id: 2,
@@ -56,7 +56,7 @@ const projects = [
     miniImage: menaraTravel,
     mainImage: menaraTravel,
     description:
-      "Red Six Media approached me to develop an interactive and smooth front-end experience for the LSU - Football Operations Facility Expansion. The project required solutions to produce a website that matched the detailed designs and interactivity concepts provided by Red Six Media whilst remaining fast to use across a wide range of devices.",
+      "Travel agencies provide conveyance, accomodation and entertaiment for individuals and groups scheduling trips, so i created frontend side for travel agency website using React, React router, Html and CSS",
   },
   {
     id: 3,
@@ -64,7 +64,7 @@ const projects = [
     miniImage: soundTrap,
     mainImage: soundTrap,
     description:
-      "CSS3 Foundations is a book I wrote in 2012 guiding readers through the process of using CSS3 features and techniques to take a basic website template and turn it into a real-world, modern and future proof website. It was published in paperback and digital formats by Wiley and later translated to Chinese. It was well received with a review score of 4.5 out of 5 on Amazon.",
+      "I Created clone landing page for Sountrap website using Html CSS flexbox grid and javascript, this landing page is compatible for all types of devices and screens",
   },
 ]
 
