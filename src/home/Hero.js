@@ -33,9 +33,6 @@ const Hero = () => {
         </div>
       </div>
       <div className='hero-cards container'>
-        <div className='header'>
-          <h1>What i can do ?</h1>
-        </div>
         <div className='cards'>
           <div className='card mx-md-3'>
             <div className='img-container'>
@@ -45,8 +42,11 @@ const Hero = () => {
               />
             </div>
             <div className='text-container'>
-              <h3>UI,UX design implementation</h3>
-              <p>Convert UI and UX designs </p>
+              <h3>Implement UI and UX designs</h3>
+              <p>
+                Convert website design to pixel perfect to Html and CSS pages or
+                React components
+              </p>
             </div>
           </div>
 
@@ -58,11 +58,11 @@ const Hero = () => {
               />
             </div>
             <div className='text-container'>
-              <h3>React apps developement</h3>
-              {/* <p>
-                Make your website fast, easy to find, and reach the widest
-                audience possible.
-              </p> */}
+              <h3>React apps development and data management</h3>
+              <p>
+                I'm able to SPA using React-Router and efficiently manage
+                components data using Context or Redux
+              </p>
             </div>
           </div>
           <div className='card mx-md-3'>
@@ -73,11 +73,11 @@ const Hero = () => {
               />
             </div>
             <div className='text-container'>
-              <h3>APIs Building using Express</h3>
-              {/* <p>
-                Manage your website using the web's most popular content
-                management system.
-              </p> */}
+              <h3>Working with team</h3>
+              <p>
+                I have the ability to work within developers team, i know how to
+                use version control systems and tools like slack
+              </p>
             </div>
           </div>
         </div>
