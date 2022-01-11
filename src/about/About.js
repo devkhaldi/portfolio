@@ -1,11 +1,11 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './About.css'
+import React from "react"
+import { Link } from "react-router-dom"
+import "./About.css"
 
 const About = () => {
   return (
     <section className='about'>
-      <h1>About El khaldi</h1>
+      <h1>Here's my story</h1>
       <div className='intro'>
         <div className='img-text'>
           <img
@@ -14,65 +14,26 @@ const About = () => {
           />
           <div className='text'>
             <p>
-              I am a Front-end Developer with 12 years commercial experience, author of CSS3 Foundations, and graduate
-              of Internet Technology. I create successful websites that are fast, easy to use, and built with best
-              practices.
+              I'm Abde, I' m a frontend developer , my mission is to translate
+              modern, simple or complicated designs into pixel perfect websites
+              or applications that run extermly fast.
             </p>
             <p>
-              My main experience is in front-end development but I also have a passion for design. Given that producing
-              a modern website requires the combination of design, server technology, and the layer that users interacts
-              with, I believe having experience in both design and development allows for making the most optimal user
-              experiences.
+              I have a computer science diploma, i understand the big image of
+              web developement from database design to deployement, and also i
+              have great problem solving skills and the ability to learn new
+              technologies faster.
+            </p>
+            <p>
+              My main experience is frontend developement but i also have
+              passion for backend developement using Laravel and node, i belive
+              having experience in backend also make me better frontend
+              developer.
             </p>
           </div>
         </div>
       </div>
-      <div className='skills'>
-        <div className='first-row'>
-          <div className='skill-card'>
-            <img src='https://miro.medium.com/max/792/1*lJ32Bl-lHWmNMUSiSq17gQ.png' alt='' />
-            <div className='skill-text'>
-              <h3>Lorem, ipsum dolor</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit numquam quos quo praesentium architecto,
-                explicabo quae iste tempore sed vel!
-              </p>
-            </div>
-          </div>
-          <div className='skill-card'>
-            <img src='https://miro.medium.com/max/792/1*lJ32Bl-lHWmNMUSiSq17gQ.png' alt='' />
-            <div className='skill-text'>
-              <h3>Lorem, ipsum dolor</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit numquam quos quo praesentium architecto,
-                explicabo quae iste tempore sed vel!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className='second-row'>
-          <div className='skill-card'>
-            <img src='https://miro.medium.com/max/792/1*lJ32Bl-lHWmNMUSiSq17gQ.png' alt='' />
-            <div className='skill-text'>
-              <h3>Lorem, ipsum dolor</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit numquam quos quo praesentium architecto,
-                explicabo quae iste tempore sed vel!
-              </p>
-            </div>
-          </div>
-          <div className='skill-card'>
-            <img src='https://miro.medium.com/max/792/1*lJ32Bl-lHWmNMUSiSq17gQ.png' alt='' />
-            <div className='skill-text'>
-              <h3>Lorem, ipsum dolor</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit numquam quos quo praesentium architecto,
-                explicabo quae iste tempore sed vel!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+
       <div className='getintouch'>
         <Link className='btn' exact to='/contact'>
           Get in touch
