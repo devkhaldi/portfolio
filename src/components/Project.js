@@ -5,7 +5,7 @@ import "./Project.css"
 const Project = ({ project, putProjectInModal }) => {
   return (
     <React.Fragment>
-      <div className='project' data-aos='fade-up'>
+      <div className='project' data-aos='fade-up' data-aos-once='true'>
         <div className='project-info col-lg-4 mx-md-2'>
           <div className='img-container'>
             <img

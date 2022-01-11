@@ -2,6 +2,7 @@ import React from "react"
 import "./Hero.css"
 import illustration from "../img/undraw_programming.svg"
 import { Link } from "react-router-dom"
+import cardsWave from "../img/cardsWave.svg"
 
 const Hero = () => {
   return (
@@ -82,6 +83,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <img className='hero-wave' src={cardsWave} alt='cardsWave' />
     </section>
   )
 }
