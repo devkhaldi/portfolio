@@ -2,10 +2,13 @@ footer {
   color: var(--text-1);
   padding: 3rem;
   padding-bottom: 1rem;
+  padding-top: 0rem;
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
-  background: var(--white);
+  background: #eee;
   /* border-top: solid 1px var(--primary-color); */
+  position: relative;
 }
 footer .footer-content {
   display: flex;
@@ -79,6 +82,19 @@ footer .portfolio-links .portfolio-link a {
 footer .copyright-section {
   text-align: center;
   margin-top: 3rem;
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  left: -10%;
+  z-index: -1;
+  top: -2.5rem;
+  height: 11rem;
+  background: #eee;
+  display: block;
+  transform: rotateZ(-3deg);
 }
 
 /* Footer For small devices */

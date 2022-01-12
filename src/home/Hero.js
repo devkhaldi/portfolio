@@ -76,8 +76,8 @@ const Hero = () => {
             <div className='text-container'>
               <h3>Working with team</h3>
               <p>
-                I have the ability to work within developers team, i know how to
-                use version control systems and tools like slack
+                I have the ability to work within team, i know how to use
+                version control systems and tools like slack
               </p>
             </div>
           </div>
