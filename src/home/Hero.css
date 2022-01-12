@@ -26,15 +26,16 @@
 }
 .hero .hero-text p {
   color: var(--text-1);
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   font-weight: 300;
-  line-height: 2rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.9px;
 }
 .hero .hero-buttons {
   margin-top: 2rem;
 }
 .hero .hero-buttons .btn {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.8rem;
   border: 2px solid var(--primary-color);
 }
 .hero .hero-buttons .btn:nth-child(1) {
@@ -42,7 +43,7 @@
   color: white;
 }
 .hero .hero-buttons .btn:nth-child(2) {
-  margin-left: 0.5rem;
+  margin-left: 0.25rem;
   color: var(--primary-color);
 }
 

@@ -9,7 +9,7 @@ const Hero = () => {
       <div className='hero-text'>
         <div className='text-content'>
           <h1>
-            Hi i'm <span>Abde</span>. I'm a React devloper,
+            Hi i'm <span>Abde</span>. I'm a React devloper.
           </h1>
           <p>
             My full name is Abderrahim El Khaldi, I create amazing modern and
