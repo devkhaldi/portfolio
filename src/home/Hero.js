@@ -3,6 +3,9 @@ import "./Hero.css"
 import illustration from "../img/undraw_programming.svg"
 import { Link } from "react-router-dom"
 import cardsWave from "../img/cardsWave.svg"
+import { AiOutlineTeam } from "react-icons/ai"
+import { AiOutlineAntDesign } from "react-icons/ai"
+import { SiRedux } from "react-icons/si"
 
 const Hero = () => {
   return (
@@ -34,10 +37,7 @@ const Hero = () => {
         <div className='cards'>
           <div className='card mx-md-3'>
             <div className='img-container'>
-              <img
-                src='https://ianlunn.co.uk/static/0fe210187ee16bce95bb97c7ab3db41b/98c70/feature__web.webp'
-                alt=''
-              />
+              <AiOutlineAntDesign size='8rem' />
             </div>
             <div className='text-container'>
               <h3>Implement UI and UX designs</h3>
@@ -50,10 +50,7 @@ const Hero = () => {
 
           <div className='card mx-md-3'>
             <div className='img-container'>
-              <img
-                src='https://ianlunn.co.uk/static/54f14637ec376524313424344767614c/98c70/feature__tools.webp'
-                alt=''
-              />
+              <SiRedux size='8rem' />
             </div>
             <div className='text-container'>
               <h3>React apps development and data management</h3>
@@ -65,10 +62,7 @@ const Hero = () => {
           </div>
           <div className='card mx-md-3'>
             <div className='img-container'>
-              <img
-                src='https://ianlunn.co.uk/static/fcaac44c20804fb66461aed9d410badd/98c70/feature__wp.webp'
-                alt=''
-              />
+              <AiOutlineTeam size='8rem' />
             </div>
             <div className='text-container'>
               <h3>Working with team</h3>
