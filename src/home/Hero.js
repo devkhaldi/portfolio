@@ -62,7 +62,7 @@ const Hero = () => {
           </div>
           <div className='card mx-md-3'>
             <div className='img-container'>
-              <AiOutlineTeam size='8rem' />
+              <AiOutlineTeam size='9rem' />
             </div>
             <div className='text-container'>
               <h3>Working with team</h3>
