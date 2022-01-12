@@ -7,12 +7,12 @@
 
 /*Hero Text */
 .portfolio-hero .hero-text {
-  padding: 2rem 0;
+  padding: 1rem 0;
   display: flex;
 }
 .portfolio-hero .hero-text .text-content {
-  padding-top: 3rem;
-  padding-left: 6rem;
+  padding-top: 2rem;
+  padding-left: 4rem;
 }
 .portfolio-hero .hero-text h1 {
   color: var(--black);
@@ -26,15 +26,16 @@
 }
 .portfolio-hero .hero-text p {
   color: var(--text-1);
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   font-weight: 300;
-  line-height: 2rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.9px;
 }
 .portfolio-hero .hero-buttons {
   margin-top: 2rem;
 }
 .portfolio-hero .hero-buttons .btn {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.8rem;
   border: 2px solid var(--primary-color);
 }
 .portfolio-hero .hero-buttons .btn:nth-child(1) {
