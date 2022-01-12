@@ -79,11 +79,10 @@ nav .nav-items .contact .btn,
   color: var(--primary-color);
   border: solid 2px var(--primary-color);
   font-size: 1.2rem;
-  /* border-radius: 3rem; */
-  border-radius: 0 !important;
+  border-radius: 0.5rem;
   margin-top: 0.4rem;
   margin-left: 0.75rem;
-  padding: 0.25rem 1.5rem;
+  padding: 0.25rem 1rem;
   font-weight: 300;
   transition: all 0.5s;
 }
