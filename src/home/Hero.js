@@ -18,18 +18,15 @@ const Hero = () => {
             Morocco
           </p>
           <div className='hero-buttons'>
-            <Link className='btn' exact to='/portfolio' data-aos='fade-right'>
+            <Link className='btn' exact to='/portfolio'>
               View projects
             </Link>
-            <Link className='btn' exact to='/contact' data-aos='fade-left'>
+            <Link className='btn' exact to='/contact'>
               Contact
             </Link>
           </div>
         </div>
-        <div
-          className='hero-illustration'
-          data-aos='fade-down-left'
-          data-aos-duration='500'>
+        <div className='hero-illustration'>
           <img src={illustration} alt='illustration' />
         </div>
       </div>

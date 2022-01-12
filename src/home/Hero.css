@@ -11,8 +11,8 @@
   display: flex;
 }
 .hero .hero-text .text-content {
-  padding-top: 2rem;
-  padding-left: 4rem;
+  padding-top: 1.5rem;
+  padding-left: 3rem;
 }
 .hero .hero-text h1 {
   color: var(--black);
@@ -48,7 +48,6 @@
 }
 
 .hero .hero-illustration img {
-  margin-top: 1rem;
   max-width: 35vw;
 }
 /* Hero Cards */

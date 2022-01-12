@@ -11,8 +11,8 @@
   display: flex;
 }
 .portfolio-hero .hero-text .text-content {
-  padding-top: 2rem;
-  padding-left: 4rem;
+  padding-top: 1.5rem;
+  padding-left: 3rem;
 }
 .portfolio-hero .hero-text h1 {
   color: var(--black);
