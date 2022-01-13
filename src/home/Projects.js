@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import Project from "../components/Project"
-import { MdKeyboardArrowRight } from "react-icons/md"
 import "./Projects.css"
 import covidTracker from "../img/covidtracker.png"
 import dolla from "../img/dolla.png"
@@ -23,9 +22,8 @@ const Projects = () => {
           ))}
         </div>
         <div className='btn-container'>
-          <Link exact to='/contact' className='btn'>
-            Get In Touch
-            <MdKeyboardArrowRight />
+          <Link exact to='/portfolio' className='btn'>
+            View more
           </Link>
         </div>
       </section>
