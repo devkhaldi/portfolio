@@ -59,7 +59,7 @@
   color: var(--text-1);
   border: none;
   border-radius: 0;
-  padding: 1.6rem 1rem;
+  padding: 0.5rem 0.5rem;
   font-size: 1.2rem;
   box-shadow: none !important;
   position: relative;
@@ -77,8 +77,8 @@
 
 .contact-page .contact-content button {
   margin: 2rem 0;
-  padding: 0.7rem 1rem;
-  border-radius: 0;
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.5rem;
   font-size: 1rem;
   color: white;
   background: var(--primary-color);
