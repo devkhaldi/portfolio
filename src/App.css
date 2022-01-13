@@ -60,6 +60,7 @@
   --form-input-bg: #fff;
   --form-input-placeholder: #888;
   --shadow: 0 0 100px rgba(150, 150, 150, 0.5);
+  --footer-bg: #f5f5f5;
 }
 
 .dark-mode {
@@ -79,6 +80,7 @@
   --form-input-bg: #222;
   --form-input-placeholder: #ddd;
   --shadow: 0 0 100px rgba(150, 150, 150, 0.5);
+  --footer-bg: #000;
 }
 
 body {

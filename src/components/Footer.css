@@ -1,4 +1,6 @@
 footer {
+  background: var(--footer-bg);
+
   color: var(--text-1);
   padding: 3rem;
   padding-bottom: 1rem;
@@ -6,8 +8,6 @@ footer {
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
-  background: #eee;
-  /* border-top: solid 1px var(--primary-color); */
   position: relative;
 }
 footer .footer-content {
@@ -87,12 +87,12 @@ footer .copyright-section {
 footer::before {
   content: "";
   position: absolute;
+  background: var(--footer-bg);
   width: 120%;
   left: -10%;
   z-index: -1;
   top: -2.5rem;
   height: 11rem;
-  background: #eee;
   display: block;
   transform: rotateZ(-3deg);
 }
