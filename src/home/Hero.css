@@ -98,35 +98,32 @@
 }
 
 /* Style hero for small devices */
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .hero .hero-text {
     display: flex;
-    flex-direction: column;
-  }
-  .hero .hero-text {
-    text-align: center;
+    flex-direction: column-reverse;
     padding: 2rem 0;
+    text-align: center;
+  }
+  .hero .hero-text .text-content {
+    text-align: center;
   }
   .hero .hero-text h1 {
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin-bottom: 1rem;
   }
   .hero .hero-text p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 200;
-    width: 80%;
-    line-height: 1.5rem;
+    width: 70%;
+    margin: 0 auto;
   }
-  .hero-cards .cards {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 1rem;
+  .hero .hero-text h1 {
+    font-weight: 200;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
   }
-}
-
-@media (max-width: 1000px) {
   .hero-cards .cards {
     flex-wrap: wrap;
   }
@@ -143,5 +140,15 @@
   }
   .hero-cards .cards .card h3 {
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-cards .cards {
+    align-items: center;
+    padding: 1rem;
+  }
+  .hero .hero-text p {
+    width: 90%;
   }
 }

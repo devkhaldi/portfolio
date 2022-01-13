@@ -143,7 +143,7 @@ nav .toggle-dark-mode {
   nav .logo-container {
     margin: 0 auto;
   }
-  nav svg {
+  nav .menu-icon {
     display: block;
   }
   .side-nav-items {
