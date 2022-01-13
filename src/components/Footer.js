@@ -15,28 +15,32 @@ const Footer = () => {
             />
           </div>
           <div className='about-content'>
-            I am a Front-end Developer with 12 years commercial experience,
-            author of CSS3 Foundations, and graduate of Internet Technology. I
-            create successful websites that are fast, easy to use, and built
-            with best practices.
+            My full name is Abderrahim El Khaldi, I create amazing modern and
+            responsive websites using React I have an IT diploma from EST Fez
+            Morocco. My mission is to translate modern, simple or complicated
+            designs into pixel perfect websites or applications that run
+            extermly fast.
           </div>
         </div>
         <div className='links'>
           <div className='social-links'>
             <div className='social-link'>
-              <a href='#'>
+              <a
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://github.com/devkhaldi'>
                 <FaGithub />
-                <span>GITHUB</span>
+                <span>Github</span>
               </a>
-              <span>
-                Follow for open-source projects such as Hover.css, Sequence.js,
-                and jQuery Parallax
-              </span>
+              <span>Follow to see projects source code and more.</span>
             </div>
             <div className='social-link'>
-              <a href='#'>
+              <a
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://www.linkedin.com/in/abderrahim-el-khaldi-744b72194/'>
                 <FaLinkedinIn />
-                <span>LINKEDIN</span>
+                <span>Linkedin</span>
               </a>
               <span>Let's connect on LinkedIn</span>
             </div>
@@ -44,27 +48,27 @@ const Footer = () => {
           <div className='portfolio-links'>
             <div className='portfolio-link'>
               <Link exact to='/about'>
-                ABOUT
+                About
               </Link>
-              <span>Learn about Ian's skills and workflow</span>
+              <span>Learn more about me </span>
             </div>
             <div className='portfolio-link'>
               <Link exact to='/portfolio'>
-                PORTFOLIO
+                Portfolio
               </Link>
-              <span>View Ian's previous work</span>
+              <span>View Abde's previous work</span>
             </div>
             <div className='portfolio-link'>
               <Link exact to='/portfolio'>
-                CONTACT
+                Contact
               </Link>
-              <span>Send a generale message</span>
+              <span>Send a general message</span>
             </div>
           </div>
         </div>
       </div>
       <div className='copyright-section'>
-        Copyright © 2021 Ian Lunn Design Limited
+        Copyright © 2022 Abderrahim El khaldi
       </div>
     </footer>
   )

@@ -60,7 +60,7 @@
   --form-input-bg: #fff;
   --form-input-placeholder: #888;
   --shadow: 0 0 100px rgba(150, 150, 150, 0.5);
-  --footer-bg: #f5f5f5;
+  --footer-bg: #f8f8f8;
 }
 
 .dark-mode {
@@ -106,17 +106,18 @@ input {
 /*Custom scroll bar */
 /* width */
 ::-webkit-scrollbar {
-  width: 2px;
+  width: 3px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #eee;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #aaa;
+  border-radius: 10px;
+  background: var(--primary-color);
 }
 
 /* Handle on hover */

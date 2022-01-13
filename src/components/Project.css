@@ -15,10 +15,9 @@
 }
 
 .project .project-info h3 {
-  font-size: 2rem;
-  font-weight: 200;
+  font-size: 1.8rem;
+  font-weight: 400;
   color: var(--primary-color);
-  margin: 1rem 0;
 }
 
 .project .project-info .btns .btn:nth-child(1) {
