@@ -1,8 +1,15 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Link } from "react-router-dom"
 import "./About.css"
 
 const About = () => {
+  useEffect(() => {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    })
+  }, [])
   return (
     <section className='about'>
       <h1>Here's my story</h1>
