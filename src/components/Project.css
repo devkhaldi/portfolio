@@ -11,38 +11,38 @@
 }
 .project .project-info img {
   width: 100%;
-  cursor: pointer;
-  transition: 0.5s ease;
-}
-.project .project-info .img-container:hover img {
-  transform: scale(1.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .project .project-info h3 {
   font-size: 2rem;
+  font-weight: 200;
   color: var(--primary-color);
   margin: 1rem 0;
 }
-.project .project-info h3:hover {
-  cursor: pointer;
+
+.project .project-info .btns .btn:nth-child(1) {
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  border: solid 2px var(--primary-color);
+  background: var(--primary-color);
+  margin-right: 0.3rem;
 }
-
-.project .project-info .btn {
+.project .project-info .btns .btn:nth-child(2) {
   color: var(--primary-color);
-  padding: 0.8rem 1.5rem;
-
+  padding: 0.5rem 1rem;
   border: solid 2px var(--primary-color);
 }
 
 .project .project-info p {
   margin: 2rem 0;
-  font-size: 1.2rem;
-  font-weight: 200;
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
 .project .project-preview img {
   width: 100%;
-  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 1000px) {
