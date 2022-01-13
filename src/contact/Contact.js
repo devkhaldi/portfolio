@@ -47,7 +47,7 @@ const Contact = () => {
                 name='generalMessage'
                 id='generalMessage'
                 cols='30'
-                rows='5'
+                rows='10'
                 className='form-control'></textarea>
             </div>
             <button type='submit' className='btn'>
@@ -57,17 +57,18 @@ const Contact = () => {
         </div>
       </div>
       <div className='contact-about'>
-        <h2>About El khaldi</h2>
+        <h2>About Abde</h2>
         <div className='contact-info'>
           <img
             src='https://ianlunn.co.uk/static/091e12342fbe6aaa7cd88318022139b7/9f4ce/avatar-small%402x.webp'
             alt=''
           />
           <span>
-            I am a Front-end Developer with 12 years commercial experience,
-            author of CSS3 Foundations, and graduate of Internet Technology. I
-            create successful websites that are fast, easy to use, and built
-            with best practices.
+            My full name is Abderrahim El Khaldi, I create amazing modern and
+            responsive websites using React I have an IT diploma from EST Fez
+            Morocco. My mission is to translate modern, simple or complicated
+            designs into pixel perfect websites or applications that run
+            extermly fast.
           </span>
         </div>
 
