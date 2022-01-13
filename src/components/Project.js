@@ -7,7 +7,7 @@ import { AiOutlineGithub } from "react-icons/ai"
 const Project = ({ project }) => {
   return (
     <React.Fragment>
-      <div className='project' data-aos='fade-up' data-aos-once='true'>
+      <div className='project'>
         <div className='project-info col-lg-4 mx-md-2'>
           <div className='img-container'>
             <img

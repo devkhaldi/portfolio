@@ -54,6 +54,7 @@
   --white: #fff;
   --black: #000;
   --text-1: #000;
+  --text-2: #3d009e;
   --navbar-bg: rgba(255, 255, 255, 0.85);
   --side-navbar-bg: #fff;
   --side-navbar-bg-active: #fafafa;
@@ -70,17 +71,18 @@
   /* --bg-1: #1e293b;
   --bg-2: #222; */
   --bg-1: #000;
-  --bg-2: #222;
-  --white: #252525;
+  --bg-2: #000;
+  --white: #111;
   --black: #fff;
-  --text-1: #9ca3af;
+  --text-1: #fff;
+  --text-2: #fff;
   --navbar-bg: rgba(0, 0, 0, 0.7);
   --side-navbar-bg: #333;
   --side-navbar-bg-active: #444;
   --form-input-bg: #222;
   --form-input-placeholder: #ddd;
   --shadow: 0 0 100px rgba(150, 150, 150, 0.5);
-  --footer-bg: #000;
+  --footer-bg: #222;
 }
 
 body {
@@ -111,7 +113,7 @@ input {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #eee;
+  background: var(--white);
 }
 
 /* Handle */
