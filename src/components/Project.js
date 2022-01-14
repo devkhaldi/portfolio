@@ -1,8 +1,5 @@
 import React from "react"
-import { Link } from "react-router-dom"
 import "./Project.css"
-import { CgWebsite } from "react-icons/cg"
-import { AiOutlineGithub } from "react-icons/ai"
 
 const Project = ({ project }) => {
   return (

@@ -1,7 +1,6 @@
-import React, { useState } from "react"
+import React from "react"
 import { Link } from "react-router-dom"
 import Project from "../components/Project"
-// import ProjectModal from "../components/ProjectModal"
 import covidTracker from "../img/covidtracker.png"
 import dolla from "../img/dolla.png"
 import menaraTravel from "../img/menaraTravel.png"
@@ -10,8 +9,6 @@ import soundTrap from "../img/soundTrap.png"
 import wildfiremap from "../img/wildfiremap.png"
 
 const Projects = () => {
-  // const [selectedProject, setselectedProject] = useState(projects[0])
-  // const putProjectInModal = project => setselectedProject(project)
   return (
     <React.Fragment>
       {/* <ProjectModal project={selectedProject} /> */}

@@ -1,13 +1,10 @@
-import React, { useState } from "react"
+import React from "react"
 import { Link } from "react-router-dom"
 import Project from "../components/Project"
 import "./Projects.css"
-import covidTracker from "../img/covidtracker.png"
-import dolla from "../img/dolla.png"
 import menaraTravel from "../img/menaraTravel.png"
 import modernui from "../img/modernui.png"
 import soundTrap from "../img/soundTrap.png"
-import wildfiremap from "../img/wildfiremap.png"
 
 const Projects = () => {
   return (
