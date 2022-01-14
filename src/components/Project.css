@@ -21,17 +21,16 @@
 }
 
 .project .project-info .btns .btn:nth-child(1) {
-  color: var(--white);
+  color: var(--text-2);
   padding: 0.5rem 1rem;
-  border: solid 2px var(--primary-color);
-  background: var(--primary-color);
+  border: solid 2px var(--text-2);
   margin-right: 0.3rem;
 }
-.project .project-info .btns .btn:nth-child(2) {
+/* .project .project-info .btns .btn:nth-child(2) {
   color: var(--primary-color);
   padding: 0.5rem 1rem;
   border: solid 2px var(--primary-color);
-}
+} */
 
 .project .project-info p {
   margin: 2rem 0;
@@ -41,7 +40,7 @@
 
 .project .project-preview img {
   width: 100%;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 1000px) {

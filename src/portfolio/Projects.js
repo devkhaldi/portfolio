@@ -37,7 +37,7 @@ const projects = [
     url: "https://storage-ui.netlify.app/",
     sourceCode: "https://github.com/devkhaldi/Test-Front-END",
     description:
-      "I created a prototype for a website desing, i used Bootstrap and React for this project ",
+      "Online storage applications are a good solution for companies to store and share data, in this project i converted the main page of storage app to an actual react application, i used React and bootstrap for this project.",
   },
   {
     id: 2,

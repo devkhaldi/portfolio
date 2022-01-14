@@ -37,7 +37,7 @@ const projects = [
     url: "https://storage-ui.netlify.app/",
     sourceCode: "https://github.com/devkhaldi/Test-Front-END",
     description:
-      "I created a prototype for a website desing, i used Bootstrap and React for this project ",
+      "Online storage applications are a good solution for companies to store and share data, in this project i converted the main page of storage app to an actual react application, i used React and bootstrap for this project.",
   },
   {
     id: 2,
@@ -47,7 +47,7 @@ const projects = [
     url: "https://menara.netlify.app/",
     sourceCode: "https://github.com/devkhaldi/Travel-Agency",
     description:
-      "Travel agencies provide conveyance, accomodation and entertaiment for individuals and groups scheduling trips, so i created frontend side for travel agency website using React, React router, Html and CSS",
+      "Travel agencies provide conveyance, accomodation and entertaiment for individuals and groups scheduling trips, so i created frontend side for a travel agency website using React, React router, Html and CSS",
   },
   {
     id: 3,

@@ -22,15 +22,15 @@ const Project = ({ project }) => {
               href={project.url}
               className='btn'
               rel='noopener noreferrer'>
-              Link
+              Visit website
             </a>
-            <a
+            {/* <a
               target='_blank'
               href={project.sourceCode}
               className='btn'
               rel='noopener noreferrer'>
               Source code
-            </a>
+            </a> */}
           </div>
         </div>
         <div className='project-preview col-lg-8 mx-md-2'>

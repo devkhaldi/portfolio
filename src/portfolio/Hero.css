@@ -50,3 +50,38 @@
 .portfolio-hero .hero-illustration img {
   max-width: 35vw;
 }
+
+/* Style hero for small devices */
+@media (max-width: 1000px) {
+  .portfolio-hero .hero-text {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  .portfolio-hero .hero-text .text-content {
+    text-align: center;
+  }
+  .portfolio-hero .hero-text h1 {
+    font-weight: 200;
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+  }
+  .portfolio-hero .hero-text p {
+    font-size: 1.4rem;
+    font-weight: 200;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .portfolio-hero .hero-text h1 {
+    font-weight: 200;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .portfolio-hero .hero-text p {
+    width: 90%;
+  }
+}

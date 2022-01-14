@@ -108,11 +108,12 @@ nav .toggle-dark-mode {
   z-index: 10;
   display: none;
   position: fixed;
-  top: 4rem;
+  top: 3rem;
   width: 17rem;
   background: var(--side-navbar-bg);
-  height: calc(100% - 4rem);
+  height: calc(100% - 3rem);
   transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  z-index: 9;
 }
 .side-nav-items .nav-item {
   width: 100%;
