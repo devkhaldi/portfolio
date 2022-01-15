@@ -1,12 +1,13 @@
 import React, { useEffect } from "react"
 import "./Contact.css"
+import myPhoto from "../img/myphoto.jpg"
 
 const Contact = () => {
   useEffect(() => {
     window.scroll({
       top: 0,
       left: 0,
-      behavior: "smooth",
+      behavior: "instant",
     })
   }, [])
   return (
@@ -66,10 +67,7 @@ const Contact = () => {
       <div className='contact-about'>
         <h2>About Abde</h2>
         <div className='contact-info'>
-          <img
-            src='https://ianlunn.co.uk/static/091e12342fbe6aaa7cd88318022139b7/9f4ce/avatar-small%402x.webp'
-            alt=''
-          />
+          <img src={myPhoto} alt='myPhoto' />
           <span>
             My full name is Abderrahim El Khaldi, I create amazing modern and
             responsive websites using React I have an IT diploma from EST Fez

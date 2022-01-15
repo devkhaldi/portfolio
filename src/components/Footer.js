@@ -2,6 +2,7 @@ import React from "react"
 import { FaLinkedinIn, FaGithub } from "react-icons/fa"
 import { Link } from "react-router-dom"
 import "./Footer.css"
+import myPhoto from "../img/myphoto.jpg"
 
 const Footer = () => {
   return (
@@ -9,10 +10,7 @@ const Footer = () => {
       <div className='footer-content'>
         <div className='about'>
           <div className='img-container'>
-            <img
-              src='https://ianlunn.co.uk/static/091e12342fbe6aaa7cd88318022139b7/9f4ce/avatar-small%402x.webp'
-              alt=''
-            />
+            <img src={myPhoto} alt='myphoto' />
           </div>
           <div className='about-content'>
             My full name is Abderrahim El Khaldi, I create amazing modern and

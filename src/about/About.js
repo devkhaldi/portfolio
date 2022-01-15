@@ -1,13 +1,14 @@
 import React, { useEffect } from "react"
 import { Link } from "react-router-dom"
 import "./About.css"
+import myPhoto from "../img/myphoto.jpg"
 
 const About = () => {
   useEffect(() => {
     window.scroll({
       top: 0,
       left: 0,
-      behavior: "smooth",
+      behavior: "instant",
     })
   }, [])
   return (
@@ -15,10 +16,7 @@ const About = () => {
       <h1>Here's my story</h1>
       <div className='intro'>
         <div className='img-text'>
-          <img
-            src='https://ianlunn.co.uk/static/091e12342fbe6aaa7cd88318022139b7/9f4ce/avatar-small%402x.webp'
-            alt=''
-          />
+          <img src={myPhoto} alt='myPhoto' />
           <div className='text'>
             <p>
               I'm Abde, I' m a frontend developer , my mission is to translate

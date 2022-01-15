@@ -61,7 +61,7 @@
   background: var(--white);
   border: none;
   border-radius: 0.5rem;
-  box-shadow: 0 -8px 10px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 0px 60px rgba(0, 0, 0, 0.075);
   padding: 2rem;
   text-align: center;
   display: flex;
@@ -96,6 +96,13 @@
   bottom: -2rem;
   /* transform: rotateZ(2deg); */
 }
+/* Change first and third card position
+.hero .hero-cards .card:nth-child(1) {
+  transform: translateY(-2rem);
+}
+.hero .hero-cards .card:nth-child(3) {
+  transform: translateY(2rem);
+} */
 
 /* Style hero for small devices */
 @media (max-width: 1000px) {

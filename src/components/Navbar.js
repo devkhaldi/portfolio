@@ -69,7 +69,7 @@ const Navbar = () => {
           About
         </NavLink>
         <div className='contact'>
-          <Link className='btn' exact to='/getinTouch'>
+          <Link className='btn' exact to='/contact'>
             Contact
           </Link>
         </div>

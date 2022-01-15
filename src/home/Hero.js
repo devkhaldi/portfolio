@@ -39,7 +39,7 @@ const Hero = () => {
             <div className='img-container'>
               <AiOutlineAntDesign size='8rem' />
             </div>
-            <div className='text-container'>
+            <div className='text-container' npm>
               <h3>Implement UI and UX designs</h3>
               <p>
                 Convert website design to pixel perfect Html and CSS pages or
