@@ -37,7 +37,7 @@ const projects = [
     url: "https://storage-ui.netlify.app/",
     sourceCode: "https://github.com/devkhaldi/Test-Front-END",
     description:
-      "Online storage applications are a good solution for companies to store and share data, in this project i converted the main page of storage app to an actual react application, i used React and bootstrap for this project.",
+      "Online storage applications are a good solution for companies to store and share data, in this project I converted the main page of storage app to an actual react application, I used React and bootstrap for this project.",
   },
   {
     id: 2,
@@ -47,7 +47,7 @@ const projects = [
     url: "https://menara.netlify.app/",
     sourceCode: "https://github.com/devkhaldi/Travel-Agency",
     description:
-      "Travel agencies provide conveyance, accomodation and entertaiment for individuals and groups scheduling trips, so i created frontend side for a travel agency website using React, React router, Html and CSS",
+      "Online storage applications are a good solution for companies to store and share data, in this project I converted the main page of storage app to an actual react application, I used React and bootstrap for this project.",
   },
   {
     id: 3,
@@ -57,7 +57,7 @@ const projects = [
     url: "https://soundtrap.netlify.app/",
     sourceCode: "https://github.com/devkhaldi/Music-Landing-Page",
     description:
-      "I Created clone landing page for Sountrap website using Html CSS flexbox grid and javascript, this landing page is compatible for all types of devices and screens",
+      "I created clone landing page for SoundTrap website using HTML CSS Flexbox grid and JavaScript, this landing page is compatible for all types of devices and screens.",
   },
 ]
 

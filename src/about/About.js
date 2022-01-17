@@ -19,19 +19,19 @@ const About = () => {
           <img src={myPhoto} alt='myPhoto' />
           <div className='text'>
             <p>
-              I'm Abde, I' m a frontend developer , my mission is to translate
+              I'm Abde, I'm a frontend developer, my mission is to translate
               modern, simple or complicated designs into pixel perfect websites
-              or applications that run extermly fast.
+              or applications that run extremely fast.
             </p>
             <p>
-              I have a computer science diploma, i understand the big image of
-              web developement from database design to deployement, and also i
-              have great problem solving skills and the ability to learn new
+              I have a computer science diploma, I understand the big image of
+              web development from database design to deployment, and also i
+              have great problem-solving skills and the ability to learn new
               technologies faster.
             </p>
             <p>
-              My main experience is frontend developement but i also have
-              passion for backend developement using Laravel and node, i belive
+              My main experience is frontend development, but I also have
+              passion for backend development using Laravel and node, I believe
               having experience in backend also make me better frontend
               developer.
             </p>

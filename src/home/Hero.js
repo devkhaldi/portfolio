@@ -17,8 +17,8 @@ const Hero = () => {
           </h1>
           <p>
             My full name is Abderrahim El Khaldi, I create amazing modern and
-            responsive websites using React I have an Information Technology
-            diploma from EST Fez Morocco
+            responsive websites using React, I have an Information Technology
+            diploma from EST Fez, Morocco
           </p>
           <div className='hero-buttons'>
             <Link className='btn' exact to='/portfolio'>
@@ -42,7 +42,7 @@ const Hero = () => {
             <div className='text-container' npm>
               <h3>Implement UI and UX designs</h3>
               <p>
-                Convert website design to pixel perfect Html and CSS pages or
+                Convert website design to pixel perfect HTML and CSS pages or
                 React components
               </p>
             </div>
@@ -67,8 +67,8 @@ const Hero = () => {
             <div className='text-container'>
               <h3>Working with team</h3>
               <p>
-                I have the ability to work within developers team, i know how to
-                use version control and tools like slack
+                 I have the ability to work within developers team, I know how
+                to use version control and tools like slack
               </p>
             </div>
           </div>

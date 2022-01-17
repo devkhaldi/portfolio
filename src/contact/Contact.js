@@ -16,7 +16,7 @@ const Contact = () => {
         <h2>Get in touch</h2>
         <p>
           Send a general message or details of a project you'd like me to be a
-          part of and I'll get back to you as soon as possible.
+          part of, and I'll get back to you as soon as possible.
         </p>
         <div className='form-container'>
           <h4>About you</h4>
@@ -70,10 +70,10 @@ const Contact = () => {
           <img src={myPhoto} alt='myPhoto' />
           <span>
             My full name is Abderrahim El Khaldi, I create amazing modern and
-            responsive websites using React I have an IT diploma from EST Fez
+            responsive websites using React, I have an IT diploma from EST Fez
             Morocco. My mission is to translate modern, simple or complicated
             designs into pixel perfect websites or applications that run
-            extermly fast.
+            extremely fast.
           </span>
         </div>
 
