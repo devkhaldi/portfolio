@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
           <div className='about-content'>
             My full name is Abderrahim El Khaldi, I create amazing modern and
-            responsive websites using React, I have an IT diploma from EST Fez
+            responsive websites using React, I have an CS diploma from EST Fez
             Morocco. My mission is to translate modern, simple or complicated
             designs into pixel perfect websites or applications that run
             extremely fast.
