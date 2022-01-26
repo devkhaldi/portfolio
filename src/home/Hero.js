@@ -18,7 +18,7 @@ const Hero = () => {
           <p>
             My full name is Abderrahim El Khaldi, I create amazing modern and
             responsive websites using React, I have a Computer Science diploma
-            from EST Fez, Morocco
+            from Higher school of technology Fez, Morocco
           </p>
           <div className='hero-buttons'>
             <Link className='btn' exact to='/portfolio'>
