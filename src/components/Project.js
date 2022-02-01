@@ -5,7 +5,7 @@ const Project = ({ project }) => {
   return (
     <React.Fragment>
       <div className='project'>
-        <div className='project-info col-lg-4 mx-md-2'>
+        <div className='project-info mx-md-2'>
           <div className='img-container'>
             <img
               src={project.miniImage}
@@ -33,13 +33,15 @@ const Project = ({ project }) => {
             </a> */}
           </div>
         </div>
-        <div className='project-preview col-lg-8 mx-md-2'>
-          <img
-            src={project.mainImage}
-            alt={`${project.title} + ${project.mainImage}`}
-            // data-toggle='modal'
-            // data-target='#modal-default'
-          />
+        <div className='project-preview  mx-md-2'>
+          <div className='imgs-container'>
+            <img
+              src={project.mainImage}
+              alt={`${project.title} + ${project.mainImage}`}
+              // data-toggle='modal'
+              // data-target='#modal-default'
+            />
+          </div>
         </div>
       </div>
     </React.Fragment>

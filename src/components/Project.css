@@ -2,6 +2,9 @@
   display: flex;
   padding: 1rem;
 }
+.project-info {
+  flex: 3;
+}
 .project .project-info .img-container {
   margin-bottom: 2rem;
   border-radius: 0.5rem;
@@ -36,6 +39,17 @@
   margin: 2rem 0;
   font-size: 1.1rem;
   font-weight: 400;
+}
+
+.project .project-preview {
+  flex: 7;
+}
+
+.project .project-preview .imgs-container {
+  display: block;
+  min-width: 100%;
+  padding: 2rem;
+  background: var(--footer-bg);
 }
 
 .project .project-preview img {

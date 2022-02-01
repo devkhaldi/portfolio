@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import Navbar from "./components/Navbar"
 import { BrowserRouter, Route, Switch } from "react-router-dom"
 import Home from "./home/Home"
@@ -12,6 +12,7 @@ import "aos/dist/aos.css"
 
 function App() {
   Aos.init({ duration: 1000 })
+  const [loading, setloading] = useState(true)
   return (
     <BrowserRouter>
       <Navbar />
