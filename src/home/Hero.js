@@ -33,13 +33,13 @@ const Hero = () => {
           <img src={illustration} alt='illustration' />
         </div>
       </div>
-      <div className='hero-cards container'>
+      <div className='hero-cards'>
         <div className='cards'>
-          <div className='card mx-md-3'>
+          <div className='card'>
             <div className='img-container'>
               <AiOutlineAntDesign size='8rem' />
             </div>
-            <div className='text-container' npm>
+            <div className='text-container'>
               <h3>Implement UI and UX designs</h3>
               <p>
                 Convert website design to pixel perfect HTML and CSS pages or
@@ -48,7 +48,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className='card mx-md-3'>
+          <div className='card'>
             <div className='img-container'>
               <SiRedux size='8rem' />
             </div>
@@ -60,7 +60,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className='card mx-md-3'>
+          <div className='card'>
             <div className='img-container'>
               <AiOutlineTeam size='9rem' />
             </div>
