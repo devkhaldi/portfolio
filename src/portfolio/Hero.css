@@ -29,14 +29,14 @@
   font-size: 1.45rem;
   font-weight: 300;
   line-height: 1.9rem;
-  letter-spacing: 0.9px;
+  letter-spacing: calc(1rem / 18);
 }
 .portfolio-hero .hero-buttons {
   margin-top: 2rem;
 }
 .portfolio-hero .hero-buttons .btn {
   padding: 0.5rem 0.8rem;
-  border: 2px solid var(--primary-color);
+  border: calc(1rem / 8) solid var(--primary-color);
 }
 .portfolio-hero .hero-buttons .btn:nth-child(1) {
   background-color: var(--primary-color);
@@ -48,7 +48,7 @@
 }
 
 .portfolio-hero .hero-illustration img {
-  max-width: 35vw;
+  width: 28rem;
 }
 
 /* Style hero for small devices */
