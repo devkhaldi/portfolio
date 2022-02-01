@@ -84,6 +84,9 @@
   --shadow: 0 0 100px rgba(150, 150, 150, 0.5);
   --footer-bg: #222;
 }
+html {
+  font-size: 100%;
+}
 
 body {
   font-family: SF ui, "Poppins", sans-serif;
