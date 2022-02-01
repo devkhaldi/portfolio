@@ -1,23 +1,24 @@
 .portfolio-hero {
   margin-top: 3.5rem;
-  padding: 0 2rem;
+  padding: 0 3rem;
   width: 100%;
   position: relative;
 }
 
 /*Hero Text */
 .portfolio-hero .hero-text {
-  padding: 1rem 0;
+  padding: 0;
   display: flex;
 }
 .portfolio-hero .hero-text .text-content {
-  padding-top: 1.5rem;
-  padding-left: 3rem;
+  padding-top: 3.5rem;
+  padding-left: 4rem;
 }
 .portfolio-hero .hero-text h1 {
+  font-family: Roboto;
   color: var(--black);
   font-weight: 200;
-  font-size: 3rem;
+  font-size: 2.75rem;
   margin-bottom: 1rem;
   font-family: SF ui, "Raleway", sans-serif;
 }
@@ -25,17 +26,16 @@
   color: var(--primary-color);
 }
 .portfolio-hero .hero-text p {
+  font-family: Roboto;
   color: var(--text-1);
-  font-size: 1.45rem;
-  font-weight: 300;
-  line-height: 1.9rem;
-  letter-spacing: calc(1rem / 18);
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 .portfolio-hero .hero-buttons {
   margin-top: 2rem;
 }
 .portfolio-hero .hero-buttons .btn {
-  padding: 0.5rem 0.8rem;
+  padding: 0.5rem 0.9rem;
   border: calc(1rem / 8) solid var(--primary-color);
 }
 .portfolio-hero .hero-buttons .btn:nth-child(1) {
@@ -43,19 +43,20 @@
   color: white;
 }
 .portfolio-hero .hero-buttons .btn:nth-child(2) {
-  margin-left: 0.2rem;
+  margin-left: 0.25rem;
   color: var(--primary-color);
 }
 
 .portfolio-hero .hero-illustration img {
-  width: 28rem;
+  margin-left: -2rem;
+  margin-top: 0rem;
+  width: 32rem;
 }
-
 /* Style hero for small devices */
 @media (max-width: 1000px) {
   .portfolio-hero .hero-text {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     padding: 2rem 0;
     text-align: center;
   }

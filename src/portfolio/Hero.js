@@ -1,12 +1,15 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import illustration from "../img/undraw_programming.svg"
+import illustration from "../img/hero-img.svg"
 import "./Hero.css"
 
 const Hero = () => {
   return (
     <section className='portfolio-hero'>
       <div className='hero-text'>
+        <div className='hero-illustration'>
+          <img src={illustration} alt='illustration' />
+        </div>
         <div className='text-content'>
           <h1>
             Hi i'm <span>Abde</span>. I'm a React devloper.
@@ -24,9 +27,6 @@ const Hero = () => {
               Contact
             </Link>
           </div>
-        </div>
-        <div className='hero-illustration'>
-          <img src={illustration} alt='illustration' />
         </div>
       </div>
     </section>

@@ -1,7 +1,9 @@
 .projects {
   padding: 2rem;
   color: var(--text-1);
+  position: relative;
 }
+
 .projects .header {
   text-align: center;
   display: flex;
@@ -11,9 +13,9 @@
 }
 .projects .header h1 {
   font-size: 3rem;
-  font-weight: 200;
+  font-weight: 100;
   width: 40rem;
-  color: var(--primary-color);
+  color: var(--black);
   font-family: SF ui, "Poppins", sans-serif;
   /* width: 16.8rem; */
 }

@@ -5,13 +5,13 @@
 .project .project-info .img-container {
   margin-bottom: 2rem;
   border-radius: 0.5rem;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.2);
   overflow: hidden !important;
   display: none;
 }
 .project .project-info img {
   width: 100%;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
 }
 
 .project .project-info h3 {
@@ -23,7 +23,7 @@
 .project .project-info .btns .btn:nth-child(1) {
   color: var(--text-2);
   padding: 0.5rem 1rem;
-  border: solid 2px var(--text-2);
+  border: solid calc(1rem / 8) var(--text-2);
   margin-right: 0.3rem;
 }
 /* .project .project-info .btns .btn:nth-child(2) {

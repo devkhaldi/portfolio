@@ -1,6 +1,6 @@
 import React from "react"
 import "./Hero.css"
-import illustration from "../img/undraw_programming.svg"
+import illustration from "../img/hero-img.svg"
 import { Link } from "react-router-dom"
 import cardsWave from "../img/cardsWave.svg"
 import { AiOutlineTeam } from "react-icons/ai"
@@ -11,6 +11,9 @@ const Hero = () => {
   return (
     <section className='hero'>
       <div className='hero-text'>
+        <div className='hero-illustration'>
+          <img src={illustration} alt='illustration' />
+        </div>
         <div className='text-content'>
           <h1>
             Hi i'm <span>Abde</span>. I'm a React devloper.
@@ -28,9 +31,6 @@ const Hero = () => {
               Contact
             </Link>
           </div>
-        </div>
-        <div className='hero-illustration'>
-          <img src={illustration} alt='illustration' />
         </div>
       </div>
       <div className='hero-cards'>
