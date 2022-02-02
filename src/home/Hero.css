@@ -65,22 +65,26 @@
   border: none;
   width: 20rem;
   background: var(--white);
-  box-shadow: 0 -0.75rem 1.5rem rgba(0, 0, 0, 0.06);
+  box-shadow: 0 -0.1rem 0.3rem rgba(0, 0, 0, 0.08);
   padding: 2rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 23rem;
-  transition: all 0.3s;
   margin: 0 0.5rem;
+  transition: all 0.4s;
+}
+.hero .hero-cards .card:hover {
+  box-shadow: 0 -0.8rem 2rem rgba(0, 0, 0, 0.08);
 }
 
 .hero .hero-cards .card svg {
   color: var(--primary-color);
 }
+
 .hero .hero-cards .card h3 {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   margin-top: 2rem;
   margin-bottom: 1.5rem;
   color: var(--black);
@@ -91,6 +95,7 @@
 }
 .hero .hero-cards .card p {
   color: var(--text-1);
+  font-size: 0.93rem;
 }
 
 .hero .hero-wave {
