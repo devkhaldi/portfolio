@@ -14,7 +14,9 @@ const Project = ({ project }) => {
               // data-target='#modal-default'
             />
           </div>
+
           <h3>{project.title}</h3>
+          <div className='line'></div>
           <p>{project.description}</p>
           <div className='btns'>
             <a

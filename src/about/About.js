@@ -14,6 +14,7 @@ const About = () => {
   return (
     <section className='about'>
       <h1>Here's my story</h1>
+      <div className='line'></div>
       <div className='intro'>
         <div className='img-text'>
           <img src={myPhoto} alt='myPhoto' />
@@ -38,7 +39,6 @@ const About = () => {
           </div>
         </div>
       </div>
-
       <div className='getintouch'>
         <Link className='btn' exact to='/contact'>
           Get in touch

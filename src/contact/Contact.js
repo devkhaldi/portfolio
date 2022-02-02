@@ -14,12 +14,12 @@ const Contact = () => {
     <section className='contact-page'>
       <div className='contact-content'>
         <h2>Get in touch</h2>
+        <div className='line'></div>
         <p>
           Send a general message or details of a project you'd like me to be a
           part of, and I'll get back to you as soon as possible.
         </p>
         <div className='form-container'>
-          <h4>About you</h4>
           <form method='post' name='contact' data-netlify='true'>
             <input type='hidden' name='form-name' value='contact' />
             <div className='input-container'>
@@ -66,6 +66,7 @@ const Contact = () => {
       </div>
       <div className='contact-about'>
         <h2>About Abde</h2>
+        <div className='line'></div>
         <div className='contact-info'>
           <img src={myPhoto} alt='myPhoto' />
           <span>

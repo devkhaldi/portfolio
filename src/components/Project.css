@@ -20,7 +20,7 @@
 .project .project-info h3 {
   font-size: 1.8rem;
   font-weight: 400;
-  color: var(--primary-color);
+  color: var(--black);
 }
 
 .project .project-info .btns .btn:nth-child(1) {
@@ -36,7 +36,7 @@
 } */
 
 .project .project-info p {
-  margin: 2rem 0;
+  margin: 1rem 0;
   font-size: 1.1rem;
   font-weight: 400;
 }
