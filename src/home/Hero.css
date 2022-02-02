@@ -136,9 +136,7 @@
     align-items: center;
     padding: 1rem;
   }
-  .hero .card {
-    width: unset !important;
-  }
+
   .hero .hero-text p {
     width: 90%;
   }
@@ -147,7 +145,7 @@
 @media (max-width: 62em) {
   .hero .hero-text {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     padding: 2rem 0;
     text-align: center;
   }
@@ -178,6 +176,7 @@
     padding: 1rem;
     height: 15rem;
     margin: 0.5rem 0;
+    width: unset !important;
   }
   .hero-cards .cards .card .img-container {
     margin-right: 1.5rem;
