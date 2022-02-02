@@ -99,6 +99,12 @@ html {
     margin: 0 auto;
   }
 }
+
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+}
 @media (min-width: 2048px) {
   html {
     font-size: 150%;
