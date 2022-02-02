@@ -30,6 +30,20 @@ const Projects = () => {
   )
 }
 
+const storageText =
+  "Online storage applications are a good solution for companies to store and share data, in this project I converted the main page of storage app to an actual react application, I used React and bootstrap for this project."
+const storageAppDescription = (
+  <span>
+    {storageText} <br />
+    <a
+      target='_blank'
+      href='https://dribbble.com/shots/7198575-File-Manager/attachments/195651?mode=media'
+      rel='noopener noreferrer'>
+      Click here to view ui design
+    </a>
+  </span>
+)
+
 const projects = [
   {
     id: 1,
@@ -38,8 +52,7 @@ const projects = [
     mainImage: modernui,
     url: "https://storage-ui.netlify.app/",
     sourceCode: "https://github.com/devkhaldi/Test-Front-END",
-    description:
-      "Online storage applications are a good solution for companies to store and share data, in this project I converted the main page of storage app to an actual react application, I used React and bootstrap for this project.",
+    description: storageAppDescription,
   },
   {
     id: 2,
