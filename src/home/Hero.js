@@ -10,7 +10,7 @@ import { SiRedux } from "react-icons/si"
 const Hero = () => {
   return (
     <section className='hero'>
-      <div className='hero-text'>
+      <div className='hero-text my-container'>
         <div className='hero-illustration'>
           <img src={illustration} alt='illustration' />
         </div>

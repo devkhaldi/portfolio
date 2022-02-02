@@ -10,7 +10,7 @@ import titleWave from "../img/titleWave.svg"
 const Projects = () => {
   return (
     <React.Fragment>
-      <section className='projects'>
+      <section className='projects my-container'>
         {/* <img className='title-wave' src={titleWave} alt='Title wave' /> */}
         <div className='header'>
           <h1>Featured works.</h1>

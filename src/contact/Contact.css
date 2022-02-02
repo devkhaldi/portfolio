@@ -103,7 +103,7 @@
   text-decoration: underline;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 62em) {
   .contact-page {
     flex-direction: column;
     row-gap: 2rem;

@@ -12,7 +12,7 @@ const About = () => {
     })
   }, [])
   return (
-    <section className='about'>
+    <section className='about my-container'>
       <h1>Here's my story</h1>
       <div className='line'></div>
       <div className='intro'>

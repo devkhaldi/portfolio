@@ -7,7 +7,7 @@ import myPhoto from "../img/myphoto.jpg"
 const Footer = () => {
   return (
     <footer>
-      <div className='footer-content'>
+      <div className='footer-content  my-container'>
         <div className='about'>
           <div className='img-container'>
             <img src={myPhoto} alt='myphoto' />

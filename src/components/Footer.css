@@ -29,7 +29,6 @@ footer .about img {
 }
 
 /* Footer Links */
-
 footer .links {
   display: flex;
   flex: 2;
@@ -87,8 +86,8 @@ footer::before {
   content: "";
   position: absolute;
   background: var(--footer-bg);
-  width: 120%;
-  left: -10%;
+  width: 110%;
+  left: -9%;
   z-index: -1;
   top: -2.5rem;
   height: 11rem;
@@ -97,8 +96,7 @@ footer::before {
 }
 
 /* Footer For small devices */
-
-@media (max-width: 900px) {
+@media (max-width: 56em) {
   footer .footer-content {
     flex-direction: column;
   }

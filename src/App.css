@@ -83,15 +83,33 @@
   --shadow: 0 0 100px rgba(150, 150, 150, 0.5);
   --footer-bg: #222;
 }
-html {
-  font-size: 400%;
-}
-
 body {
   font-family: SF ui, "Poppins", sans-serif;
   background: var(--bg-2);
   overflow-x: hidden;
 }
+
+html {
+  font-size: 100%;
+}
+
+@media (min-width: 90em) {
+  .my-container {
+    width: 90em;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 2048px) {
+  html {
+    font-size: 150%;
+  }
+}
+@media (min-width: 3840px) {
+  html {
+    font-size: 300%;
+  }
+}
+
 .btn,
 input {
   outline: none !important;
@@ -111,6 +129,7 @@ input {
   margin-bottom: 0.5rem;
   border-radius: 1rem;
 }
+
 ::selection {
   background: var(--primary-color);
   color: white;

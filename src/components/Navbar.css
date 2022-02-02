@@ -139,7 +139,7 @@ nav .toggle-dark-mode {
 }
 
 /*Navbar for small devices*/
-@media (max-width: 767px) {
+@media (max-width: 48em) {
   nav .nav-items {
     display: none;
   }

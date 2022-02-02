@@ -55,7 +55,7 @@
   width: 32rem;
 }
 /* Style hero for small devices */
-@media (max-width: 1000px) {
+@media (max-width: 62em) {
   .portfolio-hero .hero-text {
     display: flex;
     flex-direction: column;
@@ -83,7 +83,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 48em) {
   .portfolio-hero .hero-text p {
     width: 90%;
   }

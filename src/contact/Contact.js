@@ -11,7 +11,7 @@ const Contact = () => {
     })
   }, [])
   return (
-    <section className='contact-page'>
+    <section className='contact-page my-container'>
       <div className='contact-content'>
         <h2>Get in touch</h2>
         <div className='line'></div>
@@ -70,7 +70,7 @@ const Contact = () => {
         <div className='contact-info'>
           <img src={myPhoto} alt='myPhoto' />
           <span>
-            My full name is Abderrahim El Khaldi, I create amazing modern and
+            My name is Abderrahim El Khaldi, I create amazing modern and
             responsive websites using React, I have an CS diploma from EST Fez
             Morocco. My mission is to translate modern, simple or complicated
             designs into pixel perfect websites or applications that run
@@ -79,7 +79,7 @@ const Contact = () => {
         </div>
 
         <div className='about-links'>
-          Email : <span>pro.elhaldi@gmail.com</span> <br />
+          Email : <span>pro.elkhaldi@gmail.com</span> <br />
           Tel : <span>+212 6 59 43 22 70</span>
         </div>
       </div>

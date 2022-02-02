@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <React.Fragment>
       {/* <ProjectModal project={selectedProject} /> */}
-      <section className='projects'>
+      <section className='projects  my-container'>
         <div className='projects-container'>
           {projects.map(project => (
             <Project key={project.id} project={project} />
