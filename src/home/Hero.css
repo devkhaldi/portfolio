@@ -1,17 +1,19 @@
 .hero {
-  margin-top: 3.5rem;
   padding: 0 3rem;
   width: 100%;
   position: relative;
+  margin: auto;
+  margin-top: 3.5rem;
 }
 
 /*Hero Text */
 .hero .hero-text {
   padding: 0;
   display: flex;
+  max-width: 78rem;
 }
 .hero .hero-text .text-content {
-  padding-top: 3.5rem;
+  padding-top: 4rem;
   padding-left: 4rem;
 }
 .hero .hero-text h1 {
@@ -28,7 +30,7 @@
 .hero .hero-text p {
   font-family: Roboto;
   color: var(--text-1);
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-weight: 400;
 }
 .hero .hero-buttons {
@@ -48,7 +50,7 @@
 }
 
 .hero .hero-illustration img {
-  margin-left: 2rem;
+  margin-left: 0rem;
   margin-top: 0rem;
   width: 32rem;
 }

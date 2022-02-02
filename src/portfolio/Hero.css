@@ -1,24 +1,26 @@
 .portfolio-hero {
-  margin-top: 3.5rem;
   padding: 0 3rem;
   width: 100%;
   position: relative;
+  margin: auto;
+  margin-top: 3.5rem;
 }
 
 /*Hero Text */
 .portfolio-hero .hero-text {
   padding: 0;
   display: flex;
+  max-width: 78rem;
 }
 .portfolio-hero .hero-text .text-content {
-  padding-top: 3.5rem;
+  padding-top: 4rem;
   padding-left: 4rem;
 }
 .portfolio-hero .hero-text h1 {
   font-family: Roboto;
   color: var(--black);
   font-weight: 200;
-  font-size: 2.75rem;
+  font-size: 2.7rem;
   margin-bottom: 1rem;
   font-family: SF ui, "Raleway", sans-serif;
 }
@@ -28,14 +30,14 @@
 .portfolio-hero .hero-text p {
   font-family: Roboto;
   color: var(--text-1);
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: 400;
 }
 .portfolio-hero .hero-buttons {
   margin-top: 2rem;
 }
 .portfolio-hero .hero-buttons .btn {
-  padding: 0.5rem 0.9rem;
+  padding: 0.4rem 0.7rem;
   border: calc(1rem / 8) solid var(--primary-color);
 }
 .portfolio-hero .hero-buttons .btn:nth-child(1) {
@@ -48,7 +50,7 @@
 }
 
 .portfolio-hero .hero-illustration img {
-  margin-left: -2rem;
+  margin-left: 0rem;
   margin-top: 0rem;
   width: 32rem;
 }
