@@ -4,6 +4,7 @@
   position: relative;
   margin: auto;
   margin-top: 3.5rem;
+  position: relative;
 }
 
 /*Hero Text */
@@ -106,6 +107,21 @@
   bottom: -1rem;
   /* transform: rotateZ(6deg); */
 }
+
+.hero::after {
+  content: "";
+  display: block;
+  z-index: -1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 2rem solid transparent;
+  border-right: 2rem solid transparent;
+  border-top: 2rem solid var(--primary-color);
+}
+
 /* Change first and third card position */
 /* .hero .hero-cards .card:nth-child(1) {
   transform: translateY(-2.5rem);
