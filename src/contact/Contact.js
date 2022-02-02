@@ -80,7 +80,8 @@ const Contact = () => {
 
         <div className='about-links'>
           Email : <span>pro.elkhaldi@gmail.com</span> <br />
-          Tel : <span>+212 6 59 43 22 70</span>
+          Tel : <span>+212 6 59 43 22 70</span> <br />
+          GitHub : <span>https://github.com/devkhaldi</span> <br />
         </div>
       </div>
     </section>
