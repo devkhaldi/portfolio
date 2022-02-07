@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
         <div className='text-content'>
           <h1>
-            Hi i'm <span>Abde</span>. I'm a React devloper.
+            Hi i'm <span>Abde</span>. I'm a Frontend developer.
           </h1>
           <p>
             My name is Abderrahim El Khaldi, I create amazing modern and
