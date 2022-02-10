@@ -10,6 +10,13 @@ import { SiRedux } from "react-icons/si"
 const Hero = () => {
   return (
     <section className='hero'>
+      {/* <img
+        className='top-wave'
+        src={topWave}
+        alt='top-wave'
+        data-aos='fade-down'
+        data-aos-dration='4000'
+      /> */}
       <div className='hero-text my-container'>
         <div className='hero-illustration'>
           <img src={illustration} alt='illustration' data-aos='fade-right' />

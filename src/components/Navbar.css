@@ -13,6 +13,7 @@ nav {
   z-index: 10;
   background: var(--navbar-bg);
   backdrop-filter: blur(40px);
+
   /* box-shadow: 0 0.5rem 2.5rem rgba(100, 100, 100, 0.07); */
 }
 
