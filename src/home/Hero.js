@@ -48,7 +48,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className='card' data-aos='fade-down' data-aos-duration='2000'>
+          <div className='card' data-aos='fade-down' data-aos-duration='1500'>
             <div className='img-container'>
               <SiRedux size='8rem' />
             </div>
@@ -60,7 +60,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className='card' data-aos='fade-down' data-aos-duration='3000'>
+          <div className='card' data-aos='fade-down' data-aos-duration='2000'>
             <div className='img-container'>
               <AiOutlineTeam size='9rem' />
             </div>
