@@ -14,16 +14,16 @@ const Hero = () => {
         <div className='hero-illustration'>
           <img src={illustration} alt='illustration' data-aos='fade-right' />
         </div>
-        <div className='text-content'>
-          <h1 data-aos='fade-right'>
+        <div className='text-content' data-aos='fade-down'>
+          <h1>
             Hi i'm <span>Abde</span>. I'm a Frontend developer.
           </h1>
-          <p data-aos='fade-left'>
+          <p>
             My name is Abderrahim El Khaldi, I create amazing modern and
             responsive websites using React, I have a Computer Science diploma
             from Higher school of technology Fez, Morocco
           </p>
-          <div className='hero-buttons' data-aos='fade-right'>
+          <div className='hero-buttons'>
             <Link className='btn' exact to='/portfolio'>
               View projects
             </Link>

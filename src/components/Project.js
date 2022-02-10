@@ -5,7 +5,7 @@ const Project = ({ project }) => {
   return (
     <React.Fragment>
       <div className='project'>
-        <div className='project-info mx-md-2'>
+        <div className='project-info mx-md-2' data-aos='fade-down'>
           <div className='img-container'>
             <img
               src={project.miniImage}
@@ -15,12 +15,9 @@ const Project = ({ project }) => {
             />
           </div>
 
-          <h3 data-aos='fade-down'>{project.title}</h3>
-          <div
-            className='line'
-            data-aos='fade-right'
-            data-aos-duration='2000'></div>
-          <p data-aos='fade-up'>{project.description}</p>
+          <h3>{project.title}</h3>
+          <div className='line'></div>
+          <p>{project.description}</p>
           <div className='btns' data-aos='fade-right' data-aos-duration='2000'>
             <a
               target='_blank'

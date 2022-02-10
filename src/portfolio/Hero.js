@@ -5,12 +5,12 @@ import "./Hero.css"
 
 const Hero = () => {
   return (
-    <section className='portfolio-hero my-container'>
-      <div className='hero-text'>
+    <section className='portfolio-hero '>
+      <div className='hero-text my-container'>
         <div className='hero-illustration'>
-          <img src={illustration} alt='illustration' />
+          <img src={illustration} alt='illustration' data-aos='fade-right' />
         </div>
-        <div className='text-content'>
+        <div className='text-content' data-aos='fade-down'>
           <h1>
             Hi i'm <span>Abde</span>. I'm a Frontend developer.
           </h1>
