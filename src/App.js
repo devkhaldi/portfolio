@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     AOS.init({
       once: "true",
-      duration: "500",
+      duration: "1000",
     })
   }, [])
   return (

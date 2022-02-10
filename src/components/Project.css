@@ -24,10 +24,17 @@
 }
 
 .project .project-info .btns .btn:nth-child(1) {
-  color: var(--text-2);
+  background: var(--primary-color);
+  color: white;
   padding: 0.5rem 1rem;
   border: solid calc(1rem / 8) var(--text-2);
   margin-right: 0.3rem;
+  transition: all 0.5s;
+}
+.project .project-info .btns .btn:nth-child(1):hover {
+  background: var(--white);
+  color: var(--primary-color);
+  border: solid calc(1rem / 8) var(--text-2);
 }
 /* .project .project-info .btns .btn:nth-child(2) {
   color: var(--primary-color);
