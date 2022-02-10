@@ -12,18 +12,18 @@ const Hero = () => {
     <section className='hero'>
       <div className='hero-text my-container'>
         <div className='hero-illustration'>
-          <img src={illustration} alt='illustration' />
+          <img src={illustration} alt='illustration' data-aos='fade-right' />
         </div>
         <div className='text-content'>
-          <h1>
+          <h1 data-aos='fade-right'>
             Hi i'm <span>Abde</span>. I'm a Frontend developer.
           </h1>
-          <p>
+          <p data-aos='fade-left'>
             My name is Abderrahim El Khaldi, I create amazing modern and
             responsive websites using React, I have a Computer Science diploma
             from Higher school of technology Fez, Morocco
           </p>
-          <div className='hero-buttons'>
+          <div className='hero-buttons' data-aos='fade-right'>
             <Link className='btn' exact to='/portfolio'>
               View projects
             </Link>
@@ -35,7 +35,7 @@ const Hero = () => {
       </div>
       <div className='hero-cards'>
         <div className='cards'>
-          <div className='card'>
+          <div className='card' data-aos='fade-down' data-aos-duration='1000'>
             <div className='img-container'>
               <AiOutlineAntDesign size='8rem' />
             </div>
@@ -48,7 +48,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className='card'>
+          <div className='card' data-aos='fade-down' data-aos-duration='2000'>
             <div className='img-container'>
               <SiRedux size='8rem' />
             </div>
@@ -60,7 +60,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className='card'>
+          <div className='card' data-aos='fade-down' data-aos-duration='3000'>
             <div className='img-container'>
               <AiOutlineTeam size='9rem' />
             </div>
