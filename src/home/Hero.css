@@ -74,14 +74,11 @@
   align-items: center;
   height: 23rem;
   margin: 0 0.5rem;
-  transition: all 0.4s;
+  cursor: pointer;
+  transition: all 100ms;
 }
 .hero .hero-cards .card:hover {
-  box-shadow: 0 -0.8rem 2rem rgba(0, 0, 0, 0.08);
-}
-
-.hero .hero-cards .card svg {
-  color: var(--primary-color);
+  transform: translateY(-0.5rem);
 }
 
 .hero .hero-cards .card h3 {
@@ -97,6 +94,9 @@
 .hero .hero-cards .card p {
   color: var(--text-1);
   font-size: 0.93rem;
+}
+.hero .hero-cards .card svg {
+  color: var(--primary-color);
 }
 
 .hero .hero-wave {

@@ -17,8 +17,9 @@ nav {
 }
 
 .nav-on-scroll {
-  /* box-shadow: 0 0.5rem 0.5rem rgba(100, 100, 100, 0.03); */
+  box-shadow: 0 0.5rem 2rem rgba(100, 100, 100, 0.05);
 }
+
 nav .menu-icon {
   display: none;
   height: 2.2rem;
@@ -39,7 +40,7 @@ nav .nav-items {
 }
 nav .nav-items .nav-item {
   display: block;
-  color: var(--text-2) !important;
+  color: var(--text-2);
   text-decoration: none;
   font-size: 1.05rem;
   font-weight: 600;
@@ -47,6 +48,7 @@ nav .nav-items .nav-item {
   height: 100%;
   z-index: 10;
 }
+
 nav .nav-items .nav-item::after {
   content: "";
   display: block;

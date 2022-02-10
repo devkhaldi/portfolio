@@ -14,11 +14,11 @@ const About = () => {
   return (
     <section className='about my-container'>
       <h1>Here's my story</h1>
-      <div className='line'></div>
+      <div className='line' data-aos='fade-left'></div>
       <div className='intro'>
         <div className='img-text'>
           <img src={myPhoto} alt='myPhoto' />
-          <div className='text'>
+          <div className='text' data-aos='fade-left'>
             <p>
               I'm Abde, I'm a frontend developer, my mission is to translate
               modern, simple or complicated designs into pixel perfect websites

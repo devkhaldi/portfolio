@@ -14,12 +14,12 @@ const Contact = () => {
     <section className='contact-page my-container'>
       <div className='contact-content'>
         <h2>Get in touch</h2>
-        <div className='line'></div>
+        <div className='line' data-aos='fade-left'></div>
         <p>
           Send a general message or details of a project you'd like me to be a
           part of, and I'll get back to you as soon as possible.
         </p>
-        <div className='form-container'>
+        <div className='form-container' data-aos='fade-up'>
           <form method='post' name='contact' data-netlify='true'>
             <input type='hidden' name='form-name' value='contact' />
             <div className='input-container'>
@@ -66,8 +66,8 @@ const Contact = () => {
       </div>
       <div className='contact-about'>
         <h2>About Abde</h2>
-        <div className='line'></div>
-        <div className='contact-info'>
+        <div className='line' data-aos='fade-left'></div>
+        <div className='contact-info' data-aos='fade-up'>
           <img src={myPhoto} alt='myPhoto' />
           <span>
             My name is Abderrahim El Khaldi, I create amazing modern and
@@ -78,7 +78,7 @@ const Contact = () => {
           </span>
         </div>
 
-        <div className='about-links'>
+        <div className='about-links' data-aos='fade-up'>
           Email : <span>pro.elkhaldi@gmail.com</span> <br />
           Tel : <span>+212 6 59 43 22 70</span> <br />
           GitHub : <span>https://github.com/devkhaldi</span> <br />
