@@ -12,7 +12,7 @@ const Projects = () => {
       <section className='projects my-container'>
         {/* <img className='title-wave' src={titleWave} alt='Title wave' /> */}
         <div className='header'>
-          <h1>Featured works.</h1>
+          <h1 data-aos='fade-left'>Featured works.</h1>
         </div>
         <div className='projects-container'>
           {projects.map(project => (
@@ -20,7 +20,7 @@ const Projects = () => {
           ))}
         </div>
         <div className='btn-container'>
-          <Link exact to='/portfolio' className='btn'>
+          <Link exact to='/portfolio' className='btn' data-aos='fade-right'>
             View more
           </Link>
         </div>
