@@ -50,6 +50,7 @@
   min-width: 100%;
   padding: 2rem;
   background: var(--footer-bg);
+  overflow: hidden;
 }
 
 .project .project-preview img {

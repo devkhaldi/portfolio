@@ -15,10 +15,13 @@ const Project = ({ project }) => {
             />
           </div>
 
-          <h3>{project.title}</h3>
-          <div className='line'></div>
-          <p>{project.description}</p>
-          <div className='btns'>
+          <h3 data-aos='fade-down'>{project.title}</h3>
+          <div
+            className='line'
+            data-aos='fade-right'
+            data-aos-duration='2000'></div>
+          <p data-aos='fade-up'>{project.description}</p>
+          <div className='btns' data-aos='fade-right' data-aos-duration='2000'>
             <a
               target='_blank'
               href={project.url}
@@ -38,6 +41,7 @@ const Project = ({ project }) => {
         <div className='project-preview  mx-md-2'>
           <div className='imgs-container'>
             <img
+              data-aos={"fade-up"}
               src={project.mainImage}
               alt={`${project.title} + ${project.mainImage}`}
               // data-toggle='modal'

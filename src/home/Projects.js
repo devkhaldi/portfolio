@@ -5,7 +5,6 @@ import "./Projects.css"
 import menaraTravel from "../img/menaraTravel.png"
 import modernui from "../img/modernui.png"
 import soundTrap from "../img/soundTrap.png"
-import titleWave from "../img/titleWave.svg"
 
 const Projects = () => {
   return (
