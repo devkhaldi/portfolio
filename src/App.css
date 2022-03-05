@@ -25,6 +25,7 @@
   src: url(./Fonts/sf-ui-display-bold.otf);
   font-weight: 600;
 }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   padding: 0;
@@ -137,8 +138,7 @@ input {
 }
 
 ::selection {
-  background: var(--primary-color);
-  color: white;
+  background: rgba(74, 155, 255, 0.2);
 }
 /*Custom scroll bar */
 /* width */

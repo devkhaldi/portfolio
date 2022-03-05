@@ -40,7 +40,7 @@
   color: var(--text-1);
   font-size: 1.15rem;
   font-weight: 400;
-  font-family: Roboto, SF ui, "Raleway", sans-serif;
+  font-family: "Poppins", "Raleway", sans-serif;
 }
 .hero .hero-buttons {
   margin-top: 2rem;
@@ -74,7 +74,7 @@
   border: none;
   width: 20rem;
   background: var(--white);
-  box-shadow: 0 -0.1rem 0.3rem rgba(0, 0, 0, 0.08);
+  box-shadow: 0 -0.1rem 3rem rgba(0, 0, 0, 0.03);
   padding: 2rem;
   text-align: center;
   display: flex;
