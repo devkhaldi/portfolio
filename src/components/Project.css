@@ -7,7 +7,6 @@
 }
 .project .project-info .img-container {
   margin-bottom: 2rem;
-  border-radius: 0.5rem;
   box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.2);
   overflow: hidden !important;
   display: none;
@@ -26,7 +25,7 @@
 .project .project-info .btns .btn:nth-child(1) {
   background: var(--primary-color);
   color: white;
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 1.5rem;
   border: solid calc(1rem / 8) var(--text-2);
   margin-right: 0.3rem;
   transition: all 0.5s;
@@ -43,10 +42,14 @@
 } */
 
 .project .project-info p {
-  margin: 1rem 0;
-  font-size: 1.1rem;
+  margin: 1.6rem 0;
+  font-size: 0.95rem;
+  font-weight: 500;
 }
-
+.project .project-info p a {
+  display: block;
+  margin-top: 0.5rem;
+}
 .project .project-preview {
   flex: 7;
 }
@@ -57,6 +60,8 @@
   padding: 2rem;
   background: var(--footer-bg);
   overflow: hidden;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
 }
 
 .project .project-preview img {

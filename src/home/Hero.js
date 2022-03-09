@@ -6,6 +6,7 @@ import cardsWave from "../img/cardsWave.svg"
 import { AiOutlineTeam } from "react-icons/ai"
 import { AiOutlineAntDesign } from "react-icons/ai"
 import { SiRedux } from "react-icons/si"
+import topWave from "../img/topWave.svg"
 
 const Hero = () => {
   return (
@@ -22,6 +23,10 @@ const Hero = () => {
           <img src={illustration} alt='illustration' data-aos='fade-right' />
         </div>
         <div className='text-content' data-aos='fade-down'>
+          <div className='name'>
+            <div className='name-line'></div>
+            <span>Abderrahim El khaldi</span>
+          </div>
           <h1>
             Hi i'm <span>Abde</span>. I'm a Frontend developer.
           </h1>

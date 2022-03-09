@@ -61,7 +61,7 @@ const projects = [
     url: "https://menara.netlify.app/",
     sourceCode: "https://github.com/devkhaldi/Travel-Agency",
     description:
-      "Online storage applications are a good solution for companies to store and share data, in this project I converted the main page of storage app to an actual react application, I used React and bootstrap for this project.",
+      "Travel agencies provide conveyance, accommodation and entertainment for individuals and groups scheduling trips, so I created frontend side for travel agency website using React, React router, HTML and CSS",
   },
   {
     id: 3,

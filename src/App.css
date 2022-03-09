@@ -84,7 +84,7 @@
   --footer-bg: #222;
 }
 body {
-  font-family: SF ui, "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   background: var(--bg-2);
   overflow-x: hidden;
 }
@@ -102,7 +102,7 @@ html {
 
 @media (max-width: 500px) {
   html {
-    font-size: 50%;
+    font-size: 75%;
   }
 }
 @media (min-width: 2048px) {
@@ -123,9 +123,12 @@ input {
 }
 
 .btn {
-  /* border-radius: 0.5rem; */
+  border-radius: 2rem;
+  padding: 0.3rem 1.5rem;
+  border: calc(1rem / 10) solid var(--primary-color);
+  font-weight: 500;
 
-  box-shadow: 0 10px 20px rgba(100, 100, 100, 0.2) !important;
+  /* box-shadow: 0 10px 20px rgba(100, 100, 100, 0.2) !important; */
 }
 
 .line {
@@ -154,7 +157,7 @@ input {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   border-radius: 0.6rem;
-  background: var(--primary-color);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 /* Handle on hover */
