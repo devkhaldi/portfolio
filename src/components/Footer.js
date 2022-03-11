@@ -57,7 +57,7 @@ const Footer = () => {
               <span>View Abde's previous work</span>
             </div>
             <div className='portfolio-link'>
-              <Link exact to='/portfolio'>
+              <Link exact to='/contact'>
                 Contact
               </Link>
               <span>Send a general message</span>

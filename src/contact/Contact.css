@@ -33,11 +33,11 @@
   content: "";
   display: block;
   width: 0%;
-  height: 0.15rem;
+  height: 0.1rem;
 
   background: var(--primary-color);
   position: relative;
-  bottom: 2px;
+  bottom: 0rem;
   transition: all 0.5s;
 }
 .input-container:focus-within::after {

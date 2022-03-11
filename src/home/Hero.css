@@ -3,7 +3,7 @@
   width: 100%;
   position: relative;
   margin: auto;
-  margin-top: 3.6rem;
+  margin-top: 3.3rem;
   position: relative;
 }
 
@@ -44,25 +44,27 @@
 .hero .hero-text h1 {
   color: var(--black);
   font-weight: 300;
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 2.1rem;
+  margin: 1rem 0;
   /* font-family: SF ui, "Raleway", sans-serif; */
 }
 .hero .hero-text h1 span {
   color: var(--primary-color);
 }
 .hero .hero-text p {
+  width: 95%;
   color: var(--text-1);
-  font-size: 1rem;
+  font-size: 1.05rem;
+  line-height: 1.6rem;
   font-weight: 400;
   font-family: "Poppins", "Raleway", sans-serif;
 }
 .hero .hero-buttons {
-  margin-top: 2rem;
+  margin-top: 1.3rem;
 }
 .hero .hero-buttons .btn {
-  font-size: 0.95rem;
-  padding: 0.5rem 1.7rem;
+  font-size: 0.8rem;
+  padding: 0.4rem 1.5rem;
 }
 .hero .hero-buttons .btn:nth-child(1) {
   background-color: var(--primary-color);
