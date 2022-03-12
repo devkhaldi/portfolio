@@ -1,6 +1,14 @@
 .project {
   display: flex;
-  padding: 1rem;
+  padding: 2rem;
+  background: var(--footer-bg);
+  border-radius: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.05);
+  transition: all 1s;
+}
+.project:hover {
+  transform: scale(1.01);
 }
 .project-info {
   flex: 3;
@@ -17,6 +25,7 @@
 }
 
 .project .project-info h3 {
+  margin-top: 3rem;
   font-size: 1.8rem;
   font-weight: 400;
   color: var(--black);
@@ -57,11 +66,10 @@
 .project .project-preview .imgs-container {
   display: block;
   min-width: 100%;
-  padding: 2rem;
+  padding: 0rem;
   background: var(--footer-bg);
   overflow: hidden;
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
+  border-radius: 1.2rem;
 }
 
 .project .project-preview img {

@@ -80,7 +80,6 @@
   --side-navbar-bg-active: #444;
   --form-input-bg: #222;
   --form-input-placeholder: #ddd;
-  --shadow: 0 0 100px rgba(150, 150, 150, 0.5);
   --footer-bg: #222;
 }
 body {
@@ -123,12 +122,12 @@ input {
 }
 
 .btn {
-  border-radius: 0.8rem;
+  border-radius: 1.5rem;
   padding: 0.3rem 1.5rem;
   border: calc(1rem / 10) solid var(--primary-color);
   font-weight: 500;
 
-  /* box-shadow: 0 10px 20px rgba(100, 100, 100, 0.2) !important; */
+  box-shadow: 0 10px 20px rgba(100, 100, 100, 0.2) !important;
 }
 
 .line {
