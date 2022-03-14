@@ -36,6 +36,7 @@ nav .logo-container a {
   font-size: 2rem;
   color: var(--text-2);
   text-decoration: none;
+  font-weight: 500;
 }
 nav .nav-items {
   display: flex;
@@ -58,7 +59,7 @@ nav .nav-items .nav-item::after {
   display: block;
   width: 0;
   height: 0.188rem;
-  top: 0.12rem;
+  top: -0.2rem;
   transition: width 0.2s cubic-bezier(0.6, -0.28, 0.735, 1);
   position: relative;
 }
