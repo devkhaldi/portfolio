@@ -56,9 +56,10 @@
   margin-top: 1.2rem;
   width: 95%;
   color: var(--text-1);
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.6rem;
   font-weight: 400;
+  letter-spacing: 0.05rem;
   font-family: "Poppins", "Raleway", sans-serif;
 }
 .portfolio-hero .hero-buttons {
@@ -66,8 +67,10 @@
 }
 .portfolio-hero .hero-buttons .btn {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 0.3rem 1.4rem;
+  padding-right: 1rem;
+  letter-spacing: 0.05rem;
 }
 .portfolio-hero .hero-buttons .btn:nth-child(1) {
   background-color: var(--primary-color);
@@ -76,6 +79,7 @@
 .portfolio-hero .hero-buttons .btn:nth-child(2) {
   margin-left: 0.4rem;
   color: var(--primary-color);
+  border: solid 0.13rem var(--primary-color);
 }
 
 .portfolio-hero .hero-illustration img {
