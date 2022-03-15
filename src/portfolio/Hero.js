@@ -29,10 +29,10 @@ const Hero = () => {
               <span>View projects</span>
               <BsArrowRight />
             </Link>
-            <Link className='btn' exact to='/contact'>
+            {/* <Link className='btn' exact to='/contact'>
               <span>Contact</span>
               <BsArrowRight />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

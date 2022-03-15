@@ -11,7 +11,7 @@ const Navbar = () => {
 
   // Get system theme
   // const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)")
-  //  const [darkMode, setDarkMode] = useState(darkThemeMq.matches)
+  // const [darkMode, setDarkMode] = useState(darkThemeMq.matches)
   // useEffect(() => {
   //   // Set system theme
   //   if (darkThemeMq.matches === true) body.className = "dark-mode"
