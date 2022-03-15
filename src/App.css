@@ -168,8 +168,3 @@ input {
   border-radius: 0.6rem;
   background: rgba(0, 0, 0, 0.6);
 }
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  /* background: #555; */
-}
