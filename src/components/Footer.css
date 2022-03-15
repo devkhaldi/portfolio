@@ -1,5 +1,4 @@
 footer {
-  background: var(--footer-bg);
   color: var(--text-1);
   padding: 3rem;
   padding-bottom: 1rem;
@@ -86,7 +85,7 @@ footer .copyright-section {
 footer::before {
   content: "";
   position: absolute;
-  background: var(--footer-bg);
+
   width: 110%;
   left: -9%;
   z-index: -1;
