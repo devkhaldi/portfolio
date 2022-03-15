@@ -35,14 +35,14 @@ const Contact = () => {
             <div className='input-container'>
               <label htmlFor='email'>Email</label>
               <input
-                name='email'
+                name='myemail'
                 id='email'
                 type='email'
                 className='form-control'
               />
             </div>
             <div className='input-container'>
-              <label htmlFor=''>Your Website</label>
+              <label htmlFor='yourWebsite'>Your Website</label>
               <input
                 name='yourWebsite'
                 id='yourWebsite'

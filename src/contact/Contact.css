@@ -1,14 +1,11 @@
 .contact-page {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   display: flex;
   padding: 3rem 2rem;
   column-gap: 2rem;
   color: var(--text-1);
 }
 /*Contact content*/
-.contact-page .contact-content {
-  flex: 3;
-}
 .contact-page h2 {
   font-weight: 300;
   color: var(--black);
@@ -17,28 +14,29 @@
   margin-bottom: 1rem;
 }
 .contact-page p {
-  font-size: 1.2rem;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.contact-page .contact-content {
+  flex: 3;
 }
 .contact-page .contact-content .form-container {
-  padding: 2rem;
+  padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   background: var(--bg-1);
 }
 
 .contact-page .contact-content .input-container {
-  margin: 1rem 0;
+  margin: 1.2rem 0;
 }
 .contact-page .contact-content .input-container::after {
   content: "";
   display: block;
   width: 0%;
-  height: 0.1rem;
-
+  height: 0.14em;
   background: var(--primary-color);
   position: relative;
-  bottom: 0rem;
-  transition: all 0.5s;
+  transition: all 0.4s;
 }
 .input-container:focus-within::after {
   width: 100% !important;
@@ -49,8 +47,8 @@
   color: var(--text-1);
   border: none;
   border-radius: 0;
-  padding: 0.5rem 0.5rem;
-  font-size: 1.2rem;
+  padding: 1.4rem 0.5rem;
+  font-size: 1rem;
   box-shadow: none !important;
   position: relative;
 }
@@ -59,11 +57,11 @@
 .contact-page .contact-content textarea {
   background: var(--form-input-bg);
 }
-.contact-page .contact-content input::placeholder {
+/* .contact-page .contact-content input::placeholder {
   color: var(--form-input-placeholder);
   font-weight: 300;
   font-size: 0.9rem;
-}
+} */
 
 .contact-page .contact-content button {
   margin: 2rem 0;
@@ -85,8 +83,8 @@
 }
 
 .contact-page .contact-about img {
-  width: 8rem;
-  height: 8rem;
+  height: 10rem;
+  border-radius: 1.5rem;
   margin: 1.5rem auto;
 }
 .contact-page .contact-about .contact-info span {
@@ -95,7 +93,7 @@
 
 .contact-page .contact-about .about-links {
   margin: 1rem 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 2rem;
 }
 .contact-page .contact-about .about-links span {
