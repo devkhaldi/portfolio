@@ -5,6 +5,7 @@ import "./Projects.css"
 import menaraTravel from "../img/menaraTravel.png"
 import modernui from "../img/modernui.png"
 import soundTrap from "../img/soundTrap.png"
+import { BsMoon, BsSun, BsArrowRight } from "react-icons/bs"
 
 const Projects = () => {
   return (
@@ -21,7 +22,8 @@ const Projects = () => {
         </div>
         <div className='btn-container'>
           <Link exact to='/portfolio' className='btn' data-aos='fade-right'>
-            View more
+            <span>View more</span>
+            <BsArrowRight />
           </Link>
         </div>
       </section>

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react"
 import "./Contact.css"
 import myPhoto from "../img/myphoto.jpg"
+import { BsMoon, BsSun, BsArrowRight } from "react-icons/bs"
 
 const Contact = () => {
   useEffect(() => {
@@ -59,7 +60,8 @@ const Contact = () => {
                 className='form-control'></textarea>
             </div>
             <button type='submit' className='btn'>
-              Send Message
+              <span>Send Message</span>
+              <BsArrowRight />
             </button>
           </form>
         </div>

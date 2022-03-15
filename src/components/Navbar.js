@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom"
 import { AiOutlineMenu } from "react-icons/ai"
 import "./Navbar.css"
 import { useState } from "react"
-import { BsMoon, BsSun } from "react-icons/bs"
+import { BsMoon, BsSun, BsArrowRight } from "react-icons/bs"
 
 const Navbar = () => {
   const [open, setopen] = useState(true)
@@ -46,7 +46,8 @@ const Navbar = () => {
           </NavLink>
           <div className='contact'>
             <Link className='btn' exact to='/contact'>
-              Contact
+              <span>Contact</span>
+              <BsArrowRight />
             </Link>
           </div>
           <button onClick={() => toggleDarkMode()} className='toggle-dark-mode'>

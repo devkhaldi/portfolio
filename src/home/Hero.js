@@ -7,6 +7,7 @@ import { AiOutlineTeam } from "react-icons/ai"
 import { AiOutlineAntDesign } from "react-icons/ai"
 import { SiRedux } from "react-icons/si"
 import topWave from "../img/topWave.svg"
+import { BsMoon, BsSun, BsArrowRight } from "react-icons/bs"
 
 const Hero = () => {
   return (
@@ -37,10 +38,12 @@ const Hero = () => {
           </p>
           <div className='hero-buttons'>
             <Link className='btn' exact to='/portfolio'>
-              View projects
+              <span>View projects</span>
+              <BsArrowRight />
             </Link>
             <Link className='btn' exact to='/contact'>
-              Contact
+              <span>Contact</span>
+              <BsArrowRight />
             </Link>
           </div>
         </div>

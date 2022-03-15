@@ -7,6 +7,7 @@ import menaraTravel from "../img/menaraTravel.png"
 import modernui from "../img/modernui.png"
 import soundTrap from "../img/soundTrap.png"
 import wildfiremap from "../img/wildfiremap.png"
+import { BsMoon, BsSun, BsArrowRight } from "react-icons/bs"
 
 const Projects = () => {
   return (
@@ -20,7 +21,8 @@ const Projects = () => {
         </div>
         <div className='btn-container'>
           <Link exact to='/contact' className='btn'>
-            Get In Touch
+            <span>Get In Touch</span>
+            <BsArrowRight />
           </Link>
         </div>
       </section>

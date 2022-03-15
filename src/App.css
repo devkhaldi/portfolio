@@ -123,11 +123,21 @@ input {
 
 .btn {
   border-radius: 1.5rem;
-  padding: 0.3rem 1.5rem;
+  padding: 0.3rem 1.3rem;
   border: calc(1rem / 10) solid var(--primary-color);
   font-weight: 500;
-
   box-shadow: 0 10px 20px rgba(100, 100, 100, 0.2) !important;
+}
+
+.btn svg {
+  margin-left: 0.5rem;
+  height: 1.4em;
+  width: 0em;
+  transition: all 0.5s;
+}
+
+.btn:hover svg {
+  width: 1.3em;
 }
 
 .line {

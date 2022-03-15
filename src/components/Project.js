@@ -1,5 +1,6 @@
 import React from "react"
 import "./Project.css"
+import { BsMoon, BsSun, BsArrowRight } from "react-icons/bs"
 
 const Project = ({ project }) => {
   return (
@@ -24,7 +25,8 @@ const Project = ({ project }) => {
               href={project.url}
               className='btn'
               rel='noopener noreferrer'>
-              Visit website
+              <span>Visit website</span>
+              <BsArrowRight />
             </a>
             {/* <a
               target='_blank'

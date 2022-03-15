@@ -2,6 +2,7 @@ import React, { useEffect } from "react"
 import { Link } from "react-router-dom"
 import "./About.css"
 import myPhoto from "../img/myphoto.jpg"
+import { BsMoon, BsSun, BsArrowRight } from "react-icons/bs"
 
 const About = () => {
   useEffect(() => {
@@ -41,7 +42,8 @@ const About = () => {
       </div>
       <div className='getintouch'>
         <Link className='btn' exact to='/contact'>
-          Get in touch
+          <span>Get in touch</span>
+          <BsArrowRight />
         </Link>
       </div>
     </section>
