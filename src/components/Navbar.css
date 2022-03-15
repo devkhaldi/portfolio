@@ -45,7 +45,7 @@ nav .nav-items {
 }
 nav .nav-items .nav-item {
   display: block;
-  color: var(--text-2);
+  color: var(--black);
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
@@ -69,14 +69,14 @@ nav .nav-items .active::after {
   height: 0.15rem;
   display: block;
   width: 100%;
-  background: var(--text-2);
+  background: var(--black);
 }
 nav .nav-items .active:hover::after,
 nav .nav-items .nav-item:hover::after {
   content: "";
   width: 100%;
   display: block;
-  background: var(--text-2);
+  background: var(--black);
   height: 0.15rem;
 }
 nav .nav-items .contact .btn,
