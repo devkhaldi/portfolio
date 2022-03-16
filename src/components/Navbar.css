@@ -11,18 +11,22 @@ nav {
   z-index: 10;
   transition: all 0.2s;
   z-index: 10;
-  background: var(--navbar-bg);
+  background: transparent;
 
   /* box-shadow: 0 0.5rem 2.5rem rgba(100, 100, 100, 0.07); */
 }
 
 .nav-on-scroll {
-  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.2);
+  background: var(--navbar-bg);
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   width: 96%;
   left: 2%;
-  top: 0.2rem;
+  top: 0;
   border-radius: 3rem;
+}
+.nav-on-scroll:hover {
+  box-shadow: 0 0 4rem rgba(0, 0, 0, 0.2);
 }
 
 nav .menu-icon {
@@ -69,14 +73,14 @@ nav .nav-items .active::after {
   height: 0.15rem;
   display: block;
   width: 100%;
-  background: var(--black);
+  background: var(--primary-color);
 }
 nav .nav-items .active:hover::after,
 nav .nav-items .nav-item:hover::after {
   content: "";
   width: 100%;
   display: block;
-  background: var(--black);
+  background: var(--primary-color);
   height: 0.15rem;
 }
 nav .nav-items .contact .btn,
@@ -105,7 +109,6 @@ nav .toggle-dark-mode {
   border: none;
   box-shadow: none;
   background: inherit;
-  display: none;
 }
 
 /*Side nav*/

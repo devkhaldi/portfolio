@@ -1,6 +1,6 @@
 import React from "react"
 import "./Project.css"
-import { BsMoon, BsSun, BsArrowRight } from "react-icons/bs"
+import { BsArrowRight } from "react-icons/bs"
 
 const Project = ({ project }) => {
   return (

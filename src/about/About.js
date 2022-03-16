@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import { Link } from "react-router-dom"
 import "./About.css"
 import myPhoto from "../img/myphoto.jpg"
-import { BsMoon, BsSun, BsArrowRight } from "react-icons/bs"
+import { BsArrowRight } from "react-icons/bs"
 
 const About = () => {
   useEffect(() => {

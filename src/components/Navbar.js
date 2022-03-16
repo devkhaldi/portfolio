@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Link, NavLink } from "react-router-dom"
 import { AiOutlineMenu } from "react-icons/ai"
 import "./Navbar.css"
@@ -10,12 +10,14 @@ const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false)
 
   // Get system theme
-  // const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)")
-  // const [darkMode, setDarkMode] = useState(darkThemeMq.matches)
-  // useEffect(() => {
-  //   // Set system theme
-  //   if (darkThemeMq.matches === true) body.className = "dark-mode"
-  // }, [])
+  const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)")
+  useEffect(() => {
+    // Set system theme
+    if (darkThemeMq.matches === true) {
+      body.className = "dark-mode"
+      setDarkMode(true)
+    }
+  }, [])
   const body = document.querySelector("body")
 
   const toggleDarkMode = () => {

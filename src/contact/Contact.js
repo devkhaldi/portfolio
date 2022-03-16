@@ -1,7 +1,7 @@
 import React, { useEffect } from "react"
 import "./Contact.css"
 import myPhoto from "../img/myphoto.jpg"
-import { BsMoon, BsSun, BsArrowRight } from "react-icons/bs"
+import { BsArrowRight } from "react-icons/bs"
 
 const Contact = () => {
   useEffect(() => {
