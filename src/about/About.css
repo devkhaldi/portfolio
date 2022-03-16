@@ -2,6 +2,36 @@
   margin-top: 2rem;
   padding: 4rem 8rem;
 }
+.about .ellipse1 {
+  position: absolute;
+  right: -35%;
+  top: -20%;
+  min-width: 80rem;
+  min-height: 40rem;
+  transition: all 1s;
+  z-index: -3;
+}
+
+.about .ellipse2 {
+  position: absolute;
+  left: -5%;
+  top: 10%;
+  min-width: 80rem;
+  min-height: 40rem;
+
+  transition: all 1s;
+  z-index: -3;
+}
+.about .ellipse3 {
+  position: absolute;
+  left: -25%;
+  top: -60%;
+  min-width: 80rem;
+  min-height: 40rem;
+
+  transition: all 1s;
+  z-index: -3;
+}
 .about h1 {
   color: var(--black);
   font-weight: 300;

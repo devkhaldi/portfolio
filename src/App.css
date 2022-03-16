@@ -1,30 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
-/* import matter font */
-@font-face {
-  font-family: SF ui;
-  src: url(./Fonts/sf-ui-display-thin.otf);
-  font-weight: 100;
-}
-@font-face {
-  font-family: SF ui;
-  src: url(./Fonts/sf-ui-display-light.otf);
-  font-weight: 200;
-}
-@font-face {
-  font-family: SF ui;
-  src: url(./Fonts/sf-ui-display-medium.otf);
-  font-weight: 400;
-}
-@font-face {
-  font-family: SF ui;
-  src: url(./Fonts/sf-ui-display-semibold.otf);
-  font-weight: 500;
-}
-@font-face {
-  font-family: SF ui;
-  src: url(./Fonts/sf-ui-display-bold.otf);
-  font-weight: 600;
-}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
