@@ -2,9 +2,25 @@ import React, { useEffect } from "react"
 import "./Contact.css"
 import myPhoto from "../img/myphoto.jpg"
 import { BsArrowRight } from "react-icons/bs"
+import ellipse1 from "../img/ellipse1.svg"
 
 const Contact = () => {
+  const rotateEllipse = () => {
+    const ellipse1 = document.getElementById("ellipse1")
+    const ellipse2 = document.getElementById("ellipse2")
+    // const ellipse3 = document.getElementById("ellipse3")
+    let rotationAngle = 0
+
+    setInterval(() => {
+      console.log("rotate")
+      ellipse1.style.transform = `rotateZ(${rotationAngle}deg)`
+      ellipse2.style.transform = `rotateZ(${-rotationAngle}deg)`
+      // ellipse2.style.transform = `rotateZ(${0.5 * rotationAngle}deg)`
+      rotationAngle++
+    }, 100)
+  }
   useEffect(() => {
+    rotateEllipse()
     window.scroll({
       top: 0,
       left: 0,
@@ -13,6 +29,9 @@ const Contact = () => {
   }, [])
   return (
     <section className='contact-page my-container'>
+      <img src={ellipse1} className='ellipse1' id='ellipse1' alt='ellipse1' />
+      <img src={ellipse1} className='ellipse2' id='ellipse2' alt='ellipse2' />
+      {/* <img src={ellipse1} className='ellipse3' id='ellipse3' alt='ellipse3' /> */}
       <div className='contact-content'>
         <h2>Get in touch</h2>
         <div className='line' data-aos='fade-left'></div>

@@ -25,7 +25,7 @@
   --primary-color: #524bd7;
   --secondary-color: #2bc5f5;
   --third-color: #6964d7;
-  --bg-1: #f3f5f5;
+  --bg-1: rgba(220, 220, 220, 0.3);
   --bg-2: #fff;
   --white: #fff;
   --black: #000;
@@ -34,7 +34,7 @@
   --navbar-bg: rgba(255, 255, 255, 0.9);
   --side-navbar-bg: #fff;
   --side-navbar-bg-active: #fafafa;
-  --form-input-bg: #fff;
+  --form-input-bg: rgba(255, 255, 255, 0.8);
   --form-input-placeholder: #888;
   --shadow: 0 0 100px rgba(150, 150, 150, 0.5);
   --footer-bg: rgba(230, 230, 250, 0.3);
@@ -46,7 +46,7 @@
   --third-color: #6964d7;
   /* --bg-1: #1e293b;
   --bg-2: #222; */
-  --bg-1: #000;
+  --bg-1: rgba(0, 0, 0, 0.1);
   --bg-2: #000;
   --white: #111;
   --black: #fff;
@@ -55,7 +55,7 @@
   --navbar-bg: rgba(0, 0, 0, 0.85);
   --side-navbar-bg: #333;
   --side-navbar-bg-active: #222;
-  --form-input-bg: #222;
+  --form-input-bg: rgba(20, 20, 20, 0.3);
   --form-input-placeholder: #ddd;
   --footer-bg: rgba(50, 50, 50, 0.2);
 }
