@@ -55,6 +55,7 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   background: var(--bg-1);
+  border-left: solid 0.2rem var(--primary-color);
 }
 
 .contact-page .contact-content .input-container {
