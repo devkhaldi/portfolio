@@ -90,7 +90,7 @@
 
 .hero .hero-text h1 span {
   color: transparent;
-  -webkit-text-stroke-width: 0.075rem;
+  -webkit-text-stroke-width: 0.15rem;
   -webkit-text-stroke-color: var(--primary-color);
 }
 .hero .hero-text p {

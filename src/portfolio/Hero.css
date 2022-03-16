@@ -91,10 +91,9 @@
 }
 
 .portfolio-hero .hero-text h1 span {
-  color: var(--primary-color);
-  text-shadow: none;
-  -webkit-text-stroke-width: 0;
-  /* -webkit-text-stroke-color: var(--primary-color); */
+  color: transparent;
+  -webkit-text-stroke-width: 0.15rem;
+  -webkit-text-stroke-color: var(--primary-color);
 }
 .portfolio-hero .hero-text p {
   margin-top: 1.2rem;
