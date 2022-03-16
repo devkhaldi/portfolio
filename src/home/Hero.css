@@ -76,10 +76,6 @@
   background: var(--primary-color);
 }
 .hero .hero-text h1 {
-  /* background: url("https://multiqos.com/_next/static/media/bg.d9164e89935004bbe370b28d180ef54c.webp"); */
-  background-clip: text;
-  -moz-background-clip: text;
-  background-size: cover;
   color: transparent;
   -webkit-text-stroke-width: 0.075rem;
   -webkit-text-stroke-color: var(--black);
@@ -90,14 +86,12 @@
   letter-spacing: 0.1rem;
   transition: all 1s;
   transform: scaleY(1.1);
-  /* font-family: SF ui, "Raleway", sans-serif; */
 }
 
 .hero .hero-text h1 span {
-  color: var(--primary-color);
-  text-shadow: none;
-  -webkit-text-stroke-width: 0;
-  /* -webkit-text-stroke-color: var(--primary-color); */
+  color: transparent;
+  -webkit-text-stroke-width: 0.075rem;
+  -webkit-text-stroke-color: var(--primary-color);
 }
 .hero .hero-text p {
   margin-top: 1.2rem;
