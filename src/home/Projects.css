@@ -26,11 +26,12 @@
   padding: 1rem;
 }
 .projects .btn-container .btn {
+  background: transparent;
+  border: 0.1rem solid var(--primary-color);
+  color: var(--black);
   margin: auto;
-  color: white;
   margin-top: 2rem;
   padding: 0.5rem 2rem;
-  background: var(--primary-color);
   font-size: 1rem;
   transition: all 0.5s;
 }

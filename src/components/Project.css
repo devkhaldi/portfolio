@@ -33,8 +33,9 @@
 }
 
 .project .project-info .btns .btn:nth-child(1) {
-  background: var(--primary-color);
-  color: white;
+  background: transparent;
+  border: 0.1rem solid var(--primary-color);
+  color: var(--black);
   padding: 0.4rem 1.5rem;
   margin-right: 0.3rem;
   transition: all 0.5s;
@@ -288,7 +289,7 @@
     rgba(235, 19, 19, 0.5) 100%
   );
 }
-.project:nth-child(6) {
+.dark-mode .project:nth-child(6) {
   /* ff 3.6+ */
   background: -moz-linear-gradient(
     45deg,

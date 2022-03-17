@@ -96,12 +96,12 @@
 } */
 
 .contact-page .contact-content button {
-  margin: 2rem 0;
-  padding: 0.5rem 0.7rem;
-  border-radius: 0.5rem;
-  font-size: 1rem;
   color: white;
   background: var(--primary-color);
+  margin: 2rem 0;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 0.9rem;
 }
 
 /* Contact about */

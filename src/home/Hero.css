@@ -119,8 +119,9 @@
 }
 
 .hero .hero-buttons .btn:nth-child(1) {
-  background-color: var(--primary-color);
-  color: white;
+  border: solid 0.1rem var(--primary-color);
+  color: var(--black);
+  background: transparent;
 }
 .hero .hero-buttons .btn:nth-child(2) {
   margin-left: 0.4rem;
