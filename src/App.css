@@ -57,7 +57,7 @@
   --side-navbar-bg-active: #222;
   --form-input-bg: rgba(40, 40, 40, 0.5);
   --form-input-placeholder: #ddd;
-  --footer-bg: rgba(50, 50, 50, 0.2);
+  --footer-bg: rgba(80, 80, 80, 0.3);
 }
 body {
   font-family: "Poppins", sans-serif;
