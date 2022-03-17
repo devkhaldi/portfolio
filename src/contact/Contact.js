@@ -54,7 +54,7 @@ const Contact = () => {
             <div className='input-container'>
               <label htmlFor='email'>Email</label>
               <input
-                name='myemail'
+                name='email'
                 id='email'
                 type='email'
                 className='form-control'
