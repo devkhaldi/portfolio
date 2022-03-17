@@ -61,18 +61,9 @@ const projects = [
     description:
       "I Created clone landing page for SoundTrap website using HTML CSS flexbox grid and JavaScript, this landing page is compatible for all types of devices and screens",
   },
+
   {
     id: 4,
-    title: "Wildfires Map",
-    miniImage: wildfiremap,
-    mainImage: wildfiremap,
-    url: "https://wildfire-map.netlify.app/",
-    sourceCode: "https://github.com/devkhaldi/wildfire-map",
-    description:
-      "In this project, I created a Wildfire map for tracking wildfires around the world using Google Maps and NASA API",
-  },
-  {
-    id: 5,
     title: "Covid Tracker",
     miniImage: covidTracker,
     mainImage: covidTracker,
@@ -80,6 +71,16 @@ const projects = [
     sourceCode: "https://github.com/devkhaldi/Corona-Tracker",
     description:
       "I developed a covid tracker using React, Chart JS and React count up to show the current status of pandemic and virus spreading in the world",
+  },
+  {
+    id: 5,
+    title: "Wildfires Map",
+    miniImage: wildfiremap,
+    mainImage: wildfiremap,
+    url: "https://wildfire-map.netlify.app/",
+    sourceCode: "https://github.com/devkhaldi/wildfire-map",
+    description:
+      "In this project, I created a Wildfire map for tracking wildfires around the world using Google Maps and NASA API",
   },
   {
     id: 6,
