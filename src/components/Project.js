@@ -1,6 +1,7 @@
 import React from "react"
 import "./Project.css"
 import { BsArrowRight } from "react-icons/bs"
+import phoneFrame from "../img/phoneFrame.png"
 
 const Project = ({ project }) => {
   return (
@@ -39,8 +40,17 @@ const Project = ({ project }) => {
         </div>
         <div className='project-preview  mx-md-2'>
           <div className='imgs-container'>
+            <div className='phone' id='phone'>
+              <img src={phoneFrame} className='phone-frame' alt='phone frame' />
+              <img
+                src={project.mobileImage}
+                className='mobile-image'
+                alt='mobile image'
+              />
+            </div>
             <img
               data-aos={"fade-up"}
+              className='mainImage'
               src={project.mainImage}
               alt={`${project.title} + ${project.mainImage}`}
               // data-toggle='modal'

@@ -7,6 +7,15 @@ import menaraTravel from "../img/menaraTravel.png"
 import modernui from "../img/modernui.png"
 import soundTrap from "../img/soundTrap.png"
 import wildfiremap from "../img/wildfiremap.png"
+
+// Project images for phone
+import covidTrackerMobile from "../img/covidtracker-mobile.png"
+import dollaMobile from "../img/dolla-mobile.png"
+import menaraTravelMobile from "../img/menaraTravel-mobile.png"
+import modernuiMobile from "../img/modernui-mobile.png"
+import soundTrapMobile from "../img/soundtrap-mobile.png"
+import wildfiremapMobile from "../img/wildfiremap-mobile.png"
+
 import { BsArrowRight } from "react-icons/bs"
 
 const Projects = () => {
@@ -36,6 +45,7 @@ const projects = [
     title: "Storage App",
     miniImage: modernui,
     mainImage: modernui,
+    mobileImage: modernuiMobile,
     url: "https://storage-ui.netlify.app/",
     sourceCode: "https://github.com/devkhaldi/Test-Front-END",
     description:
@@ -46,6 +56,7 @@ const projects = [
     title: "Menara Travels",
     miniImage: menaraTravel,
     mainImage: menaraTravel,
+    mobileImage: menaraTravelMobile,
     url: "https://menara.netlify.app/",
     sourceCode: "https://github.com/devkhaldi/Travel-Agency",
     description:
@@ -56,6 +67,7 @@ const projects = [
     title: "Sound Trap",
     miniImage: soundTrap,
     mainImage: soundTrap,
+    mobileImage: soundTrapMobile,
     url: "https://soundtrap.netlify.app/",
     sourceCode: "https://github.com/devkhaldi/Music-Landing-Page",
     description:
@@ -67,6 +79,7 @@ const projects = [
     title: "Covid Tracker",
     miniImage: covidTracker,
     mainImage: covidTracker,
+    mobileImage: covidTrackerMobile,
     url: "https://covid-tracker-khaldi.netlify.app/",
     sourceCode: "https://github.com/devkhaldi/Corona-Tracker",
     description:
@@ -77,6 +90,7 @@ const projects = [
     title: "Wildfires Map",
     miniImage: wildfiremap,
     mainImage: wildfiremap,
+    mobileImage: wildfiremapMobile,
     url: "https://wildfire-map.netlify.app/",
     sourceCode: "https://github.com/devkhaldi/wildfire-map",
     description:
@@ -87,6 +101,7 @@ const projects = [
     title: "Dolla Website",
     miniImage: dolla,
     mainImage: dolla,
+    mobileImage: dollaMobile,
     url: "https://dolla-landing.netlify.app/",
     sourceCode: "https://github.com/devkhaldi/Dolla",
     description:

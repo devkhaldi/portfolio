@@ -7,11 +7,12 @@
   margin: 2rem 0;
   /* box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.05); */
   transition: all 1s;
+  overflow: hidden;
 }
 
-.project:hover {
+/* .project:hover {
   transform: scale(1.01);
-}
+} */
 .project-info {
   flex: 3;
 }
@@ -60,6 +61,66 @@
 }
 .project .project-preview {
   flex: 7;
+  position: relative;
+}
+
+.project .phone {
+  position: absolute;
+  top: 6rem;
+  right: 15rem;
+  width: 17rem;
+  z-index: 20;
+  border-radius: 2.2rem;
+  transition: all 2s;
+}
+.project .phone .mobile-image {
+  position: absolute;
+  top: 1.45rem;
+  left: 0.5rem;
+  width: 16rem;
+  z-index: 2;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 4rem rgba(0, 0, 0, 0.4);
+}
+.project .phone .phone-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 17rem;
+  border-radius: 2.2rem;
+  z-index: 3;
+}
+
+.project:nth-child(1) .phone {
+  top: 12rem;
+  right: 22rem;
+}
+.project:nth-child(2) .phone {
+  top: 6rem;
+  right: 0rem;
+}
+.project:nth-child(3) .phone {
+  top: 6rem;
+  right: 10rem;
+}
+.project:nth-child(4) .phone {
+  top: 6rem;
+  right: 30rem;
+}
+.project:nth-child(5) .phone {
+  top: 10rem;
+  right: unset;
+  left: 6rem;
+}
+.project:nth-child(6) .phone {
+  top: 6rem;
+  right: 1rem;
+}
+.project .imgs-container:hover .mainImage {
+  transform: scale(1.1);
+}
+.project .imgs-container:hover .phone {
+  top: 60rem;
 }
 
 .project .project-preview .imgs-container {
