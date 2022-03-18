@@ -128,7 +128,7 @@
 .portfolio-hero .hero-illustration img {
   margin-left: 2rem;
   margin-top: 0rem;
-  width: 30rem;
+  width: 28rem;
 }
 
 /* Scale elements on hover */
@@ -157,12 +157,13 @@
   }
   .portfolio-hero .hero-illustration img {
     width: 28rem;
+    margin: 0;
   }
   .portfolio-hero .hero-text h1 {
     margin-bottom: 1rem;
   }
   .portfolio-hero .hero-text p {
-    margin: 0 auto;
+    margin: 0;
   }
 
   .portfolio-hero-cards .cards {

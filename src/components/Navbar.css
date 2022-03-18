@@ -19,6 +19,7 @@ nav {
   background: var(--navbar-bg);
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   width: 96%;
   left: 2%;
   top: 0;

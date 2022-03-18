@@ -130,9 +130,9 @@
 }
 
 .hero .hero-illustration img {
-  margin-left: 2rem;
+  margin-left: 6rem;
   margin-top: 0rem;
-  width: 30rem;
+  width: 28rem;
 }
 
 /* Hero Cards */
@@ -265,12 +265,13 @@
   }
   .hero .hero-illustration img {
     width: 28rem;
+    margin: 0;
   }
   .hero .hero-text h1 {
     margin-bottom: 1rem;
   }
   .hero .hero-text p {
-    margin: 0 auto;
+    margin: 0;
   }
 
   .hero-cards .cards {
