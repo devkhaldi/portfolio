@@ -137,6 +137,9 @@
 }
 
 @media (max-width: 62em) {
+  .project {
+    padding: 0 2rem;
+  }
   .project .project-preview {
     display: none;
   }
@@ -146,6 +149,9 @@
   .project .project-info .img-container {
     display: initial;
     margin: 3rem 0;
+  }
+  .project .project-info img {
+    border-radius: 1rem;
   }
   .project .project-info h3 {
     margin-top: 2rem;

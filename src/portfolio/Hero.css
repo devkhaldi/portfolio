@@ -2,8 +2,7 @@
   padding: 0 3rem;
   width: 100%;
   position: relative;
-  margin: auto;
-  margin-top: 3.3rem;
+  margin: 3.3rem auto;
 }
 .portfolio-hero .ellipse1 {
   position: absolute;
@@ -126,7 +125,7 @@
 }
 
 .portfolio-hero .hero-illustration img {
-  margin-left: 2rem;
+  margin-left: 6rem;
   margin-top: 0rem;
   width: 28rem;
 }
@@ -152,8 +151,6 @@
     display: flex;
     flex-direction: column;
     padding: 2rem 0;
-  }
-  .portfolio-hero .hero-text .text-content {
   }
   .portfolio-hero .hero-illustration img {
     width: 28rem;
