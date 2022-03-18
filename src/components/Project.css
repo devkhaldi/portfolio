@@ -80,7 +80,7 @@
   width: 16rem;
   z-index: 2;
   border-radius: 0.5rem;
-  box-shadow: 0 0 4rem rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10rem rgba(0, 0, 0, 0.4);
 }
 .project .phone .phone-frame {
   position: absolute;
@@ -100,7 +100,7 @@
   right: 0rem;
 }
 .project:nth-child(3) .phone {
-  top: 6rem;
+  top: 8rem;
   right: 10rem;
 }
 .project:nth-child(4) .phone {
