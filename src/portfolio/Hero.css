@@ -109,12 +109,11 @@
   padding: 0.4rem 1.4rem;
   padding-right: 1rem;
   letter-spacing: 0.05rem;
-  box-shadow: none !important;
   transition: all 1s;
 }
 
 .portfolio-hero .hero-buttons .btn:nth-child(1) {
-  border: solid 0.1rem var(--primary-color);
+  border: 0.1rem solid var(--black);
   color: var(--black);
   background: transparent;
 }

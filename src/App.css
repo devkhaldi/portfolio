@@ -53,10 +53,9 @@
   --text-1: rgb(195, 208, 230);
   --text-2: #fff;
   --navbar-bg: rgba(0, 0, 0, 0.8);
-  --side-navbar-bg: #333;
+  --side-navbar-bg: #111;
   --side-navbar-bg-active: #222;
   --form-input-bg: rgba(40, 40, 40, 0.5);
-  --form-input-placeholder: #ddd;
   --footer-bg: rgba(80, 80, 80, 0.3);
 }
 body {

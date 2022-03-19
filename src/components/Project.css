@@ -35,7 +35,7 @@
 
 .project .project-info .btns .btn:nth-child(1) {
   background: transparent;
-  border: 0.1rem solid var(--primary-color);
+  border: 0.16rem solid var(--black);
   color: var(--black);
   padding: 0.4rem 1.5rem;
   margin-right: 0.3rem;
@@ -117,7 +117,7 @@
   right: 1rem;
 }
 .project .imgs-container:hover .mainImage {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .project .imgs-container:hover .phone {
   top: 60rem;
