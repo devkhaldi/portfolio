@@ -153,7 +153,7 @@
   align-items: center;
   height: 23rem;
   margin: 0 1rem;
-  transition: all 100ms;
+  transition: all 1000ms;
   border-radius: 1rem;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.07);
 }
@@ -161,14 +161,14 @@
 .dark-mode .hero .card {
   background: linear-gradient(
     0deg,
-    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.9) 20%,
     rgba(0, 0, 0, 0.1) 100%
   );
 }
 .light-mode .hero .card {
   background: linear-gradient(
     0deg,
-    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 30%,
     rgba(255, 255, 255, 0.2) 100%
   );
 }
