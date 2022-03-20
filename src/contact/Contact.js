@@ -100,9 +100,18 @@ const Contact = () => {
         </div>
 
         <div className='about-links' data-aos='fade-up'>
-          Email : <span>pro.elkhaldi@gmail.com</span> <br />
-          Tel : <span>+212 6 59 43 22 70</span> <br />
-          GitHub : <span>https://github.com/devkhaldi</span> <br />
+          Email :
+          <a href='mailto:pro.elkhaldi@gmail.com'>pro.elkhaldi@gmail.com</a>
+          <br />
+          Tel : <a href='tel:+212659432270'>+212 6 59 43 22 70</a> <br />
+          GitHub :
+          <a
+            href='https://github.com/devkhaldi'
+            target='_blank'
+            rel='noopener noreferrer'>
+            https://github.com/devkhaldi
+          </a>
+          <br />
         </div>
       </div>
     </section>
