@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import { FaLinkedinIn, FaGithub } from "react-icons/fa"
+import { FaLinkedinIn, FaGithub, FaYoutube } from "react-icons/fa"
 import { Link } from "react-router-dom"
 import "./Footer.css"
 import myPhoto from "../img/myphoto.jpg"
@@ -73,6 +73,16 @@ const Footer = () => {
                 <span>Linkedin</span>
               </a>
               <span>Let's connect on LinkedIn</span>
+            </div>
+            <div className='social-link'>
+              <a
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://www.youtube.com/c/KhaldiCoding'>
+                <FaYoutube />
+                <span>Youtube</span>
+              </a>
+              <span>Visit my YouTube channel</span>
             </div>
           </div>
           <div className='portfolio-links'>
