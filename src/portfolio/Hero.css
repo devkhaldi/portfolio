@@ -37,7 +37,6 @@
   z-index: -1;
   width: 120%;
   top: -11rem;
-  transform: rotateZ(-40deg);
 }
 
 /*Hero Text */
@@ -47,7 +46,7 @@
   max-width: 78rem;
 }
 .portfolio-hero .hero-text .text-content {
-  padding-top: 1.5rem;
+  padding-top: 2rem;
   padding-left: 4rem;
 }
 .portfolio-hero .hero-text .text-content .name {
@@ -124,14 +123,14 @@
 }
 
 .portfolio-hero .hero-illustration img {
-  margin-left: 6rem;
-  margin-top: 0rem;
+  margin-left: 4rem;
+  margin-top: 1.5rem;
   width: 28rem;
 }
 
 /* Scale elements on hover */
 .portfolio-hero .hero-text h1:hover {
-  transform: scaleX(1.1) scaleY(1.15);
+  transform: scaleX(1.05) scaleY(1.11);
 }
 .portfolio-hero .hero-text .text-content .name:hover,
 .portfolio-hero .hero-text p:hover,

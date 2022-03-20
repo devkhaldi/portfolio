@@ -52,7 +52,7 @@
   max-width: 78rem;
 }
 .hero .hero-text .text-content {
-  padding-top: 1.5rem;
+  padding-top: 2rem;
   padding-left: 4rem;
 }
 .hero .hero-text .text-content .name {
@@ -129,8 +129,8 @@
 }
 
 .hero .hero-illustration img {
-  margin-left: 6rem;
-  margin-top: 0rem;
+  margin-left: 4rem;
+  margin-top: 1.5rem;
   width: 28rem;
 }
 
@@ -243,7 +243,7 @@
 
 /* Scale elements on hover */
 .hero .hero-text h1:hover {
-  transform: scaleX(1.1) scaleY(1.15);
+  transform: scaleX(1.05) scaleY(1.11);
 }
 .hero .hero-text .text-content .name:hover,
 .hero .hero-text p:hover,
