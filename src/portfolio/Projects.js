@@ -29,8 +29,8 @@ const Projects = () => {
           ))}
         </div>
         <div className='btn-container'>
-          <Link exact to='/contact' className='btn'>
-            <span>Get In Touch</span>
+          <Link exact to='/about' className='btn'>
+            <span>About me</span>
             <BsArrowRight />
           </Link>
         </div>
