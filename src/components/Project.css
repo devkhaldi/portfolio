@@ -41,14 +41,9 @@
   margin-right: 0.3rem;
   transition: all 0.5s;
 }
-.project .project-info .btns .btn:nth-child(1):hover {
-  transform: translateY(-0.2rem);
+.light-mode .project-info .btns .btn:nth-child(1) {
+  border: 0.1rem solid var(--black);
 }
-/* .project .project-info .btns .btn:nth-child(2) {
-  color: var(--primary-color);
-  padding: 0.5rem 1rem;
-  border: solid 2px var(--primary-color);
-} */
 
 .project .project-info p {
   margin: 1.6rem 0;

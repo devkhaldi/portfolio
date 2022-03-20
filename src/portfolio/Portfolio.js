@@ -5,7 +5,7 @@ import Projects from "./Projects"
 const Portfolio = () => {
   useEffect(() => {
     window.scroll({
-      top: 1500,
+      top: 0,
       left: 0,
       behavior: "smooth",
     })

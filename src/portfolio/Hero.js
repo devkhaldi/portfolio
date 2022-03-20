@@ -40,12 +40,12 @@ const Hero = () => {
             <span>Abderrahim El khaldi</span>
           </div>
           <h1>
-            Hi i'm <span>Abde</span>. I'm a Frontend developer.
+            Hi i'm <span>Abde</span>. I'm a Freelance FrontEnd developer.
           </h1>
           <p>
-            My name is Abderrahim El Khaldi, I create amazing modern and
-            responsive websites using React, I have a Computer Science diploma
-            from Higher school of technology Fez, Morocco
+            My name is Abderrahim El Khaldi, I create Amazing Modern Fast and
+            Mobile friendly websites using HTML,CSS3,JavaScript and React. And
+            update existing website sections and React components.
           </p>
           <div className='hero-buttons'>
             <Link className='btn' exact to='/portfolio'>

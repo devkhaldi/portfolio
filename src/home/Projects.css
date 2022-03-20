@@ -18,7 +18,6 @@
   color: transparent;
   -webkit-text-stroke-width: 0.07rem;
   -webkit-text-stroke-color: var(--black);
-  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   transition: all 1s;
@@ -39,6 +38,9 @@
   padding: 0.5rem 2rem;
   font-size: 1rem;
   transition: all 0.5s;
+}
+.light-mode .projects .btn-container .btn {
+  border: 0.1rem solid var(--black);
 }
 
 .projects .btn-container svg {
