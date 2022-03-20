@@ -1,14 +1,45 @@
 footer {
-  background: var(--footer-bg);
-
   color: var(--text-1);
   padding: 3rem;
   padding-bottom: 1rem;
-  padding-top: 0rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding-top: 3rem;
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
   position: relative;
+}
+
+footer .ellipse1 {
+  position: absolute;
+  right: -20%;
+  top: 0%;
+  min-width: 80rem;
+  min-height: 40rem;
+  transition: all 1s;
+  z-index: -3;
+}
+
+footer .ellipse2 {
+  position: absolute;
+  left: -10%;
+  top: -20%;
+  min-width: 80rem;
+  min-height: 40rem;
+
+  transition: all 1s;
+  z-index: -3;
+}
+footer .ellipse3 {
+  position: absolute;
+  left: -35%;
+  top: -50%;
+  min-width: 80rem;
+  min-height: 40rem;
+
+  transition: all 1s;
+  z-index: -3;
 }
 footer .footer-content {
   display: flex;
@@ -85,7 +116,7 @@ footer .copyright-section {
 footer::before {
   content: "";
   position: absolute;
-  background: var(--footer-bg);
+
   width: 110%;
   left: -9%;
   z-index: -1;

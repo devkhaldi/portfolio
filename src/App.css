@@ -1,31 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-/* import matter font */
-@font-face {
-  font-family: SF ui;
-  src: url(./Fonts/sf-ui-display-thin.otf);
-  font-weight: 100;
-}
-@font-face {
-  font-family: SF ui;
-  src: url(./Fonts/sf-ui-display-light.otf);
-  font-weight: 200;
-}
-@font-face {
-  font-family: SF ui;
-  src: url(./Fonts/sf-ui-display-medium.otf);
-  font-weight: 400;
-}
-@font-face {
-  font-family: SF ui;
-  src: url(./Fonts/sf-ui-display-semibold.otf);
-  font-weight: 500;
-}
-@font-face {
-  font-family: SF ui;
-  src: url(./Fonts/sf-ui-display-bold.otf);
-  font-weight: 600;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   padding: 0;
@@ -43,48 +16,49 @@
   --color-8: #ade8f4;
   --color-9: #caf0f8;
 }
+#root {
+  overflow: hidden;
+}
 
 .light-mode {
-  --primary-color: #524bd7;
-  --secondary-color: #ff007e;
+  --primary-color: #0f62fe;
+  --secondary-color: #2bc5f5;
   --third-color: #6964d7;
-  --bg-1: #f3f5f5;
+  --bg-1: rgba(220, 220, 220, 0.3);
   --bg-2: #fff;
   --white: #fff;
   --black: #000;
   --text-1: #000;
-  --text-2: #524bd7;
-  --navbar-bg: rgba(255, 255, 255, 0.85);
+  --text-2: #0f62fe;
+  --navbar-bg: rgba(255, 255, 255, 0.9);
   --side-navbar-bg: #fff;
   --side-navbar-bg-active: #fafafa;
-  --form-input-bg: #fff;
+  --form-input-bg: rgba(255, 255, 255, 0.8);
   --form-input-placeholder: #888;
   --shadow: 0 0 100px rgba(150, 150, 150, 0.5);
-  --footer-bg: #f8f8f8;
+  --footer-bg: rgba(230, 230, 250, 0.3);
 }
 
 .dark-mode {
-  --primary-color: #524bd7;
-  --secondary-color: #d73c97;
+  --primary-color: #0f62fe;
+  --secondary-color: #2bc5f5;
   --third-color: #6964d7;
   /* --bg-1: #1e293b;
   --bg-2: #222; */
-  --bg-1: #000;
+  --bg-1: rgba(30, 30, 30, 0.9);
   --bg-2: #000;
   --white: #111;
   --black: #fff;
-  --text-1: #fff;
+  --text-1: rgb(195, 208, 230);
   --text-2: #fff;
   --navbar-bg: rgba(0, 0, 0, 0.7);
-  --side-navbar-bg: #333;
-  --side-navbar-bg-active: #444;
-  --form-input-bg: #222;
-  --form-input-placeholder: #ddd;
-  --shadow: 0 0 100px rgba(150, 150, 150, 0.5);
-  --footer-bg: #222;
+  --side-navbar-bg: #111;
+  --side-navbar-bg-active: #222;
+  --form-input-bg: rgba(40, 40, 40, 0.5);
+  --footer-bg: rgba(80, 80, 80, 0.3);
 }
 body {
-  font-family: SF ui, "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   background: var(--bg-2);
   overflow-x: hidden;
 }
@@ -102,7 +76,7 @@ html {
 
 @media (max-width: 500px) {
   html {
-    font-size: 50%;
+    font-size: 75%;
   }
 }
 @media (min-width: 2048px) {
@@ -123,8 +97,20 @@ input {
 }
 
 .btn {
-  /* border-radius: 0.5rem; */
-  box-shadow: 0 10px 20px rgba(100, 100, 100, 0.2) !important;
+  border-radius: 1.5rem;
+  padding: 0.3rem 1.3rem;
+  font-weight: 400;
+}
+
+.btn svg {
+  margin-left: 0.5rem;
+  height: 1.4em;
+  width: 0em;
+  transition: all 0.5s;
+}
+
+.btn:hover svg {
+  width: 1.3em;
 }
 
 .line {
@@ -136,9 +122,16 @@ input {
   border-radius: 1rem;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+  cursor: default;
+}
+
 ::selection {
-  background: var(--primary-color);
-  color: white;
+  background: rgba(74, 155, 255, 0.2);
 }
 /*Custom scroll bar */
 /* width */
@@ -154,10 +147,5 @@ input {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   border-radius: 0.6rem;
-  background: var(--primary-color);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  /* background: #555; */
+  background: rgba(0, 0, 0, 0.6);
 }

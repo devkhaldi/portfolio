@@ -1,21 +1,23 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Link, NavLink } from "react-router-dom"
 import { AiOutlineMenu } from "react-icons/ai"
 import "./Navbar.css"
 import { useState } from "react"
-import { BsMoon, BsSun } from "react-icons/bs"
+import { BsMoon, BsSun, BsArrowRight } from "react-icons/bs"
 
 const Navbar = () => {
   const [open, setopen] = useState(true)
   const [darkMode, setDarkMode] = useState(false)
 
   // Get system theme
-  // const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)")
-  //  const [darkMode, setDarkMode] = useState(darkThemeMq.matches)
-  // useEffect(() => {
-  //   // Set system theme
-  //   if (darkThemeMq.matches === true) body.className = "dark-mode"
-  // }, [])
+  const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)")
+  useEffect(() => {
+    // Set system theme
+    if (darkThemeMq.matches === true) {
+      body.className = "dark-mode"
+      setDarkMode(true)
+    }
+  }, [])
   const body = document.querySelector("body")
 
   const toggleDarkMode = () => {
@@ -46,7 +48,8 @@ const Navbar = () => {
           </NavLink>
           <div className='contact'>
             <Link className='btn' exact to='/contact'>
-              Contact
+              <span>Contact</span>
+              <BsArrowRight />
             </Link>
           </div>
           <button onClick={() => toggleDarkMode()} className='toggle-dark-mode'>
