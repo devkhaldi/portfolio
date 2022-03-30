@@ -51,7 +51,7 @@
   max-width: 78rem;
 }
 .hero .hero-text .text-content {
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-left: 4rem;
 }
 .hero .hero-text .text-content .name {
@@ -66,6 +66,7 @@
 }
 .hero .hero-text .text-content .name span {
   color: var(--primary-color);
+  text-transform: uppercase;
 }
 
 .hero .hero-text .text-content .name .name-line {
@@ -75,14 +76,16 @@
   background: var(--primary-color);
 }
 .hero .hero-text h1 {
-  color: transparent;
+  color: var(--black);
+  /* color: transparent;
   -webkit-text-stroke-width: 0.07rem;
-  -webkit-text-stroke-color: var(--black);
-  font-weight: 900;
-  font-size: 2.3rem;
+  -webkit-text-stroke-color: var(--black); */
+  font-weight: 700;
+  font-size: 2.2rem;
+  opacity: 0.9;
   margin: 0.8rem 0;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0rem;
   transition: all 1s;
   transform: scaleY(1.1);
 }
@@ -98,7 +101,7 @@
   width: 95%;
   color: var(--text-1);
   font-size: 1rem;
-  line-height: 1.5rem;
+  /* line-height: 1.5rem; */
   font-weight: 500;
   letter-spacing: 0.03rem;
   font-family: "Poppins", sans-serif;
@@ -118,9 +121,12 @@
 }
 
 .hero .hero-buttons .btn:nth-child(1) {
-  border: 0.1rem solid var(--black);
+  /* border: 0.1rem solid var(--black);
   color: var(--black);
-  background: transparent;
+  background: transparent; */
+
+  background: var(--primary-color);
+  color: white;
 }
 .hero .hero-buttons .btn:nth-child(2) {
   margin-left: 0.4rem;
@@ -130,7 +136,7 @@
 
 .hero .hero-illustration img {
   margin-left: 4rem;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   width: 28rem;
 }
 
@@ -242,16 +248,16 @@
 } */
 
 /* Scale elements on hover */
-.hero .hero-text h1:hover {
+/* .hero .hero-text h1:hover {
   transform: scaleX(1.05) scaleY(1.11);
-}
-.hero .hero-text .text-content .name:hover,
+} */
+/* .hero .hero-text .text-content .name:hover,
 .hero .hero-text p:hover,
 .hero .hero-buttons .btn:hover,
 .hero .hero-illustration img:hover,
 .hero .hero-cards .card:hover {
   transform: scale(1.05);
-}
+} */
 
 /* Style hero for small devices */
 @media (max-width: 48em) {

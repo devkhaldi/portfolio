@@ -15,7 +15,7 @@ nav {
 
 .nav-on-scroll {
   background: var(--navbar-bg);
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(1rem);
   -webkit-backdrop-filter: blur(5rem);
   width: 96%;
@@ -24,7 +24,7 @@ nav {
   border-radius: 3rem;
 }
 .nav-on-scroll:hover {
-  box-shadow: 0 0 4rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
 }
 
 nav .menu-icon {

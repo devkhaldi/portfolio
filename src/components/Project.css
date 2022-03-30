@@ -84,6 +84,7 @@
   width: 17rem;
   border-radius: 2.2rem;
   z-index: 3;
+  display: none;
 }
 
 .project:nth-child(1) .phone {
@@ -112,10 +113,10 @@
   right: 1rem;
 }
 .project .imgs-container:hover .mainImage {
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 .project .imgs-container:hover .phone {
-  top: 60rem;
+  transform: scale(1.1);
 }
 
 .project .project-preview .imgs-container {
