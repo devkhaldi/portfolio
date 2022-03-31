@@ -49,7 +49,6 @@ const Project = ({ project }) => {
               />
             </div>
             <img
-              data-aos={"fade-up"}
               className='mainImage'
               src={project.mainImage}
               alt={`${project.title} + ${project.mainImage}`}

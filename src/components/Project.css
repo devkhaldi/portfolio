@@ -132,6 +132,10 @@
   width: 100%;
 }
 
+.project .project-preview .mainImage {
+  transition: all 1s;
+}
+
 @media (max-width: 62em) {
   .project {
     padding: 0 2rem;
