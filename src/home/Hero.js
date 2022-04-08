@@ -46,16 +46,16 @@ const Hero = () => {
         </div>
         <div className='text-content' data-aos='fade-down'>
           <div className='name'>
-            <div className='name-line'></div>
+            {/* <div className='name-line'></div> */}
             <span>Abderrahim El khaldi</span>
           </div>
           <h1>
             Hi i'm <span>Abde</span>. I'm a Freelance FrontEnd developer.
           </h1>
           <p>
-            My name is Abderrahim El Khaldi, I create Amazing Modern Fast and
-            Mobile friendly websites using HTML,CSS3,JavaScript and React. And
-            update existing website sections and React components.
+            My name is Abderrahim El Khaldi, I create Amazing Fast and Mobile
+            friendly websites using HTML,CSS,JavaScript and React. And update
+            existing website sections and React components.
           </p>
           <div className='hero-buttons'>
             <Link className='btn' exact to='/portfolio'>

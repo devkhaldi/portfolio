@@ -13,11 +13,12 @@
 }
 .projects .header h1 {
   font-size: 2.3rem;
-  font-weight: 900;
+  font-weight: 100;
   width: 40rem;
-  color: transparent;
+  color: var(--black);
+  /* color: transparent;
   -webkit-text-stroke-width: 0.07rem;
-  -webkit-text-stroke-color: var(--black);
+  -webkit-text-stroke-color: var(--black); */
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   transition: all 1s;
@@ -31,7 +32,7 @@
 }
 .projects .btn-container .btn {
   background: transparent;
-  border: 0.16rem solid var(--black);
+  border: 0.05rem solid var(--black);
   color: var(--black);
   margin: auto;
   margin-top: 2rem;

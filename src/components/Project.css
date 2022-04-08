@@ -35,20 +35,17 @@
 
 .project .project-info .btns .btn:nth-child(1) {
   background: transparent;
-  border: 0.16rem solid var(--black);
+  border: 0.05rem solid var(--black);
   color: var(--black);
   padding: 0.4rem 1.5rem;
   margin-right: 0.3rem;
   transition: all 0.5s;
 }
-.light-mode .project-info .btns .btn:nth-child(1) {
-  border: 0.1rem solid var(--black);
-}
 
 .project .project-info p {
   margin: 1.6rem 0;
   font-size: 0.95rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 .project .project-info p a {
   display: block;
@@ -84,6 +81,7 @@
   width: 17rem;
   border-radius: 2.2rem;
   z-index: 3;
+  display: none;
 }
 
 .project:nth-child(1) .phone {
@@ -112,10 +110,10 @@
   right: 1rem;
 }
 .project .imgs-container:hover .mainImage {
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 .project .imgs-container:hover .phone {
-  top: 60rem;
+  transform: scale(1.1);
 }
 
 .project .project-preview .imgs-container {
@@ -129,6 +127,10 @@
 
 .project .project-preview img {
   width: 100%;
+}
+
+.project .project-preview .mainImage {
+  transition: all 1s;
 }
 
 @media (max-width: 62em) {
