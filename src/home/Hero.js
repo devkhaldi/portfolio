@@ -46,7 +46,7 @@ const Hero = () => {
         </div>
         <div className='text-content' data-aos='fade-down'>
           <div className='name'>
-            <div className='name-line'></div>
+            {/* <div className='name-line'></div> */}
             <span>Abderrahim El khaldi</span>
           </div>
           <h1>

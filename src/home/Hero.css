@@ -55,10 +55,10 @@
   padding-left: 4rem;
 }
 .hero .hero-text .text-content .name {
-  font-size: 1.15rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
-  font-weight: 500;
+  font-weight: 400;
   gap: 0.2rem;
   margin: 0;
   transition: all 1s;
@@ -66,7 +66,7 @@
   opacity: 0.8;
 }
 .hero .hero-text .text-content .name span {
-  color: var(--primary-color);
+  color: var(--black);
   text-transform: uppercase;
 }
 
@@ -81,7 +81,7 @@
   /* color: transparent;
   -webkit-text-stroke-width: 0.07rem;
   -webkit-text-stroke-color: var(--black); */
-  font-weight: 700;
+  font-weight: 400;
   font-size: 2.2rem;
   opacity: 0.9;
   margin: 0.8rem 0;
@@ -98,13 +98,13 @@
   /* -webkit-text-stroke-color: var(--primary-color); */
 }
 .hero .hero-text p {
-  margin-top: 1.2rem;
+  margin-top: 1.5rem;
   width: 95%;
   color: var(--text-1);
   font-size: 1rem;
   /* line-height: 1.5rem; */
-  font-weight: 500;
-  letter-spacing: 0.03rem;
+  font-weight: 400;
+  letter-spacing: 0.04rem;
   font-family: "Poppins", sans-serif;
   transition: all 1s;
 }
@@ -113,9 +113,9 @@
   margin-top: 1.5rem;
 }
 .hero .hero-buttons .btn {
-  font-weight: 500;
-  font-size: 0.9rem;
-  padding: 0.4rem 1.4rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 0.4rem 1.6rem;
   padding-right: 1rem;
   letter-spacing: 0.05rem;
   transition: all 1s;
@@ -199,7 +199,7 @@
 .hero .hero-cards .card p {
   color: var(--text-1);
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 /* .hero .hero-cards .card .img-container {
   border: 0.1rem solid var(--primary-color);
