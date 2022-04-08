@@ -51,7 +51,7 @@
   max-width: 78rem;
 }
 .hero .hero-text .text-content {
-  padding-top: 3rem;
+  padding-top: 3.4rem;
   padding-left: 4rem;
 }
 .hero .hero-text .text-content .name {
@@ -98,7 +98,7 @@
   /* -webkit-text-stroke-color: var(--primary-color); */
 }
 .hero .hero-text p {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   width: 95%;
   color: var(--text-1);
   font-size: 1rem;
@@ -109,9 +109,6 @@
   transition: all 1s;
 }
 
-.hero .hero-buttons {
-  margin-top: 1.5rem;
-}
 .hero .hero-buttons .btn {
   font-size: 0.8rem;
   font-weight: 400;
@@ -158,10 +155,10 @@
   flex-direction: column;
   align-items: center;
   height: 23rem;
-  margin: 0 1rem;
+  margin: 0 0.4rem;
   transition: all 1000ms;
   border-radius: 1rem;
-  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.07);
+  box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.07);
 }
 
 .dark-mode .hero .card {

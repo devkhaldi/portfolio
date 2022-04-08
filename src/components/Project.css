@@ -35,14 +35,11 @@
 
 .project .project-info .btns .btn:nth-child(1) {
   background: transparent;
-  border: 0.16rem solid var(--black);
+  border: 0.05rem solid var(--black);
   color: var(--black);
   padding: 0.4rem 1.5rem;
   margin-right: 0.3rem;
   transition: all 0.5s;
-}
-.light-mode .project-info .btns .btn:nth-child(1) {
-  border: 0.1rem solid var(--black);
 }
 
 .project .project-info p {

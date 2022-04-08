@@ -51,7 +51,7 @@
   --black: #fff;
   --text-1: rgb(195, 208, 230);
   --text-2: #fff;
-  --navbar-bg: rgba(0, 0, 0, 0.7);
+  --navbar-bg: rgb(0, 0, 0);
   --side-navbar-bg: #111;
   --side-navbar-bg-active: #222;
   --form-input-bg: rgba(40, 40, 40, 0.5);
