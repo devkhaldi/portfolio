@@ -35,7 +35,7 @@ nav .logo-container a {
   font-size: 2rem;
   color: var(--text-2);
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 700;
 }
 nav .nav-items {
   display: flex;
