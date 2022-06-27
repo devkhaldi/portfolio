@@ -19,8 +19,6 @@
   /* color: transparent;
   -webkit-text-stroke-width: 0.07rem;
   -webkit-text-stroke-color: var(--black); */
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
   transition: all 1s;
   transform: scaleY(1.1);
 }

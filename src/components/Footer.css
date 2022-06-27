@@ -2,7 +2,7 @@ footer {
   color: var(--text-1);
   padding: 3rem;
   padding-bottom: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 0.9rem;
   padding-top: 3rem;
   margin-top: 5rem;
@@ -27,7 +27,6 @@ footer .ellipse2 {
   top: -20%;
   min-width: 80rem;
   min-height: 40rem;
-
   transition: all 1s;
   z-index: -3;
 }
@@ -37,7 +36,6 @@ footer .ellipse3 {
   top: -50%;
   min-width: 80rem;
   min-height: 40rem;
-
   transition: all 1s;
   z-index: -3;
 }
@@ -116,7 +114,6 @@ footer .copyright-section {
 footer::before {
   content: "";
   position: absolute;
-
   width: 110%;
   left: -9%;
   z-index: -1;

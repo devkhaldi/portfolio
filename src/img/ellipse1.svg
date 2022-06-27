@@ -3,7 +3,7 @@
   <defs>
    <radialGradient id="rgrad" cx="50%" cy="50%" r="100%" >
     
-            <stop offset="10%" style="stop-color:rgb(158,152,255);stop-opacity:0.25" />
+            <stop offset="10%" style="stop-color:rgb(188,182,255);stop-opacity:0.25" />
             <stop offset="63%" style="stop-color:rgb(255,255,255);stop-opacity:0.00" />
 
     </radialGradient>

@@ -16,7 +16,6 @@ const Project = ({ project }) => {
               // data-target='#modal-default'
             />
           </div>
-
           <h3>{project.title}</h3>
           <div className='line'></div>
           <p>{project.description}</p>
@@ -26,12 +25,12 @@ const Project = ({ project }) => {
               href={project.url}
               className='btn'
               rel='noopener noreferrer'>
-              <span>Visit website</span>
+              <span>Learn More</span>
               <BsArrowRight />
             </a>
             {/* <a
               target='_blank'
-              href={project.sourceCode}
+              href={.sourceCode}
               className='btn'
               rel='noopener noreferrer'>
               Source code
@@ -45,7 +44,7 @@ const Project = ({ project }) => {
               <img
                 src={project.mobileImage}
                 className='mobile-image'
-                alt='mobile image'
+                alt='mobile'
               />
             </div>
             <img

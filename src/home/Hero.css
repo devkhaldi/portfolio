@@ -51,14 +51,14 @@
   max-width: 78rem;
 }
 .hero .hero-text .text-content {
-  padding-top: 3.4rem;
+  padding-top: 2.5rem;
   padding-left: 4rem;
 }
 .hero .hero-text .text-content .name {
   font-size: 1rem;
   display: flex;
   align-items: center;
-  font-weight: 400;
+  font-weight: 500;
   gap: 0.2rem;
   margin: 0;
   transition: all 1s;
@@ -67,7 +67,6 @@
 }
 .hero .hero-text .text-content .name span {
   color: var(--black);
-  text-transform: uppercase;
 }
 
 .hero .hero-text .text-content .name .name-line {
@@ -82,11 +81,9 @@
   -webkit-text-stroke-width: 0.07rem;
   -webkit-text-stroke-color: var(--black); */
   font-weight: 400;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   opacity: 0.9;
   margin: 0.8rem 0;
-  text-transform: uppercase;
-  letter-spacing: 0rem;
   transition: all 1s;
   transform: scaleY(1.1);
 }
@@ -98,23 +95,21 @@
   /* -webkit-text-stroke-color: var(--primary-color); */
 }
 .hero .hero-text p {
-  margin-top: 1rem;
+  margin: 1.2rem 0;
   width: 95%;
   color: var(--text-1);
-  font-size: 1rem;
+  font-size: 1.1rem;
   /* line-height: 1.5rem; */
   font-weight: 400;
-  letter-spacing: 0.04rem;
   font-family: "Poppins", sans-serif;
   transition: all 1s;
 }
 
 .hero .hero-buttons .btn {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 400;
   padding: 0.4rem 1.6rem;
   padding-right: 1rem;
-  letter-spacing: 0.05rem;
   transition: all 1s;
 }
 
@@ -142,7 +137,7 @@
 .hero-cards .cards {
   display: flex;
   justify-content: center;
-  padding: 1rem;
+  padding-top: 3rem;
   margin-top: 1rem;
 }
 .hero .hero-cards .card {
@@ -158,7 +153,7 @@
   margin: 0 0.4rem;
   transition: all 1000ms;
   border-radius: 1rem;
-  box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.07);
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.07);
 }
 
 .dark-mode .hero .card {
@@ -188,6 +183,7 @@
   margin-top: 2rem;
   margin-bottom: 1.5rem;
   color: var(--black);
+  font-weight: 700;
 }
 .hero .hero-cards .card:nth-child(3) h3 {
   margin-top: 2.3rem;
@@ -195,8 +191,6 @@
 }
 .hero .hero-cards .card p {
   color: var(--text-1);
-  font-size: 0.9rem;
-  font-weight: 400;
 }
 /* .hero .hero-cards .card .img-container {
   border: 0.1rem solid var(--primary-color);
@@ -236,7 +230,9 @@
   border-right: 1rem solid transparent;
   border-top: 1rem solid var(--primary-color);
 }
-
+.portfolio-hero::after {
+  display: none;
+}
 /* Change first and third card position */
 /* .hero .hero-cards .card:nth-child(1) {
   transform: translateY(-2.5rem);

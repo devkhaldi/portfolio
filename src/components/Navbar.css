@@ -15,8 +15,8 @@ nav {
 
 .nav-on-scroll {
   background: var(--navbar-bg);
-  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(1rem);
+  /* box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1); */
+  backdrop-filter: blur(5rem);
   -webkit-backdrop-filter: blur(5rem);
   width: 96%;
   left: 2%;
@@ -46,7 +46,7 @@ nav .nav-items .nav-item {
   display: block;
   color: var(--black);
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
   padding: 0.7rem 1rem;
   height: 100%;
@@ -58,7 +58,7 @@ nav .nav-items .nav-item::after {
   display: block;
   width: 0;
   height: 0.188rem;
-  top: -0.2rem;
+  top: -0.1rem;
   transition: width 0.2s cubic-bezier(0.6, -0.28, 0.735, 1);
   position: relative;
 }
