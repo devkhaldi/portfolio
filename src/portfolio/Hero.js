@@ -1,7 +1,6 @@
 import React, { useEffect } from "react"
 import { Link } from "react-router-dom"
 import illustration from "../img/hero-img.svg"
-import "./Hero.css"
 import { BsArrowRight } from "react-icons/bs"
 import ellipse1 from "../img/ellipse1.svg"
 
@@ -18,7 +17,7 @@ const Hero = () => {
       ellipse2.style.transform = `rotateZ(${-rotationAngle}deg)`
       // ellipse2.style.transform = `rotateZ(${0.5 * rotationAngle}deg)`
       rotationAngle++
-    }, 100)
+    }, 400)
   }
 
   useEffect(() => {

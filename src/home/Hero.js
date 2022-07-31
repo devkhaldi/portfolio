@@ -23,7 +23,7 @@ const Hero = () => {
       ellipse2.style.transform = `rotateZ(${-rotationAngle}deg)`
       // ellipse2.style.transform = `rotateZ(${0.5 * rotationAngle}deg)`
       rotationAngle++
-    }, 100)
+    }, 400)
   }
 
   useEffect(() => {
@@ -102,7 +102,7 @@ const Hero = () => {
               <FaWordpressSimple size='8rem' />
             </div>
             <div className='text-container'>
-              <h3>Wordpress and Woocmmerce</h3>
+              <h3>Wordpress and Woocommerce</h3>
               <p>
                 Build SEO friendly Wordpress and WooCommerce stores and websites
               </p>

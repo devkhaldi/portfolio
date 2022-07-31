@@ -41,9 +41,9 @@ const About = () => {
           <img src={myPhoto} alt='myPhoto' />
           <div className='text' data-aos='fade-left'>
             <p>
-              I'm Abde, I'm a frontend developer, my mission is to translate
-              modern, simple or complicated designs into pixel perfect websites
-              or applications that run extremely fast.
+              I'm Abderrahim, I'm a frontend developer, my mission is to
+              translate modern, simple or complicated designs into pixel perfect
+              websites or applications that run extremely fast.
             </p>
             <p>
               I have a computer science diploma, I understand the big image of

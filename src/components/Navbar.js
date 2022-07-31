@@ -9,7 +9,7 @@ const Navbar = () => {
   const [open, setopen] = useState(true)
   const [darkMode, setDarkMode] = useState(false)
 
-  // Get system theme
+  /* // Get system theme
   const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)")
   useEffect(() => {
     // Set system theme
@@ -17,7 +17,7 @@ const Navbar = () => {
       body.className = "dark-mode"
       setDarkMode(true)
     }
-  }, [])
+  }, []) */
   const body = document.querySelector("body")
 
   const toggleDarkMode = () => {

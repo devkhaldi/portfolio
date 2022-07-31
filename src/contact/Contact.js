@@ -86,7 +86,7 @@ const Contact = () => {
         </div>
       </div>
       <div className='contact-about'>
-        <h2>About Abde</h2>
+        <h2>About Me</h2>
         <div className='line' data-aos='fade-left'></div>
         <div className='contact-info' data-aos='fade-up'>
           <img src={myPhoto} alt='myPhoto' />
