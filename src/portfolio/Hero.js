@@ -30,9 +30,9 @@ const Hero = () => {
       <img src={ellipse1} className='ellipse2' id='ellipse2' alt='ellipse2' />
       {/* <img src={ellipse1} className='ellipse3' id='ellipse3' alt='ellipse3' /> */}
       <div className='hero-text my-container'>
-        <div className='hero-illustration'>
+        {/* <div className='hero-illustration'>
           <img src={illustration} alt='illustration' data-aos='fade-right' />
-        </div>
+        </div> */}
         <div className='text-content' data-aos='fade-down'>
           <div className='name'>
             <span>Abderrahim El khaldi</span>

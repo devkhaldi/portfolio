@@ -27,12 +27,12 @@ const Hero = () => {
   }
 
   useEffect(() => {
-    rotateEllipse()
+    // rotateEllipse()
   }, [])
   return (
     <section className='hero'>
-      <img src={ellipse1} className='ellipse1' id='ellipse1' alt='ellipse1' />
-      <img src={ellipse1} className='ellipse2' id='ellipse2' alt='ellipse2' />
+      {/* <img src={ellipse1} className='ellipse1' id='ellipse1' alt='ellipse1' />
+      <img src={ellipse1} className='ellipse2' id='ellipse2' alt='ellipse2' /> */}
       {/* <img src={ellipse1} className='ellipse3' id='ellipse3' alt='ellipse3' /> */}
       {/* <img
         className='top-wave'
@@ -42,9 +42,9 @@ const Hero = () => {
         data-aos-dration='4000'
       /> */}
       <div className='hero-text my-container'>
-        <div className='hero-illustration'>
-          <img src={illustration} alt='illustration' data-aos='fade-right' />
-        </div>
+        {/* <div className='hero-illustration'>
+          <img src={myphoto} alt='illustration' data-aos='fade-right' />
+        </div> */}
         <div className='text-content' data-aos='fade-down'>
           <div className='name'>
             {/* <div className='name-line'></div> */}

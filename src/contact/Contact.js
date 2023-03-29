@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import "./Contact.css"
-import myPhoto from "../img/myphoto.jpg"
+import myPhoto from "../img/myphoto.png"
 import { BsArrowRight } from "react-icons/bs"
 import ellipse1 from "../img/ellipse1.svg"
 

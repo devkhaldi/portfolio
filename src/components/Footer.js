@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import { FaLinkedinIn, FaGithub, FaYoutube } from "react-icons/fa"
 import { Link } from "react-router-dom"
 import "./Footer.css"
-import myPhoto from "../img/myphoto.jpg"
+import myPhoto from "../img/myphoto.png"
 import ellipse1 from "../img/ellipse1.svg"
 
 const Footer = () => {
