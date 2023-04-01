@@ -60,7 +60,7 @@ const Hero = () => {
           </p>
           <div className='hero-buttons'>
             <Link className='btn' exact to='/portfolio'>
-              <span>View projects</span>
+              <span>View Previous Work</span>
               <BsArrowRight />
             </Link>
             {/* <Link className='btn' exact to='/contact'>
@@ -74,7 +74,7 @@ const Hero = () => {
         <div className='cards'>
           <div className='card' data-aos='fade-down' data-aos-duration='1000'>
             <div className='img-container'>
-              <AiOutlineAntDesign size='8rem' />
+              <AiOutlineAntDesign size='5.5rem' />
             </div>
             <div className='text-container'>
               <h3>Implement UI and UX designs</h3>
@@ -87,7 +87,7 @@ const Hero = () => {
 
           <div className='card' data-aos='fade-down' data-aos-duration='1500'>
             <div className='img-container'>
-              <SiReact size='8rem' />
+              <SiReact size='5.5rem' />
             </div>
             <div className='text-container'>
               <h3>React apps development and data management</h3>
@@ -99,7 +99,7 @@ const Hero = () => {
           </div>
           <div className='card' data-aos='fade-down' data-aos-duration='2000'>
             <div className='img-container'>
-              <FaWordpressSimple size='8rem' />
+              <FaWordpressSimple size='5.5rem' />
             </div>
             <div className='text-container'>
               <h3>Wordpress and Woocommerce</h3>
@@ -110,7 +110,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <img className='hero-wave' src={cardsWave} alt='cardsWave' />
+      {/* <img className='hero-wave' src={cardsWave} alt='cardsWave' /> */}
     </section>
   )
 }
