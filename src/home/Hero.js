@@ -26,9 +26,9 @@ const Hero = () => {
     }, 400)
   }
 
-  useEffect(() => {
-    // rotateEllipse()
-  }, [])
+  // useEffect(() => {
+  //   // rotateEllipse()
+  // }, [])
   return (
     <section className='hero'>
       {/* <img src={ellipse1} className='ellipse1' id='ellipse1' alt='ellipse1' />

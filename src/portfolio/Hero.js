@@ -20,14 +20,14 @@ const Hero = () => {
     }, 400)
   }
 
-  useEffect(() => {
-    rotateEllipse()
-  }, [])
+  // useEffect(() => {
+  //   // rotateEllipse()
+  // }, [])
 
   return (
     <section id='portfolio-hero' className='hero portfolio-hero'>
-      <img src={ellipse1} className='ellipse1' id='ellipse1' alt='ellipse1' />
-      <img src={ellipse1} className='ellipse2' id='ellipse2' alt='ellipse2' />
+      {/* <img src={ellipse1} className='ellipse1' id='ellipse1' alt='ellipse1' />
+      <img src={ellipse1} className='ellipse2' id='ellipse2' alt='ellipse2' /> */}
       {/* <img src={ellipse1} className='ellipse3' id='ellipse3' alt='ellipse3' /> */}
       <div className='hero-text my-container'>
         {/* <div className='hero-illustration'>
