@@ -22,7 +22,7 @@ const About = () => {
   }
 
   useEffect(() => {
-    rotateEllipse()
+    // rotateEllipse()
     window.scroll({
       top: 0,
       left: 0,
@@ -31,8 +31,8 @@ const About = () => {
   }, [])
   return (
     <section className='about my-container'>
-      <img src={ellipse1} className='ellipse1' id='ellipse1' alt='ellipse1' />
-      <img src={ellipse1} className='ellipse2' id='ellipse2' alt='ellipse2' />
+      {/* <img src={ellipse1} className='ellipse1' id='ellipse1' alt='ellipse1' />
+      <img src={ellipse1} className='ellipse2' id='ellipse2' alt='ellipse2' /> */}
       {/* <img src={ellipse1} className='ellipse3' id='ellipse3' alt='ellipse3' /> */}
       <h1>Here's my story</h1>
       <div className='line' data-aos='fade-left'></div>

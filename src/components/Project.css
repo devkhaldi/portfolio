@@ -35,17 +35,17 @@
 
 .project .project-info .btns .btn:nth-child(1) {
   background: transparent;
-  border: 0.05rem solid var(--black);
+  border: 0.1rem solid var(--black);
   color: var(--black);
-  padding: 0.4rem 1.5rem;
-  margin-right: 0.3rem;
+  padding: 0.4rem 1.2rem;
   transition: all 0.5s;
+  font-weight: 500;
 }
 
 .project .project-info p {
   margin: 1.6rem 0;
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 .project .project-info p a {
   display: block;

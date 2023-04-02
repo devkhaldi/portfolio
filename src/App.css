@@ -21,7 +21,7 @@
 }
 
 .light-mode {
-  --primary-color: #0f62fe;
+  --primary-color: #524bd7;
   --secondary-color: #2bc5f5;
   --third-color: #6964d7;
   --bg-1: rgba(220, 220, 220, 0.3);
@@ -40,7 +40,7 @@
 }
 
 .dark-mode {
-  --primary-color: #0f62fe;
+  --primary-color: #524bd7;
   --secondary-color: #2bc5f5;
   --third-color: #6964d7;
   /* --bg-1: #1e293b;

@@ -30,12 +30,13 @@
 }
 .projects .btn-container .btn {
   background: transparent;
-  border: 0.05rem solid var(--black);
+  border: 0.1rem solid var(--black);
   color: var(--black);
   margin: auto;
   margin-top: 2rem;
-  padding: 0.5rem 2rem;
+  padding: 0.4rem 1.5rem;
   font-size: 1rem;
+  font-weight: 500;
   transition: all 0.5s;
 }
 .light-mode .projects .btn-container .btn {
