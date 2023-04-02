@@ -4,6 +4,7 @@
   padding: 3rem 2rem;
   column-gap: 2rem;
   color: var(--text-1);
+  font-weight: 500;
 }
 .contact-page .ellipse1 {
   position: absolute;
@@ -46,7 +47,7 @@
 }
 .contact-page p {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 .contact-page .contact-content {
   flex: 3;
