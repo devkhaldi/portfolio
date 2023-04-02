@@ -3,7 +3,7 @@ footer {
   padding: 3rem;
   padding-bottom: 1rem;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding-top: 3rem;
   margin-top: 5rem;
   display: flex;
@@ -51,8 +51,8 @@ footer .about {
 }
 
 footer .about img {
-  width: 8rem;
-  height: 8rem;
+  width: 9rem;
+  height: 9rem;
   margin-right: 1rem;
   border-radius: 0.5rem;
 }
@@ -77,8 +77,8 @@ footer .social-links .social-link {
 footer .social-links .social-link a {
   font-size: 1.1rem;
   text-decoration: none;
-  color: var(--text-1);
-  font-weight: 400;
+  color: var(--primary-color);
+  font-weight: 500;
 }
 
 footer .social-links .social-link svg {
@@ -98,9 +98,9 @@ footer .portfolio-links .portfolio-link {
   flex-direction: column;
 }
 footer .portfolio-links .portfolio-link a {
-  color: var(--text-1);
+  color: var(--primary-color);
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: none;
 }
 
