@@ -20,7 +20,7 @@ const Contact = () => {
     }, 100)
   }
   useEffect(() => {
-    rotateEllipse()
+    // rotateEllipse()
     window.scroll({
       top: 0,
       left: 0,
@@ -29,8 +29,8 @@ const Contact = () => {
   }, [])
   return (
     <section className='contact-page my-container'>
-      <img src={ellipse1} className='ellipse1' id='ellipse1' alt='ellipse1' />
-      <img src={ellipse1} className='ellipse2' id='ellipse2' alt='ellipse2' />
+      {/* <img src={ellipse1} className='ellipse1' id='ellipse1' alt='ellipse1' />
+      <img src={ellipse1} className='ellipse2' id='ellipse2' alt='ellipse2' /> */}
       {/* <img src={ellipse1} className='ellipse3' id='ellipse3' alt='ellipse3' /> */}
       <div className='contact-content'>
         <h2>Get in touch</h2>
