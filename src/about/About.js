@@ -1,7 +1,7 @@
 import React, { useEffect } from "react"
 import { Link } from "react-router-dom"
 import "./About.css"
-import myPhoto from "../img/myphoto.jpg"
+import myPhoto from "../img/myphoto.png"
 import { BsArrowRight } from "react-icons/bs"
 import ellipse1 from "../img/ellipse1.svg"
 
@@ -22,7 +22,7 @@ const About = () => {
   }
 
   useEffect(() => {
-    rotateEllipse()
+    // rotateEllipse()
     window.scroll({
       top: 0,
       left: 0,
@@ -31,8 +31,8 @@ const About = () => {
   }, [])
   return (
     <section className='about my-container'>
-      <img src={ellipse1} className='ellipse1' id='ellipse1' alt='ellipse1' />
-      <img src={ellipse1} className='ellipse2' id='ellipse2' alt='ellipse2' />
+      {/* <img src={ellipse1} className='ellipse1' id='ellipse1' alt='ellipse1' />
+      <img src={ellipse1} className='ellipse2' id='ellipse2' alt='ellipse2' /> */}
       {/* <img src={ellipse1} className='ellipse3' id='ellipse3' alt='ellipse3' /> */}
       <h1>Here's my story</h1>
       <div className='line' data-aos='fade-left'></div>
@@ -41,9 +41,9 @@ const About = () => {
           <img src={myPhoto} alt='myPhoto' />
           <div className='text' data-aos='fade-left'>
             <p>
-              I'm Abde, I'm a frontend developer, my mission is to translate
-              modern, simple or complicated designs into pixel perfect websites
-              or applications that run extremely fast.
+              I'm Abderrahim, I'm a frontend developer, my mission is to
+              translate modern, simple or complicated designs into pixel perfect
+              websites or applications that run extremely fast.
             </p>
             <p>
               I have a computer science diploma, I understand the big image of

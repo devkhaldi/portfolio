@@ -2,7 +2,7 @@
   display: flex;
   padding: 1rem 3rem;
   padding-right: 0.5rem;
-  background: var(--footer-bg);
+  /* background: var(--footer-bg); */
   border-radius: 2rem;
   margin: 2rem 0;
   /* box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.05); */
@@ -35,17 +35,17 @@
 
 .project .project-info .btns .btn:nth-child(1) {
   background: transparent;
-  border: 0.05rem solid var(--black);
+  border: 0.1rem solid var(--black);
   color: var(--black);
-  padding: 0.4rem 1.5rem;
-  margin-right: 0.3rem;
+  padding: 0.4rem 1.2rem;
   transition: all 0.5s;
+  font-weight: 500;
 }
 
 .project .project-info p {
   margin: 1.6rem 0;
-  font-size: 0.95rem;
-  font-weight: 400;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 .project .project-info p a {
   display: block;
@@ -132,6 +132,9 @@
 .project .project-preview .mainImage {
   transition: all 1s;
 }
+.dark-mode .project .project-preview .mainImage {
+  opacity: 0.9;
+}
 
 @media (max-width: 62em) {
   .project {
@@ -153,244 +156,6 @@
   .project .project-info h3 {
     margin-top: 2rem;
   }
-}
-
-/*COLERFUL PROJECTS ON DARK MODE*/
-.dark-mode .project:nth-child(1) {
-  /* ff 3.6+ */
-  background: -moz-linear-gradient(
-    45deg,
-    rgba(5, 8, 45, 0.55) 0%,
-    rgba(24, 36, 193, 0.514) 100%
-  );
-
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-linear-gradient(
-    45deg,
-    rgba(5, 8, 45, 0.55) 0%,
-    rgba(24, 36, 193, 0.514) 100%
-  );
-
-  /* opera 11.10+ */
-  background: -o-linear-gradient(
-    45deg,
-    rgba(5, 8, 45, 0.55) 0%,
-    rgba(24, 36, 193, 0.514) 100%
-  );
-
-  /* ie 6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2532FF', endColorstr='#8189FF', GradientType=1 );
-
-  /* ie 10+ */
-  background: -ms-linear-gradient(
-    45deg,
-    rgba(5, 8, 45, 0.55) 0%,
-    rgba(24, 36, 193, 0.514) 100%
-  );
-
-  /* global 94%+ browsers support */
-  background: linear-gradient(
-    45deg,
-    rgba(5, 8, 45, 0.55) 0%,
-    rgba(24, 36, 193, 0.514) 100%
-  );
-}
-
-.dark-mode .project:nth-child(2) {
-  /* ff 3.6+ */
-  background: -moz-linear-gradient(
-    45deg,
-    rgba(65, 3, 2, 0.5) 0%,
-    rgba(255, 201, 41, 0.5) 100%
-  );
-
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-linear-gradient(
-    45deg,
-    rgba(65, 3, 2, 0.5) 0%,
-    rgba(255, 201, 41, 0.5) 100%
-  );
-
-  /* opera 11.10+ */
-  background: -o-linear-gradient(
-    45deg,
-    rgba(65, 3, 2, 0.5) 0%,
-    rgba(255, 201, 41, 0.5) 100%
-  );
-
-  /* ie 6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FDC00B', endColorstr='#ED2723', GradientType=1 );
-
-  /* ie 10+ */
-  background: -ms-linear-gradient(
-    45deg,
-    rgba(65, 3, 2, 0.5) 0%,
-    rgba(255, 201, 41, 0.5) 100%
-  );
-
-  /* global 94%+ browsers support */
-  background: linear-gradient(
-    45deg,
-    rgba(65, 3, 2, 0.5) 0%,
-    rgba(255, 201, 41, 0.5) 100%
-  );
-}
-.dark-mode .project:nth-child(3) {
-  /* ff 3.6+ */
-  background: -moz-linear-gradient(
-    45deg,
-    rgba(38, 23, 60, 1) 0%,
-    rgba(61, 28, 64, 1) 100%
-  );
-
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-linear-gradient(
-    45deg,
-    rgba(38, 23, 60, 1) 0%,
-    rgba(61, 28, 64, 1) 100%
-  );
-
-  /* opera 11.10+ */
-  background: -o-linear-gradient(
-    45deg,
-    rgba(38, 23, 60, 1) 0%,
-    rgba(61, 28, 64, 1) 100%
-  );
-
-  /* ie 6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3D1C40', endColorstr='#26173C', GradientType=1 );
-
-  /* ie 10+ */
-  background: -ms-linear-gradient(
-    45deg,
-    rgba(38, 23, 60, 1) 0%,
-    rgba(61, 28, 64, 1) 100%
-  );
-
-  /* global 94%+ browsers support */
-  background: linear-gradient(
-    45deg,
-    rgba(38, 23, 60, 1) 0%,
-    rgba(61, 28, 64, 1) 100%
-  );
-}
-
-.dark-mode .project:nth-child(4) {
-  /* ff 3.6+ */
-  background: -moz-linear-gradient(
-    45deg,
-    rgba(5, 60, 60, 0.5) 0%,
-    rgba(10, 114, 114, 0.521) 100%
-  );
-
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-linear-gradient(
-    45deg,
-    rgba(5, 60, 60, 0.5) 0%,
-    rgba(10, 114, 114, 0.521) 100%
-  );
-
-  /* opera 11.10+ */
-  background: -o-linear-gradient(
-    45deg,
-    rgba(5, 60, 60, 0.5) 0%,
-    rgba(10, 114, 114, 0.521) 100%
-  );
-
-  /* ie 6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15A7A7', endColorstr='#288585', GradientType=1 );
-
-  /* ie 10+ */
-  background: -ms-linear-gradient(
-    45deg,
-    rgba(5, 60, 60, 0.5) 0%,
-    rgba(10, 114, 114, 0.521) 100%
-  );
-
-  /* global 94%+ browsers support */
-  background: linear-gradient(
-    45deg,
-    rgba(5, 60, 60, 0.5) 0%,
-    rgba(10, 114, 114, 0.521) 100%
-  );
-}
-.dark-mode .project:nth-child(5) {
-  /* ff 3.6+ */
-  background: -moz-linear-gradient(
-    45deg,
-    rgba(48, 4, 4, 0.5) 0%,
-    rgba(235, 19, 19, 0.5) 100%
-  );
-
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-linear-gradient(
-    45deg,
-    rgba(48, 4, 4, 0.5) 0%,
-    rgba(235, 19, 19, 0.5) 100%
-  );
-
-  /* opera 11.10+ */
-  background: -o-linear-gradient(
-    45deg,
-    rgba(48, 4, 4, 0.5) 0%,
-    rgba(235, 19, 19, 0.5) 100%
-  );
-
-  /* ie 6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF1515', endColorstr='#B22222', GradientType=1 );
-
-  /* ie 10+ */
-  background: -ms-linear-gradient(
-    45deg,
-    rgba(48, 4, 4, 0.5) 0%,
-    rgba(235, 19, 19, 0.5) 100%
-  );
-
-  /* global 94%+ browsers support */
-  background: linear-gradient(
-    45deg,
-    rgba(48, 4, 4, 0.5) 0%,
-    rgba(235, 19, 19, 0.5) 100%
-  );
-}
-.dark-mode .project:nth-child(6) {
-  /* ff 3.6+ */
-  background: -moz-linear-gradient(
-    45deg,
-    rgba(0, 0, 0, 0.5) 0%,
-    rgba(47, 187, 181, 0.5) 100%
-  );
-
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-linear-gradient(
-    45deg,
-    rgba(0, 0, 0, 0.5) 0%,
-    rgba(47, 187, 181, 0.5) 100%
-  );
-
-  /* opera 11.10+ */
-  background: -o-linear-gradient(
-    45deg,
-    rgba(0, 0, 0, 0.5) 0%,
-    rgba(47, 187, 181, 0.5) 100%
-  );
-
-  /* ie 6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2FBBB5', endColorstr='#000000', GradientType=1 );
-
-  /* ie 10+ */
-  background: -ms-linear-gradient(
-    45deg,
-    rgba(0, 0, 0, 0.5) 0%,
-    rgba(47, 187, 181, 0.5) 100%
-  );
-
-  /* global 94%+ browsers support */
-  background: linear-gradient(
-    45deg,
-    rgba(0, 0, 0, 0.5) 0%,
-    rgba(47, 187, 181, 0.5) 100%
-  );
 }
 
 .dark-mode .project p,

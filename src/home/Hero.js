@@ -7,6 +7,7 @@ import { AiOutlineTeam } from "react-icons/ai"
 import { AiOutlineAntDesign } from "react-icons/ai"
 import { SiReact } from "react-icons/si"
 import { BsArrowRight } from "react-icons/bs"
+import { FaWordpressSimple } from "react-icons/fa"
 import ellipse1 from "../img/ellipse1.svg"
 
 const Hero = () => {
@@ -22,16 +23,16 @@ const Hero = () => {
       ellipse2.style.transform = `rotateZ(${-rotationAngle}deg)`
       // ellipse2.style.transform = `rotateZ(${0.5 * rotationAngle}deg)`
       rotationAngle++
-    }, 100)
+    }, 400)
   }
 
-  useEffect(() => {
-    rotateEllipse()
-  }, [])
+  // useEffect(() => {
+  //   // rotateEllipse()
+  // }, [])
   return (
     <section className='hero'>
-      <img src={ellipse1} className='ellipse1' id='ellipse1' alt='ellipse1' />
-      <img src={ellipse1} className='ellipse2' id='ellipse2' alt='ellipse2' />
+      {/* <img src={ellipse1} className='ellipse1' id='ellipse1' alt='ellipse1' />
+      <img src={ellipse1} className='ellipse2' id='ellipse2' alt='ellipse2' /> */}
       {/* <img src={ellipse1} className='ellipse3' id='ellipse3' alt='ellipse3' /> */}
       {/* <img
         className='top-wave'
@@ -41,25 +42,25 @@ const Hero = () => {
         data-aos-dration='4000'
       /> */}
       <div className='hero-text my-container'>
-        <div className='hero-illustration'>
-          <img src={illustration} alt='illustration' data-aos='fade-right' />
-        </div>
+        {/* <div className='hero-illustration'>
+          <img src={myphoto} alt='illustration' data-aos='fade-right' />
+        </div> */}
         <div className='text-content' data-aos='fade-down'>
           <div className='name'>
             {/* <div className='name-line'></div> */}
             <span>Abderrahim El khaldi</span>
           </div>
           <h1>
-            Hi i'm <span>Abde</span>. I'm a Freelance FrontEnd developer.
+            Hi I'm <span>Abderrahim</span>. <br /> I'm a Frontend developer.
           </h1>
           <p>
-            My name is Abderrahim El Khaldi, I create Amazing Fast and Mobile
-            friendly websites using HTML,CSS,JavaScript and React. And update
-            existing website sections and React components.
+            My name is Abderrahim El Khaldi. I create mobile friendly websites
+            using HTML,CSS,JavaScript and React. Also I build Wordpress and
+            WooCommerce stores.
           </p>
           <div className='hero-buttons'>
             <Link className='btn' exact to='/portfolio'>
-              <span>View projects</span>
+              <span>View Previous Work</span>
               <BsArrowRight />
             </Link>
             {/* <Link className='btn' exact to='/contact'>
@@ -71,9 +72,9 @@ const Hero = () => {
       </div>
       <div className='hero-cards'>
         <div className='cards'>
-          <div className='card' data-aos='fade-down' data-aos-duration='1000'>
+          <div className='card'>
             <div className='img-container'>
-              <AiOutlineAntDesign size='8rem' />
+              <AiOutlineAntDesign size='5rem' />
             </div>
             <div className='text-container'>
               <h3>Implement UI and UX designs</h3>
@@ -84,9 +85,9 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className='card' data-aos='fade-down' data-aos-duration='1500'>
+          <div className='card'>
             <div className='img-container'>
-              <SiReact size='8rem' />
+              <SiReact size='5rem' />
             </div>
             <div className='text-container'>
               <h3>React apps development and data management</h3>
@@ -96,15 +97,14 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className='card' data-aos='fade-down' data-aos-duration='2000'>
+          <div className='card'>
             <div className='img-container'>
-              <AiOutlineTeam size='9rem' />
+              <FaWordpressSimple size='5rem' />
             </div>
             <div className='text-container'>
-              <h3>Working within team</h3>
+              <h3>Wordpress and Woocommerce</h3>
               <p>
-                I have the ability to work within developers team, I have
-                experience using version control.
+                Build SEO friendly Wordpress and WooCommerce stores and websites
               </p>
             </div>
           </div>

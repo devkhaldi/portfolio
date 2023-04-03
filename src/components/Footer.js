@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import { FaLinkedinIn, FaGithub, FaYoutube } from "react-icons/fa"
 import { Link } from "react-router-dom"
 import "./Footer.css"
-import myPhoto from "../img/myphoto.jpg"
+import myPhoto from "../img/myphoto.png"
 import ellipse1 from "../img/ellipse1.svg"
 
 const Footer = () => {
@@ -21,12 +21,12 @@ const Footer = () => {
     }, 300)
   }
 
-  useEffect(() => {
-    rotateEllipse()
-  }, [])
+  // useEffect(() => {
+  //   rotateEllipse()
+  // }, [])
   return (
     <footer>
-      <img
+      {/* <img
         src={ellipse1}
         className='ellipse1'
         id='footer-ellipse1'
@@ -37,7 +37,7 @@ const Footer = () => {
         className='ellipse2'
         id='footer-ellipse2'
         alt='footer-ellipse2'
-      />
+      /> */}
       {/* <img src={ellipse1} className='ellipse3' id='ellipse3' alt='ellipse3' /> */}
       <div className='footer-content  my-container'>
         <div className='about'>
@@ -107,9 +107,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='copyright-section'>
+      {/* <div className='copyright-section'>
         Copyright © 2022 Abderrahim El khaldi
-      </div>
+      </div> */}
     </footer>
   )
 }
