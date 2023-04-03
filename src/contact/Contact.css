@@ -129,6 +129,9 @@
   font-size: 1.1rem;
   line-height: 2rem;
 }
+.contact-page .contact-about .about-links a {
+  color: var(--primary-color);
+}
 .contact-page .contact-about .about-links span {
   color: var(--primary-color);
   text-decoration: underline;

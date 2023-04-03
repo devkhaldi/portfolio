@@ -82,7 +82,7 @@
 /* About style for small devices  */
 @media (max-width: 900px) {
   .about {
-    padding: 1rem 4rem;
+    padding: 4rem;
   }
   .about .img-text {
     flex-direction: column;
@@ -92,11 +92,11 @@
     flex-wrap: wrap;
     row-gap: 1rem;
   }
+  .about .getintouch {
+    margin-top: 1rem;
+  }
 }
 @media (max-width: 700px) {
-  .about {
-    padding: 1rem 2rem;
-  }
   .about .first-row,
   .about .second-row {
     flex-direction: column;

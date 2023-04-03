@@ -72,7 +72,7 @@ const Hero = () => {
       </div>
       <div className='hero-cards'>
         <div className='cards'>
-          <div className='card' data-aos='fade-down' data-aos-duration='1000'>
+          <div className='card'>
             <div className='img-container'>
               <AiOutlineAntDesign size='5rem' />
             </div>
@@ -85,7 +85,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className='card' data-aos='fade-down' data-aos-duration='1500'>
+          <div className='card'>
             <div className='img-container'>
               <SiReact size='5rem' />
             </div>
@@ -97,7 +97,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className='card' data-aos='fade-down' data-aos-duration='2000'>
+          <div className='card'>
             <div className='img-container'>
               <FaWordpressSimple size='5rem' />
             </div>

@@ -10,6 +10,7 @@ footer {
   flex-direction: column;
   position: relative;
   background: rgba(0,0,0,0.03);
+  border-bottom: solid .5rem var(--primary-color);
 }
 
 footer .ellipse1 {

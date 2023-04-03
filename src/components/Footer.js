@@ -107,9 +107,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='copyright-section'>
+      {/* <div className='copyright-section'>
         Copyright © 2022 Abderrahim El khaldi
-      </div>
+      </div> */}
     </footer>
   )
 }
