@@ -21,7 +21,8 @@
 }
 
 .light-mode {
-  --primary-color: #524bd7;
+  --primary-color: #76599D;
+  --primary-color-old: #524bd7;
   --secondary-color: #2bc5f5;
   --third-color: #6964d7;
   --bg-1: rgba(220, 220, 220, 0.3);
@@ -29,7 +30,7 @@
   --white: #fff;
   --black: #000;
   --text-1: #000;
-  --text-2: #0f62fe;
+  --text-2: #76599D;
   --navbar-bg: rgba(255, 255, 255, 0.8);
   --side-navbar-bg: #fff;
   --side-navbar-bg-active: #fafafa;
@@ -40,7 +41,7 @@
 }
 
 .dark-mode {
-  --primary-color: #524bd7;
+  --primary-color: #76599D;
   --secondary-color: #2bc5f5;
   --third-color: #6964d7;
   /* --bg-1: #1e293b;

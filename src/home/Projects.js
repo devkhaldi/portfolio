@@ -51,19 +51,9 @@ const storageAppDescription = (
 )
 
 const projects = [
+  
   {
     id: 1,
-    title: "Storage App",
-    miniImage: modernui,
-    mainImage: modernui,
-    mobileImage: modernuiMobile,
-    url: "https://storage-ui.netlify.app/",
-    sourceCode: "https://github.com/devkhaldi/Test-Front-END",
-    description:
-      "Online storage applications are a good solution for companies to store and share data, in this project I converted the main page of storage app to an actual react application, I used React and bootstrap for this project.",
-  },
-  {
-    id: 2,
     title: "Menara Travels",
     miniImage: menaraTravel,
     mainImage: menaraTravel,
@@ -74,7 +64,7 @@ const projects = [
       "Travel agencies provide conveyance, accommodation and entertainment for individuals and groups scheduling trips, so I created frontend side for travel agency website using React, React router, HTML and CSS",
   },
   {
-    id: 3,
+    id: 2,
     title: "Sound Trap",
     miniImage: soundTrap,
     mainImage: soundTrap,
@@ -84,6 +74,18 @@ const projects = [
     description:
       "I Created clone landing page for SoundTrap website using HTML CSS flexbox grid and JavaScript, this landing page is compatible for all types of devices and screens",
   },
+  {
+    id: 3,
+    title: "Storage App",
+    miniImage: modernui,
+    mainImage: modernui,
+    mobileImage: modernuiMobile,
+    url: "https://storage-ui.netlify.app/",
+    sourceCode: "https://github.com/devkhaldi/Test-Front-END",
+    description:
+      "Online storage applications are a good solution for companies to store and share data, in this project I converted the main page of storage app to an actual react application, I used React and bootstrap for this project.",
+  },
 ]
+
 
 export default Projects

@@ -33,7 +33,7 @@ const Navbar = () => {
         <AiOutlineMenu className='menu-icon' onClick={() => setopen(!open)} />
         <div className='logo-container'>
           <Link exact to='/'>
-            Khaldi
+            El Khaldi
           </Link>
         </div>
         <div className='nav-items'>
