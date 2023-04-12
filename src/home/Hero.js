@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 import cardsWave from "../img/cardsWave.svg"
 import { AiOutlineTeam } from "react-icons/ai"
 import { AiOutlineAntDesign } from "react-icons/ai"
-import { SiReact } from "react-icons/si"
+import { TbBrandReact } from "react-icons/tb"
 import { BsArrowRight } from "react-icons/bs"
 import { FaWordpressSimple } from "react-icons/fa"
 import ellipse1 from "../img/ellipse1.svg"
@@ -87,7 +87,7 @@ const Hero = () => {
 
           <div className='card'>
             <div className='img-container'>
-              <SiReact size='5rem' />
+              <TbBrandReact size='5rem' />
             </div>
             <div className='text-container'>
               <h3>React apps development and data management</h3>
