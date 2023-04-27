@@ -51,7 +51,6 @@ const storageAppDescription = (
 )
 
 const projects = [
-  
   {
     id: 1,
     title: "Menara Travels",
@@ -86,6 +85,5 @@ const projects = [
       "Online storage applications are a good solution for companies to store and share data, in this project I converted the main page of storage app to an actual react application, I used React and bootstrap for this project.",
   },
 ]
-
 
 export default Projects
