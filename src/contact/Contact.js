@@ -84,7 +84,7 @@ const Contact = () => {
           Email :
           <a href='mailto:pro.elkhaldi@gmail.com'>pro.elkhaldi@gmail.com</a>
           <br />
-          Tel : <a href='tel:+212659432270'>+212 6 59 43 22 70</a> <br />
+          Tel : <a href='tel:+212613501230'>+212 6 13 50 12 30</a> <br />
           GitHub :
           <a
             href='https://github.com/devkhaldi'
