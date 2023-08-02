@@ -113,7 +113,7 @@
   font-size: 1rem;
   font-weight: 500;
   padding: 0.5rem 1.8rem;
-  padding-right: 1rem;
+  padding-right: 1.2rem;
   border: 0.1rem solid var(--black);
   color: var(--black); 
   background: transparent;
@@ -200,8 +200,7 @@
 
 .dark-mode .hero .hero-wave,
 .dark-mode .hero::after {
-  opacity: 0.4;
-  display: none;
+  opacity: 0.7;
 }
 
 .hero::after {

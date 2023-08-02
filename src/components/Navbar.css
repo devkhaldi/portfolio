@@ -157,7 +157,7 @@ nav .toggle-dark-mode {
   .side-nav-items {
     display: block;
     left: -70rem;
-    transition: all .3s;
+    transition: all 0.3s;
   }
   .open {
     left: 0 !important;

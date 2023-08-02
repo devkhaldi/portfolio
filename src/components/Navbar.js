@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import { Link, NavLink } from "react-router-dom"
 import { AiOutlineMenu } from "react-icons/ai"
 import "./Navbar.css"
@@ -33,7 +33,7 @@ const Navbar = () => {
         <AiOutlineMenu className='menu-icon' onClick={() => setopen(!open)} />
         <div className='logo-container'>
           <Link exact to='/'>
-            Khaldi
+            El Khaldi
           </Link>
         </div>
         <div className='nav-items'>
@@ -62,17 +62,33 @@ const Navbar = () => {
         </div>
       </nav>
       <div className={open ? "side-nav-items" : "side-nav-items open"}>
-        <NavLink className='nav-item' exact to='/'>
+        <NavLink
+          className='nav-item'
+          exact
+          to='/'
+          onClick={() => setopen(!open)}>
           Home
         </NavLink>
-        <NavLink className='nav-item' exact to='/portfolio'>
+        <NavLink
+          className='nav-item'
+          exact
+          to='/portfolio'
+          onClick={() => setopen(!open)}>
           Portfolio
         </NavLink>
-        <NavLink className='nav-item' exact to='/about'>
+        <NavLink
+          className='nav-item'
+          exact
+          to='/about'
+          onClick={() => setopen(!open)}>
           About
         </NavLink>
         <div className='contact'>
-          <Link className='btn' exact to='/contact'>
+          <Link
+            className='btn'
+            exact
+            to='/contact'
+            onClick={() => setopen(!open)}>
             Contact
           </Link>
         </div>

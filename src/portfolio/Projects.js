@@ -42,6 +42,17 @@ const Projects = () => {
 const projects = [
   {
     id: 1,
+    title: "Sound Trap",
+    miniImage: soundTrap,
+    mainImage: soundTrap,
+    mobileImage: soundTrapMobile,
+    url: "https://soundtrap.netlify.app/",
+    sourceCode: "https://github.com/devkhaldi/Music-Landing-Page",
+    description:
+      "I Created clone landing page for SoundTrap website using HTML CSS flexbox grid and JavaScript, this landing page is compatible for all types of devices and screens",
+  },
+  {
+    id: 2,
     title: "Storage App",
     miniImage: modernui,
     mainImage: modernui,
@@ -52,7 +63,7 @@ const projects = [
       "Online storage applications are a good solution for companies to store and share data, in this project I converted the main page of storage app to an actual react application, I used React and bootstrap for this project.",
   },
   {
-    id: 2,
+    id: 3,
     title: "Menara Travels",
     miniImage: menaraTravel,
     mainImage: menaraTravel,
@@ -62,17 +73,7 @@ const projects = [
     description:
       "Travel agencies provide conveyance, accommodation and entertainment for individuals and groups scheduling trips, so I created frontend side for travel agency website using React, React router, HTML and CSS",
   },
-  {
-    id: 3,
-    title: "Sound Trap",
-    miniImage: soundTrap,
-    mainImage: soundTrap,
-    mobileImage: soundTrapMobile,
-    url: "https://soundtrap.netlify.app/",
-    sourceCode: "https://github.com/devkhaldi/Music-Landing-Page",
-    description:
-      "I Created clone landing page for SoundTrap website using HTML CSS flexbox grid and JavaScript, this landing page is compatible for all types of devices and screens",
-  },
+  
 
   {
     id: 4,
